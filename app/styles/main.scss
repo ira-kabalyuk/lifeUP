@@ -7,5 +7,10 @@ $icon-font-path: '../fonts/';
 @import "_fonts.scss";
 
 body {
+  font-family: 'Open Sans', sans-serif;
   background: #ccc;
+}
+
+h1 {
+  font-family: 'MetaPro', sans-serif;
 }
