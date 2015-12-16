@@ -4,6 +4,8 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "_fonts.scss";
+
 body {
   background: #ccc;
 }

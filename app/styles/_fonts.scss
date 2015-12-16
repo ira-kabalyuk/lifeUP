@@ -1,10 +1,110 @@
 @font-face {
-  font-family: 'Intro';
-  src: url('../fonts/Intro.eot');
-  src: url('../fonts/Intro.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Intro.woff') format('woff'),
-  url('../fonts/Intro.ttf') format('truetype'),
-  url('../fonts/Intro.svg#Intro') format('svg');
-  font-weight: 100;
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-Normal.eot');
+  src: url('../fonts/MetaPro-Normal.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-Normal.woff') format('woff'),
+  url('../fonts/MetaPro-Normal.ttf') format('truetype'),
+  url('../fonts/MetaPro-Normal.svg#Intro') format('svg');
+  font-weight: 200;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-NormalItalic.eot');
+  src: url('../fonts/MetaPro-NormalItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-NormalItalic.woff') format('woff'),
+  url('../fonts/MetaPro-NormalItalic.ttf') format('truetype'),
+  url('../fonts/MetaPro-NormalItalic.svg#Intro') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-Black.eot');
+  src: url('../fonts/MetaPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-Black.woff') format('woff'),
+  url('../fonts/MetaPro-Black.ttf') format('truetype'),
+  url('../fonts/MetaPro-Black.svg#Intro') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-BlackItalic.eot');
+  src: url('../fonts/MetaPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-BlackItalic.woff') format('woff'),
+  url('../fonts/MetaPro-BlackItalic.ttf') format('truetype'),
+  url('../fonts/MetaPro-BlackItalic.svg#Intro') format('svg');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-Bold.eot');
+  src: url('../fonts/MetaPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-Bold.woff') format('woff'),
+  url('../fonts/MetaPro-Bold.ttf') format('truetype'),
+  url('../fonts/MetaPro-Bold.svg#Intro') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-BoldItalic.eot');
+  src: url('../fonts/MetaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-BoldItalic.woff') format('woff'),
+  url('../fonts/MetaPro-BoldItalic.ttf') format('truetype'),
+  url('../fonts/MetaPro-BoldItalic.svg#Intro') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-Book.eot');
+  src: url('../fonts/MetaPro-Book.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-Book.woff') format('woff'),
+  url('../fonts/MetaPro-Book.ttf') format('truetype'),
+  url('../fonts/MetaPro-Book.svg#Intro') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-BookItalic.eot');
+  src: url('../fonts/MetaPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-BookItalic.woff') format('woff'),
+  url('../fonts/MetaPro-BookItalic.ttf') format('truetype'),
+  url('../fonts/MetaPro-BookItalic.svg#Intro') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-Medium.eot');
+  src: url('../fonts/MetaPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-Medium.woff') format('woff'),
+  url('../fonts/MetaPro-Medium.ttf') format('truetype'),
+  url('../fonts/MetaPro-Medium.svg#Intro') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MetaPro';
+  src: url('../fonts/MetaPro-MediumItalic.eot');
+  src: url('../fonts/MetaPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MetaPro-MediumItalic.woff') format('woff'),
+  url('../fonts/MetaPro-MediumItalic.ttf') format('truetype'),
+  url('../fonts/MetaPro-MediumItalic.svg#Intro') format('svg');
+  font-weight: 600;
+  font-style: italic;
 }
