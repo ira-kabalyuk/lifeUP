@@ -12,6 +12,7 @@ $icon-font-path: '../fonts/';
     background: #fff;
     border-color: #fff;
     border-radius: 0;
+    position: relative;
 
 
     .navbar-collapse {
@@ -24,12 +25,14 @@ $icon-font-path: '../fonts/';
       padding-left: 0;
       padding-right: 0;
       text-align: center;
+      width: 100%;
 
 
       li {
         text-transform: uppercase;
         padding: 0 15px;
         display: inline-block;
+        float: none;
 
         a {
 
@@ -37,10 +40,17 @@ $icon-font-path: '../fonts/';
 
       }
 
+      .navbar-link {
+        float: none;
+      }
+
     }
 
     .navbar-form {
       padding: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
 
   }
