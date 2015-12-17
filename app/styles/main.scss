@@ -5,12 +5,23 @@ $icon-font-path: '../fonts/';
 // endbower
 
 @import "_fonts.scss";
+@import "_header";
+@import "_footer";
+@import "_component";
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #ccc;
+  background: #fff;
+}
+
+li {
+  list-style: none;
 }
 
 h1 {
   font-family: 'MetaPro', sans-serif;
+}
+
+.flex-container {
+  display: flex;
 }

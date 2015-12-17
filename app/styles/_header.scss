@@ -1,0 +1,48 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "_fonts.scss";
+
+.header{
+
+  .navbar-default {
+    background: #fff;
+    border-color: #fff;
+    border-radius: 0;
+
+
+    .navbar-collapse {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+
+    .navbar-nav {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+
+
+      li {
+        text-transform: uppercase;
+        padding: 0 15px;
+        display: inline-block;
+
+        a {
+
+        }
+
+      }
+
+    }
+
+    .navbar-form {
+      padding: 0;
+    }
+
+  }
+
+}
