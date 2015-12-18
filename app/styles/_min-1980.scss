@@ -4,6 +4,8 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@media only screen and (min-width:1200px) {
-	
+@media only screen and (min-width:1980px) {
+	.container {
+		min-width: 1640px;
+	}
 }
