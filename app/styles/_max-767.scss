@@ -1,0 +1,29 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@media only screen and (max-width:767px) {
+
+  .content-block {
+    width: 100%;
+  }
+
+  .content-block-center {
+    width: 100%;
+  }
+
+  .navbar-form {
+    display: none;
+  }
+
+  .collapse.in {
+
+    .navbar-link {
+      display: block;
+    }
+
+  }
+
+}

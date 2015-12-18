@@ -14,37 +14,39 @@ $icon-font-path: '../fonts/';
     border-radius: 0;
     position: relative;
 
-
+  }
     .navbar-collapse {
       padding-left: 0;
       padding-right: 0;
     }
 
+  .navbar-nav {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
 
-    .navbar-nav {
-      padding-left: 0;
-      padding-right: 0;
-      text-align: center;
-      width: 100%;
 
+    li {
+      text-transform: uppercase;
+      padding: 0 15px;
+      display: inline-block;
+      float: none;
 
-      li {
-        text-transform: uppercase;
-        padding: 0 15px;
-        display: inline-block;
-        float: none;
-
-        a {
-
+      a {
+        &:hover {
+          background: transparent;
         }
 
       }
 
-      .navbar-link {
-        float: none;
-      }
-
     }
+
+    .navbar-link {
+      float: none;
+    }
+
+  }
 
     .navbar-form {
       padding: 0;
@@ -52,7 +54,5 @@ $icon-font-path: '../fonts/';
       right: 0;
       top: 0;
     }
-
-  }
 
 }

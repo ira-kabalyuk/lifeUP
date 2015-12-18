@@ -12,6 +12,25 @@ $icon-font-path: '../fonts/';
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
+
+  input {
+
+    &:focus {
+      box-shadow: none;
+    }
+
+  }
+
+  .form-control  {
+
+
+    &:focus {
+      border-color: #ccc;
+      box-shadow: none;
+    }
+
+  }
+
 }
 
 li {
@@ -22,3 +41,40 @@ h1 {
   font-family: 'MetaPro', sans-serif;
 }
 
+.main {
+
+  .img-wrap {
+    max-width: 100%;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+    }
+
+  }
+
+}
+
+.content-wrap {
+  overflow: hidden;
+}
+
+.content-menu {
+  text-align: center;
+}
+
+.content-menu-link {
+  display: inline-block;
+  padding: 15px;
+
+  a {
+   text-transform: uppercase;
+  }
+
+}
+
+
+  @import "_min-768.scss";
+  @import "_min-992.scss";
+  @import "_min-1200.scss";
+  @import "_max-767.scss";
