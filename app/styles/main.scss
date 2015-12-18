@@ -12,6 +12,7 @@ $icon-font-path: '../fonts/';
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
+  color: #000;
 
   input {
 
@@ -43,6 +44,7 @@ h1 {
 
 .banner {
   text-align: center;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -61,6 +63,11 @@ h1 {
 
 }
 
+.top-logo-block {
+  text-align: center;
+  margin: 13px auto;
+}
+
 
 .content-wrap {
   overflow: hidden;
@@ -72,7 +79,7 @@ h1 {
 
 .content-menu-link {
   display: inline-block;
-  padding: 15px;
+  padding: 0 15px;
 
   a {
    text-transform: uppercase;

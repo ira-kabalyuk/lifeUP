@@ -6,3 +6,12 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
+button {
+	background: transparent;
+	border: none;
+}
+
+a {
+	color: #000;
+}
+

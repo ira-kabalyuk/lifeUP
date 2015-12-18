@@ -6,7 +6,7 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
-.header{
+.header {
 
   .navbar-default {
     background: #fff;
@@ -15,6 +15,11 @@ $icon-font-path: '../fonts/';
     position: relative;
 
   }
+
+  .navbar-toggle {
+    float: left;
+  }
+
     .navbar-collapse {
       padding-left: 0;
       padding-right: 0;
@@ -28,31 +33,72 @@ $icon-font-path: '../fonts/';
 
 
     li {
-      text-transform: uppercase;
-      padding: 0 15px;
+      text-transform: uppercase;      
       display: inline-block;
-      float: none;
+      float: none;     
 
-      a {
-        &:hover {
-          background: transparent;
-        }
+      }
 
+      .navbar-link_color-1 a:hover {   
+        color: #eb7b8b;
+      }
+
+      .navbar-link_color-2 a:hover {   
+        color: #94c08e;
+      }
+
+      .navbar-link_color-3 a:hover {   
+        color: #ecba83;
+      }
+
+      .navbar-link_color-4 a:hover {   
+        color: #8781bd;
+      }
+
+      .navbar-link_color-5 a:hover {   
+        color: #6ec8c9;
       }
 
     }
 
+    .navbar {
+     min-height: auto;
+    }
+
     .navbar-link {
       float: none;
-    }
 
+      a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+    }   
+
+  .login-wrap {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
   }
 
-    .navbar-form {
-      padding: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
+  .login-button {
+    background: url(../images/icon-login.png) no-repeat;
+    width: 23px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 40px;
+  }
+
+  .search-button {
+    background: url(../images/icon-search.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+  }
 
 }
