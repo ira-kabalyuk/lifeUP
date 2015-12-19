@@ -13,7 +13,7 @@ $icon-font-path: '../fonts/';
     border-color: #fff;
     border-radius: 0;
     position: relative;
-
+    margin-top: -53px;
   }
 
   .navbar-toggle {
@@ -59,9 +59,22 @@ $icon-font-path: '../fonts/';
         color: #6ec8c9;
       }
 
+     .navbar-link-margin-right {
+        padding-right: 400px;
+      }
+
+      .navbar-link-margin-left {
+        margin-left: -50px;
+      }
+
     }
 
     .top-logo-block {
+      position: relative;
+      z-index: 10;
+    }
+
+    .logo {
 
     }
 
@@ -73,6 +86,11 @@ $icon-font-path: '../fonts/';
       margin-left: 3px;
       padding: 0;
       vertical-align: middle;
+        &:focus {
+          border:none;
+          box-shadow: none;
+          border-color: transparent;
+        }
     }
 
     .button-border {

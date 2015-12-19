@@ -22,6 +22,10 @@ body {
 
   }
 
+  .pagewrap {
+    margin:0 auto;
+  }
+
   .form-control  {
 
 
@@ -88,9 +92,7 @@ h1 {
 }
 
 
-  @import "_min-768.scss";
-  @import "_min-992.scss";
-  @import "_min-1200.scss";
+  @import "_min-768.scss"; 
   @import "_min-1366.scss";
   @import "_min-1920.scss";
   @import "_max-767.scss";

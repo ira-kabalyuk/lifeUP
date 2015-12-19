@@ -5,7 +5,8 @@ $icon-font-path: '../fonts/';
 // endbower
 
 @media only screen and (min-width:1920px) {
-	.container {
-		min-width: 1640px;
+
+	.pagewrap {
+		width: 1640px;
 	}
 }

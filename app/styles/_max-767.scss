@@ -6,6 +6,10 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width:767px) {
 
+  .pagewrap {
+    max-width: 300px;
+  }
+
   .content-block {
     width: 100%;
   }

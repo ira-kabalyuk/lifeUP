@@ -6,6 +6,10 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (min-width:768px) {
 
+	.pagewrap {
+		width: 635px;
+	}
+
 	.navbar-toggle{
 		display: block;
 	}
