@@ -61,6 +61,41 @@ $icon-font-path: '../fonts/';
 
     }
 
+    .top-logo-block {
+
+    }
+
+    .logo-up-button {
+      background: #fff;
+      display: inline-block;
+      width: 11px;
+      height: 10px;
+      margin-left: 3px;
+      padding: 0;
+      vertical-align: middle;
+    }
+
+    .button-border {
+      background: #7c7c81;
+      display: block;
+      width: 100%;
+      height: 1px;
+      margin: 3px 0;
+
+      &:first-child {
+        margin-top:0;
+      }
+
+    }
+
+    .logo-up-button.collapsed {
+
+      .top-drop-menu {
+          display: none;
+      }
+
+    }
+
     .navbar {
      min-height: auto;
     }
