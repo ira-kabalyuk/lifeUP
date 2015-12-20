@@ -10,11 +10,19 @@ $icon-font-path: '../fonts/';
 		width: 1305px;
 	}
 
-	.navbar-nav {
-		display: block;
-	}
+	.header{
 
-	.navbar-button-mob {
-		display: none;
-	}
+		.navbar-nav {
+			display: block;
+		}
+
+		.navbar-button-mob {
+			display: none;
+		}	
+
+		.navbar-default-top {	        
+		    border-top: 1px solid #ebebeb;
+		    border-bottom: 1px solid #ebebeb;
+		}
+	}	
 }

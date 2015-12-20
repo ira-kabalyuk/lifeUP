@@ -34,4 +34,20 @@ $icon-font-path: '../fonts/';
     display: block;
   }
 
+  .header{
+
+   .navbar-default-top {
+     margin-top: 0;
+   }
+
+    .top-logo-block {   
+
+        .logo{
+        display: none;
+      }
+
+    } 
+
+  }
+
 }

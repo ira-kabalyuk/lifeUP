@@ -86,17 +86,15 @@ $icon-font-path: '../fonts/';
 
   }
 
-  .logo-block {
+  .logo-block, .top-logo-block {
     text-align: center;
     margin: 13px auto;
   }
 
-  .top-logo-block {
-    text-align: center;
-    margin: 13px auto;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+  .navbar-default-top {
+    text-align: center;   
     padding: 5px 0;
+    margin-top:-41px;
 
     .navbar-link { 
 
