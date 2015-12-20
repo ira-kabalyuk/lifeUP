@@ -86,9 +86,44 @@ $icon-font-path: '../fonts/';
 
   }
 
+  .logo-block {
+    text-align: center;
+    margin: 13px auto;
+  }
+
   .top-logo-block {
     text-align: center;
     margin: 13px auto;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 5px 0;
+
+    .navbar-link { 
+
+      .navbar-link-inside {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px; 
+        font-weight: 400;
+        color: #828282;
+        &:hover {
+          background: none;
+           color: #eb7b8b;
+        }
+
+        &:hover {
+          background: none;
+           color: #eb7b8b;
+        }
+
+        &:focus {
+          background: none;
+           color: #eb7b8b;
+        }
+
+      }
+
+    }  
+
   }
 
   .logo {
@@ -157,7 +192,7 @@ $icon-font-path: '../fonts/';
     .navbar-link-inside {
       font-family: 'MetaPro', sans-serif;
       font-size: 14px;
-      font-weight: 700;
+      font-weight: 800;
       color: #000;
       padding-top: 0;
       padding-bottom: 0;
@@ -195,27 +230,31 @@ $icon-font-path: '../fonts/';
   .content-menu {
     text-align: center;
     margin-left: 0;
-    padding: 27px 0;
+    padding: 20px 0;
     -webkit-padding-start: 0;
   }
 
-  .content-menu-link {
-    display: inline-block;
-    padding: 0 15px;
+  .content-menu {
 
-    .content-menu-link-inside {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 12px;
-      color: #828282;
-     text-transform: uppercase;
-     text-decoration: none;
+    .navbar-link {
+      display: inline-block;
+      padding: 0 15px;
 
-     &:hover {
-      color: #eb7b8b;
+      .content-menu-link-inside {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        color: #828282;
+       text-transform: uppercase;
+       text-decoration: none;
+
+       &:hover {
+        color: #eb7b8b;
+        }
+
       }
-      
+
     }
 
-  }
+  } 
 
 }
