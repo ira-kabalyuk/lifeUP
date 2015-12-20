@@ -30,15 +30,15 @@ $icon-font-path: '../fonts/';
         border-color: transparent;
       }
 
-        .icon-bar {
+      .icon-bar {
       background: #7c7c81;
       display: block;
       width: 100%;
       height: 1px;
       margin: 5px 0;
 
-        &:first-child {
-          margin-top:0;
+      &:first-child {
+        margin-top:0;
       }
 
     }
@@ -46,66 +46,68 @@ $icon-font-path: '../fonts/';
   }
 
     
-    .navbar-collapse {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .navbar-nav {
     padding-left: 0;
     padding-right: 0;    
 
 
-    li {
-      text-transform: uppercase;      
-      display: inline-block;
-      float: none;     
-
-      }
-
-      .navbar-link_color-1 a:hover {   
-        color: #eb7b8b;
-      }
-
-      .navbar-link_color-2 a:hover {   
-        color: #94c08e;
-      }
-
-      .navbar-link_color-3 a:hover {   
-        color: #ecba83;
-      }
-
-      .navbar-link_color-4 a:hover {   
-        color: #8781bd;
-      }
-
-      .navbar-link_color-5 a:hover {   
-        color: #6ec8c9;
-      }
+  li {
+    text-transform: uppercase;      
+    display: inline-block;
+    float: none;     
 
     }
 
-    .top-logo-block {
-     text-align: center;
+
+    .navbar-link_color-1 a:hover {   
+      color: #eb7b8b;
     }
 
-    .logo {
-      display: inline-block;
-      position: relative;
-      z-index: 10
+    .navbar-link_color-2 a:hover {   
+      color: #94c08e;
     }
 
-    .navbar-nav-left {
-      width: 40%;
-      float: left;
-      text-align: right;
+    .navbar-link_color-3 a:hover {   
+      color: #ecba83;
     }
 
-    .navbar-nav-right {
-      width: 40%;
-      float: right;
-      text-align: left;
+    .navbar-link_color-4 a:hover {   
+      color: #8781bd;
     }
+
+    .navbar-link_color-5 a:hover {   
+      color: #6ec8c9;
+    }
+
+  }
+
+  .top-logo-block {
+    text-align: center;
+    margin: 13px auto;
+  }
+
+  .logo {
+    display: inline-block;
+    position: relative;
+    z-index: 10
+  }
+
+  .navbar-nav-left {
+    width: 40%;
+    float: left;
+    text-align: right;
+  }
+
+  .navbar-nav-right {
+    width: 40%;
+    float: right;
+    text-align: left;
+  }
 
     /*кнопка от УП*/
 
@@ -145,29 +147,29 @@ $icon-font-path: '../fonts/';
 
     }*/ /*кнопка от УП конец*/
 
-    .navbar {
-     min-height: auto;
+  .navbar {
+   min-height: auto;
+  }
+
+  .navbar-link {
+    float: none;
+
+    .navbar-link-inside {
+      font-family: 'MetaPro', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #000;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
-    .navbar-link {
-      float: none;
-
-      a {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-        color: #000;
-        padding-top: 0;
-        padding-bottom: 0;
-      }
-
-    }   
+  }   
 
   .login-wrap {
     padding: 0;
     position: absolute;
     right: 0;
-    bottom: 20px;
+    bottom: 0;
   }
 
   .login-button {
@@ -183,6 +185,37 @@ $icon-font-path: '../fonts/';
     width: 18px;
     height: 18px;
     display: inline-block;
+  }
+
+    .drop-navbar {
+    margin-top: 27px;
+    border-top: 1px solid #ebebeb;
+  }
+
+  .content-menu {
+    text-align: center;
+    margin-left: 0;
+    padding: 27px 0;
+    -webkit-padding-start: 0;
+  }
+
+  .content-menu-link {
+    display: inline-block;
+    padding: 0 15px;
+
+    .content-menu-link-inside {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 12px;
+      color: #828282;
+     text-transform: uppercase;
+     text-decoration: none;
+
+     &:hover {
+      color: #eb7b8b;
+      }
+      
+    }
+
   }
 
 }
