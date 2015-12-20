@@ -9,4 +9,12 @@ $icon-font-path: '../fonts/';
 	.pagewrap {
 		width: 1305px;
 	}
+
+	.navbar-nav {
+		display: block;
+	}
+
+	.navbar-button-mob {
+		display: none;
+	}
 }
