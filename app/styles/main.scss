@@ -22,10 +22,6 @@ body {
 
   }
 
-  .pagewrap {
-    margin:0 auto;
-  }
-
   .form-control  {
 
 
@@ -36,8 +32,44 @@ body {
 
   }
 
+  .pagewrap {
+    margin:0 auto;
+  }
+
+  .content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .content-block-center {
+    width: 633px;
+  }
+
+
+  .content-block {
+    width: 300px;
+  }
+
+
+
   h1, h2, h3 {
-    line-height: normal;
+
+    &:focus {
+      background: none;
+    }
+
+  }
+
+  a {
+
+    &:focus {
+      background: none;
+      outline: 0 auto -webkit-focus-ring-color;
+      outline-offset: 0;
+      text-decoration: none;
+    }
+
   }
 
 }
@@ -62,9 +94,11 @@ h1 {
   .img-wrap {
     text-align: center;
     position: relative;
+    width: 100%;
+    margin-bottom:30px;
 
     img {
-      width: 100%;
+
     }
 
   }
@@ -106,15 +140,22 @@ h1 {
 }
 
 .head {
+  line-height: 25px;
+  text-align: center;
 
     a {
       color: #fff;
       //font-family: 'Open Sans', sans-serif;
-      font-weight: 100px;
+      font-weight: 100;
       font-size: 20px;
       &:hover {
         color: #fff;
         text-decoration: none;
+      }
+
+      &:focus {
+        background: none;
+        color: #fff;
       }
 
     }
@@ -130,10 +171,14 @@ h1 {
 
 }
 
-
-.content-wrap {
-  overflow: hidden;
+.content-block-max {
+  width: 100%;
+  background: #ccc;
+  margin: 10px auto 30px;
 }
+
+
+
 
 
 
