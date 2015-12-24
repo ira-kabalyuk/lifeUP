@@ -47,14 +47,20 @@ body {
   }
 
 
-  .content-block {
+  .content-block-column {
     width: 300px;
+  }
+
+  .content-block-row {
+    width: 633px;
+    display: flex;
   }
 
 
 
   h1, h2, h3 {
-
+    margin-top: 0;
+    margin-bottom:0;
     &:focus {
       background: none;
     }
@@ -114,7 +120,6 @@ h1 {
   left: 0;
   bottom: 0;
   right: 0;
-
   box-shadow: inset 9px -70px 100px -10px rgba(0,0,0,0.5);
 }
 
@@ -129,7 +134,7 @@ h1 {
 
 .heading {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
   &:hover {
@@ -140,14 +145,15 @@ h1 {
 }
 
 .head {
-  line-height: 25px;
+  line-height: 23px;
   text-align: center;
+  margin-top:3px;
+  margin-bottom: 14px;
 
     a {
-      color: #fff;
-      //font-family: 'Open Sans', sans-serif;
+      color: #fff;      
       font-weight: 100;
-      font-size: 20px;
+      font-size: 22px;
       &:hover {
         color: #fff;
         text-decoration: none;
