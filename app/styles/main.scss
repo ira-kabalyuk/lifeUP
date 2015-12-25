@@ -44,16 +44,37 @@ body {
 
   .content-block-center {
     width: 633px;
+
+    img {
+      width: 633px;
+    }
+
   }
 
 
   .content-block-column {
     width: 300px;
+
+    img {
+      width: 300px;
+    }
+
   }
 
   .content-block-row {
     width: 633px;
     display: flex;
+
+    img {
+      width: 633px;
+    }
+
+  }
+
+  .column {
+    height: 252px;
+    background: red;
+    margin-bottom:30px;
   }
 
 
