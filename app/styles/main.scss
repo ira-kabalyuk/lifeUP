@@ -188,6 +188,28 @@ h1 {
     }
 }
 
+.statistic-bottom-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.look-block {
+  font-family: 'Open Sans', sans-serif;  
+  color: #fff;
+}
+
+.look-icon {
+  background: url(../images/icon-look.png) no-repeat;
+  display: inline-block;
+  width: 19px;
+  height: 11px;
+}
+
+.statistic-text {  
+  display: inline-block;  
+  font-size: 14px;
+}
+
 .autor-name {
   color: #fff;
   font-size: 14px;
@@ -196,6 +218,19 @@ h1 {
     text-decoration: none;
   }
 
+}
+
+.comment-bottom-block {
+  font-family: 'Open Sans', sans-serif;  
+  color: #fff;
+}
+
+.comment-icon {
+   background: url(../images/icon-comment.png) no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  vertical-align: middle;
 }
 
 .content-block-max {
