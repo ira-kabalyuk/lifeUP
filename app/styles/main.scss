@@ -475,6 +475,8 @@ h1 {
 .wrap_carousel_indicators_controls {
   position: absolute;
   width: 30px;
+  right: 0;
+  top: -60px;
 }
 
 .left.carousel-control {
@@ -521,7 +523,7 @@ h1 {
 .item-wrap {
    width: 300px;
    float: left;
-   margin-right: 30px;
+   margin-right: 35px;
    &:last-child {
     margin-right: 0;
    }
