@@ -209,7 +209,12 @@ h1 {
   font-size: 14px;
 }
 
+
+
 .autor-name {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  font-weight: bold; 
   color: #fff;
   font-size: 14px;
   &:hover {
@@ -415,10 +420,113 @@ h1 {
   font-size: 12px;
   font-weight: 100;
   margin-top: 5px;
-}  
+}
+
+/* вибор редакции*/
+
+.responsive-block-10 {
+  position: relative;
+
+  .content-article-wrap {
+    padding: 30px 0;
+  }
+
+}
+
+.img_description {
+  text-align: center;
+
+  .autor-name {
+    color: #26272d;    
+
+     &:hover {
+        color: #26272d;
+      }  
+  }
+
+  .head {  
+    font-family: 'MetaPro', sans-serif;
+    a{
+    color: #26272d;
+    font-size: 20px;
+      &:hover {
+        color: #26272d;
+      }
+
+    }
+
+  } 
+
+}
+
+/*slider выбор редакции*/
+
+.carousel-inner {
+  display: flex;  
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrap_slider {
+  
+  width: 100%;
+}
+
+.wrap_carousel_indicators_controls {
+  position: absolute;
+  width: 30px;
+}
+
+.left.carousel-control {
+  display: inline-block;
+ 
+}
+
+.right.carousel-control {
+  display: inline-block;    
+}
+
+.angle-left {
+  background: url(../images/icon-left-slider-button.png) no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 17px;
+
+}
+
+.angle-right {
+  background: url(../images/icon-right-slider-button.png) no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 17px;
+  
+}
+
+.item {  
+  display: flex;
+  justify-content: space-between;
+
+    .img-wrap {
+      margin-bottom: 10px;
 
 
+      img {
+        width: 300px;
+      }
 
+    }
+
+}
+
+.item-wrap {
+   width: 300px;
+   float: left;
+   margin-right: 30px;
+   &:last-child {
+    margin-right: 0;
+   }
+
+}
 
 
 

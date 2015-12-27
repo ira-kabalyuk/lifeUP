@@ -12,7 +12,7 @@ $('#carousel-see_samples.carousel .item').each(function(){
   }
   next.children(':first-child').clone().appendTo($(this));
   
-  if (next.next().length>0) {
+ if (next.next().length>0) {
     next.next().children(':first-child').clone().appendTo($(this));
   }
   else {
