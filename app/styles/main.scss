@@ -49,6 +49,19 @@ body {
       width: 633px;
     }
 
+    .heading {      
+      font-size: 16px;
+    }
+
+    .head {
+
+      a {
+      font-size: 40px;
+      line-height: 1em;
+      }
+
+    }
+
   }
 
 
@@ -121,11 +134,7 @@ h1 {
     text-align: center;
     position: relative;
     width: 100%;
-    margin-bottom:30px;
-
-    img {
-
-    }
+    margin-bottom:10px;    
 
   }
 
@@ -166,7 +175,7 @@ h1 {
 
 .head {
   line-height: 23px;
-  text-align: center;
+  text-align: center;  
   margin-top:3px;
   margin-bottom: 14px;
 
@@ -490,6 +499,20 @@ h1 {
 
 
 /*end-slider*/
+
+/*mobile-menu*/
+
+.modal-content {
+  
+  .nav.navbar-nav {
+    display: block;
+  }
+
+}
+
+/*end-mobile-menu*/
+
+
 
 
 
