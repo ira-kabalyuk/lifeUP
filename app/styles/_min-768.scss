@@ -7,7 +7,7 @@ $icon-font-path: '../fonts/';
 @media only screen and (min-width:768px) {
 
 	.pagewrap {
-	width: 635px;
+	width: 80%;
 	}
 
 	.header {
@@ -30,5 +30,48 @@ $icon-font-path: '../fonts/';
   	.drop-navbar {
   	display: none;
   	}
+
+  	.footer-flex-block {
+    flex-direction: column;
+  }
+
+  .mobile-flex-wrap-top {
+  display: flex;
+   justify-content: center; 
+    flex-direction: column;  
+   width: 100%;
+  } 
+
+  .mobile-flex-wrap-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top:50px;
+  }
+
+  .net-block {
+  	justify-content:center;
+  	margin-top: 30px;
+  } 
+
+	.footer-copyright-wrap {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+	}
+
+	.copyright {
+	margin-left: 0;	
+	margin: 30px auto 0;
+	}
+
+	.footer-form-wrap,
+  	.footer-about-us-text,
+  	.footer-logo,
+  	.footer-about-us-link {
+    text-align: center;
+  } 
 
 }

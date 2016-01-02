@@ -6,3 +6,119 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
+.footer {
+	background: #f1f2f4;	
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.footer-flex-block {
+	padding:45px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.mobile-flex-wrap-top {
+	display: flex;
+   justify-content: space-between;
+   width: 37%;
+}
+
+.mobile-flex-wrap-bottom {
+	display: flex;
+   justify-content: space-between;
+   width: 60%;
+}
+
+.icon-search-hover {
+		background: url(../images/icon-search-hover.png) no-repeat;
+		width: 49px;
+		height: 47px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 5px;
+
+		&:focus {
+			background: url(../images/icon-search-hover.png) no-repeat;
+		}
+
+	}
+
+	.net-block {
+		display: flex;
+		justify-content: space-between;
+
+		a {
+			display: inline-block;
+			margin-right: 17px;
+		}
+
+	}
+
+	.form-input {
+		border: 1px solid #cecfd0;
+		padding: 9px 10px;
+		color: #434345;
+		font-size: 16px;
+
+		&:focus {
+				border: 1px solid #cecfd0;
+		}
+
+		&::placeholder{
+			color: #434345;
+		}
+
+	}
+
+	.form-button {
+		font-family: 'MetaPro', sans-serif;
+		border: 1px solid #ed6c7e;
+		cursor: pointer;
+		color: #ed6c7e;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 10px;
+		margin-left: -5px;
+	}
+
+	.footer-about-us {
+
+		a {
+			color: #333333;
+			font-size: 14px;
+			text-decoration: underline;
+
+			&:hover {
+				color: #333333;
+				text-decoration: underline;
+			}
+
+		}
+
+	}
+
+	.footer-copyright-wrap {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.footer-about-us-text {
+		font-size: 16px;
+		margin-bottom: 2px;
+	}
+
+	.copyright {
+		width: 255px;
+		margin-left: 50px;
+	}
+
+	.copyright-text {
+		color: #b1b1b1;
+		font-size: 13px;
+		
+	}

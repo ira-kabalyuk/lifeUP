@@ -134,7 +134,7 @@ h1 {
     text-align: center;
     position: relative;
     width: 100%;
-    margin-bottom:10px;    
+    margin-bottom:30px;    
 
   }
 
@@ -440,6 +440,10 @@ h1 {
     padding: 30px 0;
   }
 
+  .img-wrap {
+    margin-bottom:10px;
+  }
+
 }
 
 .img_description {
@@ -550,6 +554,8 @@ h1 {
       display: block;
       margin-bottom: 20px;
 
+      
+
       .navbar-link-inside{
         padding:0;
       }      
@@ -567,6 +573,10 @@ h1 {
       margin-bottom: 20px;
       padding: 0;
 
+       &:last-child {
+          margin-bottom: 0;
+        }
+
         .content-menu-link-inside {        
           color: #000;
       }
@@ -582,12 +592,13 @@ h1 {
     color: #fff;
     width: 50%;
     padding-left: 55px;
+
    .nav.navbar-nav {
-    float: none;
+    float: none;    
 
     .navbar-link {
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 20px;       
 
         &:hover a{
           color: #eb7b8b;

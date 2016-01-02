@@ -65,4 +65,27 @@ $icon-font-path: '../fonts/';
 			order:14;
 		}
 	}
+
+	.mobile-flex-wrap-top {
+	display: flex;
+   justify-content: space-between;
+   width: 37%;
+	}
+
+	.mobile-flex-wrap-bottom {
+	display: flex;
+   justify-content: space-between;
+   width: 60%;
+	}
+
+	.footer-copyright-wrap {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.copyright {   
+    margin-left: 50px;
+    margin-top: 0;
+	}
 }

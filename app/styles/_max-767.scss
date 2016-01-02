@@ -7,7 +7,7 @@ $icon-font-path: '../fonts/';
 @media only screen and (max-width:767px) {
 
   .pagewrap {
-    max-width: 635px;
+    max-width: 80%;
   }
 
   .content-block {
@@ -70,5 +70,49 @@ $icon-font-path: '../fonts/';
     }
 
   }
+
+  .footer-flex-block {
+    flex-direction: column;
+  }
+
+  .mobile-flex-wrap-top {
+  display: flex;
+   justify-content: center; 
+    flex-direction: column;  
+   width: 100%;
+  } 
+
+  .mobile-flex-wrap-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top:50px;
+  }
+
+  .footer-copyright-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  }
+
+  .net-block {
+    justify-content:center;
+    margin-top: 30px;
+  }
+
+  .copyright {
+    margin-left: 0; 
+    margin: 30px auto 0;
+    }
+
+    .footer-form-wrap,
+    .footer-about-us-text,
+    .footer-logo,
+    .footer-about-us-link {
+    text-align: center;
+  } 
+   
 
 }

@@ -9,5 +9,28 @@ $icon-font-path: '../fonts/';
   .pagewrap {
     width: 940px;
   }
+
+  .footer-flex-block {
+    flex-direction: row;
+  }
+
+  .mobile-flex-wrap-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .net-block {
+    margin-top: 0;
+  }
+
+  .mobile-flex-wrap-bottom {
+    flex-direction: row;
+     justify-content: space-between;
+  }
+
+  .footer-copyright-wrap  {
+    margin-top: 0;
+
+  }
   
 }

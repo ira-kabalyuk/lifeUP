@@ -13,7 +13,7 @@ $icon-font-path: '../fonts/';
     border-color: #fff;
     border-radius: 0;
     position: relative;
-    margin-top: -53px;
+    margin-top: -46px;
   }
 
   .navbar-button-mob {
@@ -202,22 +202,39 @@ $icon-font-path: '../fonts/';
     padding: 0;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -20px;
   }
 
   .login-button {
-    background: url(../images/icon-login.png) no-repeat;
-    width: 23px;
-    height: 25px;
+    background: url(../images/icon-login.png) no-repeat 50% 50%;
+    width: 39px;
+    height: 39px;
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 10px;
+
+    &:hover {
+      background: url(../images/icon-login-header-hover.png) no-repeat;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    
+    }
+
   }
 
   .search-button {
-    background: url(../images/icon-search.png) no-repeat;
-    width: 18px;
-    height: 18px;
+    background: url(../images/icon-search.png) no-repeat 50% 50%;
+    width: 39px;
+    height: 39px;
     display: inline-block;
+
+     &:hover {
+      background: url(../images/icon-search-header-hover.png) no-repeat;
+      width: 39px;
+      height: 39px;
+      display: inline-block;
+    
+    }
   }
 
     .drop-navbar {
