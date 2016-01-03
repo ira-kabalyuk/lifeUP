@@ -70,4 +70,25 @@ button {
 	    
 	 }
 
+}
+
+.more-wrap {
+	margin: 0 auto 30px;
+	text-align: center;
+
+	.more-text {
+		font-family: 'MetaPro', sans-serif;
+		font-size: 22px;
+		color: #ed6c7e;
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.icon-more {
+		background: url(../images/icon-more.png) no-repeat;
+		display: inline-block;
+		width: 57px;
+		height: 47px;
+		vertical-align: bottom;
+	}
 }  
