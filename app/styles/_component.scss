@@ -22,3 +22,52 @@ button {
 		box-shadow: none;
 	}
 }
+
+.form-input {
+		border: 1px solid #cecfd0;
+		padding: 9px 10px;
+		color: #434345;
+		font-size: 16px;
+		box-sizing: border-box;		
+
+		&:focus {
+			border: 1px solid #cecfd0;
+		}
+
+		&::placeholder{
+			color: #434345;
+		}
+
+	}
+
+	.form-button {
+		font-family: 'MetaPro', sans-serif;
+		border: 1px solid #ed6c7e;
+		cursor: pointer;
+		color: #ed6c7e;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 10px;
+		box-sizing: border-box;
+
+		&:focus {
+			border: 1px solid #ed6c7e;	
+		}		
+	}
+
+	.close-block {
+	  position: absolute;	  
+	  right: 0;
+	  top: 0;
+
+	  .icon-close {
+	    background: url(../images/icon-close.png) no-repeat;
+	    width: 39px;
+	    height: 39px;
+	    cursor: pointer;    
+	    display: block;
+	    
+	 }
+
+}  

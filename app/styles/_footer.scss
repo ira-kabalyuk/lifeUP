@@ -11,6 +11,15 @@ $icon-font-path: '../fonts/';
 	display: flex;
 	justify-content: space-between;
 
+	.form-input {		
+		background: #f1f2f4;
+		
+	}
+
+	.form-button {		
+		margin-left: -5px;
+		vertical-align: top;
+	}
 }
 
 .footer-flex-block {
@@ -55,37 +64,7 @@ $icon-font-path: '../fonts/';
 			margin-right: 17px;
 		}
 
-	}
-
-	.form-input {
-		border: 1px solid #cecfd0;
-		padding: 9px 10px;
-		color: #434345;
-		font-size: 16px;
-		background: #f1f2f4;
-
-		&:focus {
-				border: 1px solid #cecfd0;
-		}
-
-		&::placeholder{
-			color: #434345;
-		}
-
-	}
-
-	.form-button {
-		font-family: 'MetaPro', sans-serif;
-		border: 1px solid #ed6c7e;
-		cursor: pointer;
-		color: #ed6c7e;
-		text-transform: uppercase;
-		font-size: 14px;
-		font-weight: 700;
-		padding: 10px;
-		margin-left: -5px;
-		vertical-align: top;
-	}
+	}	
 
 	.footer-about-us {
 

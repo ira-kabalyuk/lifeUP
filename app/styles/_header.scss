@@ -207,26 +207,26 @@ $icon-font-path: '../fonts/';
 
   .login-button {
     background: url(../images/icon-login.png) no-repeat 50% 50%;
-    width: 39px;
-    height: 39px;
+    width: 40px;
+    height: 42px;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 10px;      
 
     &:hover {
       background: url(../images/icon-login-header-hover.png) no-repeat;
-    width: 39px;
-    height: 39px;
-    display: inline-block;
-    
+      width: 39px;
+      height: 39px;
+      display: inline-block;
+      line-height: 42px;    
     }
 
   }
 
   .search-button {
     background: url(../images/icon-search.png) no-repeat 50% 50%;
-    width: 39px;
-    height: 39px;
-    display: inline-block;
+    width: 40px;
+    height: 42px;
+    display: inline-block;   
 
      &:hover {
       background: url(../images/icon-search-header-hover.png) no-repeat;
