@@ -62,6 +62,7 @@ $icon-font-path: '../fonts/';
 		padding: 9px 10px;
 		color: #434345;
 		font-size: 16px;
+		background: #f1f2f4;
 
 		&:focus {
 				border: 1px solid #cecfd0;
@@ -83,6 +84,7 @@ $icon-font-path: '../fonts/';
 		font-weight: 700;
 		padding: 10px;
 		margin-left: -5px;
+		vertical-align: top;
 	}
 
 	.footer-about-us {
