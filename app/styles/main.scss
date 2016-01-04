@@ -8,6 +8,9 @@ $icon-font-path: '../fonts/';
 @import "_header";
 @import "_footer";
 @import "_component";
+@import "_interview";
+
+
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -176,6 +179,10 @@ h1 {
     position: relative;
     width: 100%;
     margin-bottom:30px;
+
+    img {
+      width: 100%;
+    }
     
   }
 
@@ -852,13 +859,12 @@ h1 {
 /*login popup end*/
 
 
-
-
-
-
+  
   @import "_min-768.scss";
   @import "_min-968.scss";
   @import "_min-1024.scss";
   @import "_min-1366.scss";
   @import "_min-1920.scss";
   @import "_max-767.scss";
+  @import "_max-375.scss";
+
