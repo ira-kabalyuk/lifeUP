@@ -203,14 +203,16 @@ $icon-font-path: '../fonts/';
     position: absolute;
     right: 0;
     bottom: -20px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .login-button {
     background: url(../images/icon-login.png) no-repeat 50% 50%;
-    width: 40px;
-    height: 42px;
+    width: 39px;
+    height: 37px;
     display: inline-block;
-    margin-right: 10px;      
+         
 
     &:hover {
       background: url(../images/icon-login-header-hover.png) no-repeat;
@@ -222,10 +224,63 @@ $icon-font-path: '../fonts/';
 
   }
 
+  .login-wrap-active {
+    margin-right: 10px;
+  }   
+
+
+  .login-photo-net {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    display: inline-block; 
+
+    .icon-net {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      right: -7px;
+      top: 19px;
+        
+      img {
+      width: 100%;     
+      }
+
+    }
+
+  }
+
+  .login-photo {
+    display: inline-block;
+    width: 39px;
+    height: 39px;   
+    cursor: pointer;   
+    overflow: hidden;
+    border-radius: 18px 17px 23px 19px;
+    position: relative;
+    margin-left: 5px;
+
+    &:hover:after {
+      content: "";
+      position: absolute;
+      background: #000;
+      opacity: 0.2;
+       width: 39px;
+      height: 39px;
+      top: 0;
+      left: 0; 
+    }
+
+    img {
+      width: 100%;     
+    }    
+
+  }
+
   .search-button {
     background: url(../images/icon-search.png) no-repeat 50% 50%;
-    width: 40px;
-    height: 42px;
+    width: 39px;
+    height: 36px;
     display: inline-block;   
 
      &:hover {

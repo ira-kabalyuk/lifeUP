@@ -350,12 +350,12 @@ h1 {
     float: left;
     width: 81px;
     height: 82px; 
-    border-radius: 36px/42px 32px 43px 26px;   
+    border-radius: 36px/42px 32px 43px 26px; 
+    overflow: hidden;
 
-      img {
-        width: 81px;
-        border-radius: 36px/42px 32px 43px 26px;
-    }
+    img {
+      width: 100%;     
+    }  
 
   }
 
@@ -364,10 +364,10 @@ h1 {
     width: 81px;
     height: 82px;
     border-radius: 34px 36px 48px/45px 42px;    
+    overflow: hidden;
 
-      img {
-        width: 81px;
-        border-radius: 34px 36px 48px/45px 42px;
+    img {
+      width: 100%;     
     }
 
   }
@@ -377,10 +377,10 @@ h1 {
     width: 81px;
     height: 82px;
     border-radius: 24px 42px 29px 41px;    
+    overflow: hidden;
 
-      img {
-        width: 81px;
-        border-radius: 24px 42px 29px 41px;
+    img {
+      width: 100%;     
     }
 
   }
@@ -390,9 +390,10 @@ h1 {
     width: 81px;
     height: 82px;    
      border-radius: 40px 36px 38px 36px;
-      img {
-        width: 81px;
-        border-radius: 40px 36px 38px 36px;
+     overflow: hidden;
+
+     img {
+      width: 100%;     
     }
 
   }
@@ -402,10 +403,10 @@ h1 {
     width: 81px;
     height: 82px;
     border-radius: 39px 36px 47px 43px;
+    overflow: hidden;
 
-      img {
-        width: 81px;
-        border-radius: 39px 36px 47px 43px;
+    img {
+      width: 100%;     
     }
 
   }  
@@ -510,6 +511,7 @@ h1 {
   width: 143px;
   height: 150px;
   margin: 0 auto;
+  overflow: hidden;
 
   img {
     width: 143px;
@@ -518,43 +520,23 @@ h1 {
 }
 
 .autor-img-block-1 {
-
-  img {
-    border-radius: 68px/72px 61px 80px 53px;
+  border-radius: 68px/72px 61px 80px 53px; 
   }
 
-}
-
-.autor-img-block-2 {  
-   
-  img {
-    border-radius:78px 64px 65px 65px;
+.autor-img-block-2 {
+  border-radius:78px 64px 65px 65px;
   }
 
-}
-
-.autor-img-block-3 {  
-   
-  img {
-    border-radius:70px/50px 54px 82px 62px;
+.autor-img-block-3 {
+  border-radius:70px/50px 54px 82px 62px;  
   }
-
-}
 
 .autor-img-block-4 {  
-   
-  img {
-    border-radius:55px 59px 91px 51px;
-  }
-
+   border-radius:55px 59px 91px 51px;  
 }
 
-.autor-img-block-5 {  
-   
-  img {
-    border-radius:79px 63px 66px 65px;
-  }
-
+.autor-img-block-5 { 
+   border-radius:79px 63px 66px 65px; 
 }
 
 .autor-block-name {  
@@ -639,9 +621,11 @@ h1 {
 
   .head {  
     font-family: 'MetaPro', sans-serif;
+
     a {
     color: #26272d;
     font-size: 20px;
+
       &:hover {
         color: #26272d;
       }
