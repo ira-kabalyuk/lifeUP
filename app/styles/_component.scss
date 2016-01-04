@@ -91,4 +91,18 @@ button {
 		height: 47px;
 		vertical-align: bottom;
 	}
-}  
+
+}
+
+.data-block {
+	display: inline-block;
+
+	.data {
+	font-family: 'Open Sans', sans-serif; 
+	 color: #363636;
+	 display: inline-block;
+	 font-size: 16px;
+	}
+
+}
+
