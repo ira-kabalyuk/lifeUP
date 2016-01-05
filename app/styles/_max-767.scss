@@ -8,6 +8,30 @@ $icon-font-path: '../fonts/';
 
   .pagewrap {
     max-width: 80%;
+
+    .content-block-column {
+        width: 100%;
+
+        .heading {
+        font-size: 16px;
+
+        }
+
+      .head {
+
+        a {
+          font-size: 40px;
+          line-height: 1em;
+        }
+        
+      }
+
+    }   
+
+  }
+
+  .banner {
+    display: none;
   }
 
   .content-block {

@@ -35,6 +35,10 @@ body {
 
   }
 
+  main {
+    overflow: hidden;
+  }
+
   .pagewrap {
     margin:0 auto;
   }
@@ -521,29 +525,81 @@ h1 {
   overflow: hidden;
 
   img {
-    width: 143px;
+    width: 100%;
   }
 
 }
 
 .autor-img-block-1 {
-  border-radius: 68px/72px 61px 80px 53px; 
+
+  .template-img {
+  background: url(../images/template-photo-1.svg) no-repeat;
+  background-size: 154px 146px;
+  width: 154px;
+  height: 146px;
+  display: block;
+  position: absolute;
+  z-index: 20;
   }
+
+  //border-radius: 68px/72px 61px 80px 53px; 
+}
 
 .autor-img-block-2 {
-  border-radius:78px 64px 65px 65px;
+
+  .template-img {
+  background: url(../images/template-photo-2.svg) no-repeat;
+  background-size: 154px 146px;
+  width: 154px;
+  height: 146px;
+  display: block;
+  position: absolute;
+  z-index: 20;
   }
+
+  //border-radius:78px 64px 65px 65px;
+}
 
 .autor-img-block-3 {
-  border-radius:70px/50px 54px 82px 62px;  
+
+  .template-img {
+  background: url(../images/template-photo-3.svg) no-repeat;
+  background-size: 154px 146px;
+  width: 154px;
+  height: 146px;
+  display: block;
+  position: absolute;
+  z-index: 20;
   }
+  //border-radius:70px/50px 54px 82px 62px;  
+}
 
 .autor-img-block-4 {  
-   border-radius:55px 59px 91px 51px;  
+
+  .template-img {
+  background: url(../images/template-photo-4.svg) no-repeat;
+  background-size: 154px 146px;
+  width: 154px;
+  height: 146px;
+  display: block;
+  position: absolute;
+  z-index: 20;
+  }
+   //border-radius:55px 59px 91px 51px;  
 }
 
 .autor-img-block-5 { 
-   border-radius:79px 63px 66px 65px; 
+
+  .template-img {
+  background: url(../images/template-photo-5.svg) no-repeat;
+  background-size: 154px 146px;
+  width: 154px;
+  height: 146px;
+  display: block;
+  position: absolute;
+  z-index: 20;
+  }
+   //border-radius:79px 63px 66px 65px; 
 }
 
 .autor-block-name {  
@@ -866,5 +922,6 @@ h1 {
   @import "_min-1366.scss";
   @import "_min-1920.scss";
   @import "_max-767.scss";
+  @import "_max-540.scss";
   @import "_max-375.scss";
 

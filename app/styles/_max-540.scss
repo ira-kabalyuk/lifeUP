@@ -4,26 +4,34 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@media only screen and (min-width:1024px) {
+@media only screen and (max-width:540px) {
 
   .pagewrap {
-    width: 1000px;
+    max-width: 350px;
 
-  }
+     .content-block-center, .content-block-column {
+		
+		.heading {
+			font-size: 12px;
+		}
 
-	  .modal-dialog-flex {	  
-	  justify-content: space-between;
-	 
-	}
+		.head {
 
+			a {
+				font-size: 22px;
+			}
+			
+		}
 
+    }
 
+  }	 
 
 /*----------------------------------------------interview-------------------------------------*/
 	.interview-page {
 
 		.head {
-			font-size: 66px;
+			font-size: 30px;
 		}
 
 	}

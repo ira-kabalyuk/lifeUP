@@ -8,6 +8,26 @@ $icon-font-path: '../fonts/';
 
 	.pagewrap {
 	width: 80%;
+
+		.content-block-column {
+	  		width: 100%;
+
+	  		.heading {
+				font-size: 16px;
+
+				}
+
+			.head {
+
+				a {
+					font-size: 40px;
+					line-height: 1em;
+				}
+				
+			}
+
+	  }  	
+
 	}
 
 	.header {
@@ -29,6 +49,10 @@ $icon-font-path: '../fonts/';
 
   	.drop-navbar {
   	display: none;
+  	}
+
+  	.content-block-column {
+  		width: 100%;
   	}
 
   	.footer-flex-block {
