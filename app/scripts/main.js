@@ -57,18 +57,22 @@ $('.owl-carousel-2').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-
-        600:{
-            items:1
-        },
-         
-        1000:{
-            items:1
-        }
-    }
+    items:1,
+    onInitialized: onCarouselInitializedCallback,
+    onChanged: onCarouselChangedCallback
 })
+
+function onCarouselInitializedCallback(event) {
+    var pagerEl = $(event.target).next();
+    var countEl = pagerEl.find('.all');
+    countEl.html(event.item.count);
+    onCarouselChangedCallback(event);
+}
+
+function onCarouselChangedCallback(event) {
+    var pagerEl = $(event.target).next();
+    var currentEl = pagerEl.find('.current');
+    currentEl.html(event.item.index - 1);
+}
+
 
