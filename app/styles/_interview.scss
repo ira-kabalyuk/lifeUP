@@ -8,12 +8,16 @@ $icon-font-path: '../fonts/';
 
 .interview-page {
 
-  .head {    
-    line-height: normal;
-    text-align: center;
-    max-width: 960px;
-    margin: 0 auto;
-    font-weight: 600;    
+  .page-head-block {
+
+    .head {    
+      line-height: normal;
+      text-align: center;
+      max-width: 960px;
+      margin: 0 auto;
+      font-weight: 600;    
+    }
+
   }
 
   .article-flex-wrap {
@@ -23,14 +27,31 @@ $icon-font-path: '../fonts/';
     margin: 0 auto;
   }
 
-  .article-column {
-    width: calc(100% - 330px);
-    margin: 0 auto;
+  .article {
+
+    .content-block-column {
+      float: left;
+      margin-right: 20px;
+
+      .img-wrap {
+      margin-bottom: 0;
+      width: 300px;
+      height: 250px;
+
+        .head {
+          line-height: 0;
+          text-align: center;
+          margin-top: 3px;
+          margin-bottom: 14px;
+        }
+
+      }
+
+    }
+
   }
 
-  .sidebar {
-    width: 300px;
-  }
+  
 
   .statistic-top-block {
     position: static;
@@ -120,26 +141,7 @@ $icon-font-path: '../fonts/';
 
   }
 
-  .content-block-column {
-    float: left;
-    margin-right: 20px;
-
-    .img-wrap {
-    margin-bottom: 0;
-    width: 300px;
-    height: 250px;
-
-      .head {
-        line-height: 0;
-        text-align: center;
-        margin-top: 3px;
-        margin-bottom: 14px;
-      }
-
-    }
-
-  }
-
+  
   .quote {
     font-size: 24px;
     font-style: italic;
@@ -237,6 +239,42 @@ $icon-font-path: '../fonts/';
     }
 
   }
+
+  .main-page-block {
+
+    .img-wrap {
+      margin-bottom: 30px;
+    }
+
+  }
+
+  /*---------------------------------------sidebar----------------------------------------------*/
+
+  .sidebar {    
+
+    .autor-name {
+      color: #363636;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .article-announcement-text {
+      font-size: 14px;
+      color: #aaaaaa;
+
+      &:hover {
+        font-weight: 100;
+      }
+
+    }
+
+    .sidebar-blurb-block {
+      margin: 20px auto;
+    }
+
+  }
+
+  /*-------------------------------------------end sidebar------------------------------------------------*/
 
 }
 

@@ -141,12 +141,82 @@ $icon-font-path: '../fonts/';
 
 
 /*----------------------------------------------interview-------------------------------------*/
+
   .interview-page {
 
-    .head {
-      font-size: 30px;
+    .article-flex-wrap {
+      flex-direction: column;
     }
 
-  }
+    .statistic-top-block {
+      border-top: 1px solid #ebebeb;
+    }
+
+    .page-head-block {
+
+      .head {
+        font-size: 30px;
+      }
+
+    }
+
+    .article {
+
+      .content-block-column {
+
+        a {
+        font-size: 22px;
+        }
+
+        .heading {
+          font-size: 12px;
+        }
+
+        .autor-name {
+          font-size: 14px;
+        }
+
+      }
+
+      .sidebar-blurb-block {
+        display: block;
+      }
+
+    }
+
+  .article-column {
+      order:2;
+      width: 100%;
+    }
+
+    .sidebar {
+      order:1;
+      width: 100%;
+      flex-direction: row;
+    }
+
+    .sidebar-autor-block {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .article-announcement-block {
+      display: flex;
+    }
+
+    .autor-desctiption {
+      display: none;
+    }
+
+    .autor-name {
+      padding-top: 10px;
+    }
+
+    .sidebar-blurb-block {
+      display: none;
+    }
+
+  }  
 
 }

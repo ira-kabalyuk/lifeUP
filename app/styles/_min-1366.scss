@@ -111,12 +111,66 @@ width: 45%;
 
 
 /*----------------------------------------------interview-------------------------------------*/
+
 	.interview-page {
 
-		.head {
-			font-size: 74px;
+		.article-flex-wrap	{
+			flex-direction: row;
 		}
 
-	}
+		.statistic-top-block {
+			border-top: none;
+		}
+
+		.page-head-block {
+
+			.head {
+				font-size: 74px;
+			}
+
+		}
+
+		.article-column {
+    width: calc(100% - 330px);
+    margin: 0 auto;
+    order: 1;
+  	}
+
+  	.article {
+  		
+  		.sidebar-blurb-block {
+			display: none;
+			}
+
+  	}  
+
+		.sidebar {			
+	    display: flex;
+	    flex-direction: column;
+	    width: 300px;
+	    order: 2
+		}
+
+		.sidebar-autor-block {
+			display: block;			
+		}
+
+		.article-announcement-block {
+			display: block;
+		}
+
+		.autor-desctiption {
+			display: block;
+		}
+
+		.autor-name {
+			padding-top: 0;
+		}
+
+		.sidebar-blurb-block {
+			display: block;
+		}
+
+	}	    
 
 }
