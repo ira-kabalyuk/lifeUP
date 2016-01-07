@@ -9,26 +9,11 @@ $icon-font-path: '../fonts/';
   .pagewrap {
     max-width: 80%;
 
-    .content-block-column {
-        width: 100%;
+   .content-wrap {
+    justify-content:center;
+    }    
 
-        .heading {
-        font-size: 16px;
-
-        }
-
-      .head {
-
-        a {
-          font-size: 40px;
-          line-height: 1em;
-        }
-        
-      }
-
-    }   
-
-  }
+  }  
 
   .banner {
     display: none;
@@ -150,6 +135,11 @@ $icon-font-path: '../fonts/';
 
     .statistic-top-block {
       border-top: 1px solid #ebebeb;
+      padding: 30px 0;
+    }
+
+    .net-block {
+      margin-top:0;
     }
 
     .page-head-block {

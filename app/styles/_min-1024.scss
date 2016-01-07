@@ -9,6 +9,10 @@ $icon-font-path: '../fonts/';
   .pagewrap {
     width: 1000px;
 
+    .content-wrap {
+    justify-content:space-between;
+    }  
+
   }
 
 	  .modal-dialog-flex {	  
@@ -22,7 +26,7 @@ $icon-font-path: '../fonts/';
 /*----------------------------------------------interview-------------------------------------*/
 
 	.interview-page {
-		
+
 		.sidebar-autor-block {
       display: flex;
       justify-content: center;
@@ -31,8 +35,8 @@ $icon-font-path: '../fonts/';
         display: inline-block;
       }
 
-    }	
-
+    }
+    
 	}
 
 	.page-head-block {

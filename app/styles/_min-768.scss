@@ -7,28 +7,13 @@ $icon-font-path: '../fonts/';
 @media only screen and (min-width:768px) {
 
 	.pagewrap {
-	width: 80%;
+	width: 80%;	
 
-		.content-block-column {
-	  		width: 100%;
+		.content-wrap {
+    justify-content:center;
+  	}
 
-	  		.heading {
-				font-size: 16px;
-
-				}
-
-			.head {
-
-				a {
-					font-size: 40px;
-					line-height: 1em;
-				}
-				
-			}
-
-	  }  	
-
-	}
+	}	
 
 	.header {
 	margin-bottom: 37px;
@@ -36,6 +21,14 @@ $icon-font-path: '../fonts/';
 
 	.navbar-button-mob{
 	display: block;
+	}
+
+	.responsive-block-1 {
+		order:1;
+	}
+
+	.responsive-block-9 {
+		order:1;
 	}
 
   .content-block-center {
@@ -109,8 +102,13 @@ $icon-font-path: '../fonts/';
 		}
 
 		.statistic-top-block {
-			border-top: 1px solid #ebebeb;
-		}
+      border-top: 1px solid #ebebeb;
+      padding: 30px 0;
+    }
+
+    .net-block {
+      margin-top:0;
+    }
 
 		.page-head-block {
 
