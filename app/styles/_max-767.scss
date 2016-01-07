@@ -176,11 +176,7 @@ $icon-font-path: '../fonts/';
           font-size: 14px;
         }
 
-      }
-
-      .sidebar-blurb-block {
-        display: block;
-      }
+      }      
 
     }
 
@@ -198,6 +194,10 @@ $icon-font-path: '../fonts/';
     .sidebar-autor-block {
       display: flex;
       justify-content: center;
+
+      .article-announcement-photo {
+        display: none;
+      }
 
     }
 
@@ -217,6 +217,18 @@ $icon-font-path: '../fonts/';
       display: none;
     }
 
+    .sidebar-article-block {
+        display: none;
+    }
+
+  } 
+
+  .article-description {
+    font-size: 18px;
+  }
+
+  .article-text {
+    font-size: 16px;
   }  
 
 }

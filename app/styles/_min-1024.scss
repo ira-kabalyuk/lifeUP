@@ -20,6 +20,21 @@ $icon-font-path: '../fonts/';
 
 
 /*----------------------------------------------interview-------------------------------------*/
+
+	.interview-page {
+		
+		.sidebar-autor-block {
+      display: flex;
+      justify-content: center;
+
+      .article-announcement-photo {
+        display: inline-block;
+      }
+
+    }	
+
+	}
+
 	.page-head-block {
 
 		.head {
@@ -28,4 +43,13 @@ $icon-font-path: '../fonts/';
 
 	}
 
+	.article-description {
+		font-size: 28px;
+	}
+
+	.article-text {
+		font-size: 18px;
+	}
+
+	
 }

@@ -47,7 +47,15 @@ $icon-font-path: '../fonts/';
 
       }
 
+      .article-announcement-text {
+        font-size: 16px;
+      }
+
     }
+
+      .info-block-head {
+        margin-bottom: 15px;
+      }
 
   }
 
@@ -89,21 +97,55 @@ $icon-font-path: '../fonts/';
 
   .article-description {
     font-family: 'MetaPro', sans-serif;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 700;    
     line-height: 1.3em;
   }
 
-  .article-text {
-    font-size: 18px;
+  .article-text {    
     line-height: 1.5em;
     padding: 3px 0;
   }
 
   /*-----------------------slider-----------------------*/
 
+  .article-slider {
+    margin-bottom: 20px;
+  }
+
   .carousel {
     margin: 40px auto 20px;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    margin-left: -90px;
+    top: 100%;
+    width: 180px;
+    margin-top: 25px;
+  }
+
+  .owl-prev {
+     background: url(../images/icon-left-pointer.png) no-repeat;
+     width: 49px;
+     height: 16px;
+     display: inline-block;
+  }
+
+  .owl-next {
+    background: url(../images/icon-right-pointer.png) no-repeat;
+     width: 49px;
+     height: 16px;
+     display: inline-block;
+  }
+
+  .pager {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #9b9b9b;
+    margin: 0 auto;
   }
 
   /*-----------------------slider end-----------------------*/
@@ -113,7 +155,7 @@ $icon-font-path: '../fonts/';
     color: #363636;
     font-style: italic;
     display: inline-block;
-    margin-top:15px;
+    margin:15px auto 15px 0;
   }
 
   
@@ -151,6 +193,7 @@ $icon-font-path: '../fonts/';
     font-weight: 100;
     margin:45px auto;
     position: relative;
+    text-align: center;
 
     &:before {
       font-family: 'MetaPro', sans-serif;
@@ -272,6 +315,56 @@ $icon-font-path: '../fonts/';
       margin: 20px auto;
     }
 
+  }
+
+  .sidebar-article-block {
+    padding: 10px 25px;
+
+    .autor-name {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .sidebar-article-wrap {
+      margin-top: 15px;
+      border-top: 1px solid #e9e9e8;
+      padding: 15px 0;
+
+      &:last-child {
+        border-bottom: 1px solid #e9e9e8;
+      }
+
+    }
+
+    .statistic-bottom-block {
+      position: static;
+     justify-content:center;
+
+      .statistic-text {
+        color: #363636;
+      }
+
+      .look-block {
+        margin-right: 15px;
+      }
+
+    }
+
+  }
+
+  .sidebar-article-description {
+     font-family: 'MetaPro', sans-serif;
+    font-size: 16px;    
+    text-align: center;
+    margin-top: 5px;
+
+    a{
+      color: #26272d;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    
   }
 
   /*-------------------------------------------end sidebar------------------------------------------------*/

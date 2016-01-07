@@ -136,11 +136,8 @@ width: 45%;
     order: 1;
   	}
 
-  	.article {
+  	.article { 		
   		
-  		.sidebar-blurb-block {
-			display: none;
-			}
 
   	}  
 
@@ -168,6 +165,10 @@ width: 45%;
 		}
 
 		.sidebar-blurb-block {
+			display: block;
+		}
+
+		.sidebar-article-block {
 			display: block;
 		}
 
