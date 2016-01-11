@@ -350,7 +350,8 @@ h1 {
 .content-block-max {
   width: 100%;  
   margin: 10px auto 30px;
-  position: relative;  
+  position: relative;
+  padding: 0 14px;  
 }
 
 .article-announcement-block {
@@ -465,6 +466,7 @@ h1 {
    a {
     color: #444343;
 
+
       &:hover {
         text-decoration: none;
       }
@@ -496,6 +498,8 @@ h1 {
 
    &:hover {
     background: #fff9f3;
+    position: relative;
+    z-index: 30;
   }
 
   &:hover .statistic-bottom-block{
@@ -528,10 +532,10 @@ h1 {
 .autor-img-block-1 {
 
   .template-img {
-  background: url(../images/template-photo-1.svg) no-repeat;
-  background-size: 143px 150px;
+  background: url(../images/template-photo-1.svg) 100% -4px no-repeat;
+  background-size: cover;
   width: 143px;
-  height: 150px;
+  height: 155px;
   display: block;
   position: absolute;
   z-index: 20;
@@ -543,10 +547,10 @@ h1 {
 .autor-img-block-2 {
 
   .template-img {
-  background: url(../images/template-photo-2.svg) no-repeat;
-  background-size: 154px 146px;
-  width: 154px;
-  height: 146px;
+  background: url(../images/template-photo-2.svg) 100% -4px no-repeat;
+  background-size: cover;
+  width: 143px;
+  height: 155px;
   display: block;
   position: absolute;
   z-index: 20;
@@ -558,10 +562,10 @@ h1 {
 .autor-img-block-3 {
 
   .template-img {
-  background: url(../images/template-photo-3.svg) no-repeat;
-  background-size: 154px 146px;
-  width: 154px;
-  height: 146px;
+  background: url(../images/template-photo-3.svg) 100% -4px no-repeat;
+   background-size: cover;
+  width: 143px;
+  height: 155px;
   display: block;
   position: absolute;
   z-index: 20;
@@ -572,10 +576,10 @@ h1 {
 .autor-img-block-4 {  
 
   .template-img {
-  background: url(../images/template-photo-4.svg) no-repeat;
-  background-size: 154px 146px;
-  width: 154px;
-  height: 146px;
+  background: url(../images/template-photo-4.svg) 100% -4px no-repeat;
+   background-size: cover;
+  width: 143px;
+  height: 155px;
   display: block;
   position: absolute;
   z-index: 20;
@@ -586,10 +590,10 @@ h1 {
 .autor-img-block-5 { 
 
   .template-img {
-  background: url(../images/template-photo-5.svg) no-repeat;
-  background-size: 154px 146px;
-  width: 154px;
-  height: 146px;
+  background: url(../images/template-photo-5.svg) 100% -4px no-repeat;
+   background-size: cover;
+  width: 143px;
+  height: 155px;
   display: block;
   position: absolute;
   z-index: 20;
@@ -656,6 +660,7 @@ h1 {
 
   &:hover {
     background: #edf6eb;
+
   }
 
   &:hover .heading{
