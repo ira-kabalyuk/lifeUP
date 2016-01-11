@@ -136,7 +136,7 @@ width: 45%;
 
 		.article-column {
     width: calc(100% - 330px);
-    margin: 0 auto;
+    margin: 0 30px 0 auto;
     order: 1;
   	}
 
@@ -176,6 +176,21 @@ width: 45%;
 			display: block;
 		}
 
-	}	    
+	}	
+
+	/*------------------------------------------------------------------article-------------------------------------------------*/ 
+
+	.article-page {
+
+		.statistic-top-block {
+			padding-top:30px;
+			 border-top:1px solid #ebebeb;
+		}
+
+		.page-heading {
+			font-size: 52px;
+		}
+
+	}   
 
 }

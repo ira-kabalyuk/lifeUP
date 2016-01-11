@@ -219,6 +219,28 @@ $icon-font-path: '../fonts/';
 
   .article-text {
     font-size: 16px;
-  }  
+  } 
+
+  /*------------------------------------------------------article--------------------------------------------------------------*/
+
+  .article-page {
+
+    .page-heading {
+        font-size: 30px;
+      }
+
+    .allocation-block {
+      padding: 30px 10px;
+    }  
+
+    .allocation-block-heading {
+      font-size: 24px;
+    }
+
+    .text-item {
+      font-size: 14px;
+    }  
+
+  }    
 
 }
