@@ -49,10 +49,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 -14px;
   }
 
   .content-block-center {
-    width: 633px;
+    width: 633px; 
+    margin: 0 14px;  
 
     img {
       width: 633px;
@@ -95,6 +97,7 @@ body {
 
   .content-block-column {
     width: 300px;
+    margin: 0 14px;
    
     img {
       width: 300px;
@@ -135,8 +138,7 @@ body {
   }
 
   .column {  
-    margin-bottom:30px;
-    padding: 10px;    
+    margin-bottom:30px;      
   }
 
 
@@ -353,14 +355,15 @@ h1 {
 
 .article-announcement-block {
   margin-bottom: 19px;
-  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  
 
   &:last-child {
     margin-bottom: 0;
   }
 
-  .article-announcement-photo-block-1 {
-    float: left;
+  .article-announcement-photo-block-1 {    
     width: 81px;
     height: 82px; 
     border-radius: 36px/42px 32px 43px 26px; 
@@ -372,8 +375,7 @@ h1 {
 
   }
 
-  .article-announcement-photo-block-2 {
-    float: left;
+  .article-announcement-photo-block-2 {    
     width: 81px;
     height: 82px;
     border-radius: 34px 36px 48px/45px 42px;    
@@ -385,8 +387,7 @@ h1 {
 
   }
 
-  .article-announcement-photo-block-3 {
-    float: left;
+  .article-announcement-photo-block-3 {    
     width: 81px;
     height: 82px;
     border-radius: 24px 42px 29px 41px;    
@@ -398,8 +399,7 @@ h1 {
 
   }
 
-  .article-announcement-photo-block-4 {
-    float: left;
+  .article-announcement-photo-block-4 {    
     width: 81px;
     height: 82px;    
      border-radius: 40px 36px 38px 36px;
@@ -411,8 +411,7 @@ h1 {
 
   }
 
-    .article-announcement-photo-block-5 {
-    float: left;
+    .article-announcement-photo-block-5 {    
     width: 81px;
     height: 82px;
     border-radius: 39px 36px 47px 43px;
@@ -428,15 +427,9 @@ h1 {
     font-family: 'MetaPro', sans-serif;
     font-size: 16px;
     font-weight: 100;
-    color: #444343;
-    float: left;
+    color: #444343;    
     width: 180px;
-    margin-left: 15px;
-
-    &:hover {
-      font-weight: 800;
-      text-decoration: none;
-    }
+    margin-left: 15px;  
 
   }
 
