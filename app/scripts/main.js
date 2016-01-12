@@ -31,6 +31,10 @@ $('.owl-carousel').owlCarousel({
         },
         1366:{
             items:4
+        },
+
+        1920:{
+            items:5
         }
     }
 })
@@ -63,8 +67,13 @@ $('.owl-carousel-1').owlCarousel({
         1024:{
             items:3
         },
+
         1366:{
             items:4
+        },
+
+        1920:{
+            items:5
         }
     }
 })
