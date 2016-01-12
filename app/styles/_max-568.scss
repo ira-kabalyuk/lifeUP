@@ -4,10 +4,14 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@media only screen and (max-width:540px) {
+@media only screen and (max-width:568px) {
 
   .pagewrap {
     max-width: 350px;
+
+    .content-wrap {
+    justify-content: center;
+    } 
 
      .content-block-center, .content-block-column {
 		
@@ -23,6 +27,10 @@ $icon-font-path: '../fonts/';
 			
 		}
 
+    }
+
+    .autor-block {
+			margin: 0 auto;
     }
 
   }	 

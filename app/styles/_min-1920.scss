@@ -66,6 +66,10 @@ $icon-font-path: '../fonts/';
 		}
 	}
 
+	.owl-nav {
+		display: none;
+	}
+
 	.mobile-flex-wrap-top {
 	display: flex;
    justify-content: space-between;

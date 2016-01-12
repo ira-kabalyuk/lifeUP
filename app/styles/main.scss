@@ -69,6 +69,7 @@ body {
       a {
       font-size: 40px;
       line-height: 1em;
+      font-weight: 600;
       }
 
     }   
@@ -971,6 +972,6 @@ h1 {
   @import "_min-1366.scss";
   @import "_min-1920.scss";
   @import "_max-767.scss";
-  @import "_max-540.scss";
+  @import "_max-568.scss";
   @import "_max-375.scss";
 
