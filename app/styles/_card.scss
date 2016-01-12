@@ -8,19 +8,24 @@ $icon-font-path: '../fonts/';
 
 .card-page {
 
-  .slider-content-wrap {
-    background: #f4faf3;
-    padding: 45px;
-    counter-reset: list;
+  .owl-item {
+     counter-reset: list;
 
-    &:before {
+     &:before {
       font-family: 'MetaPro', sans-serif;
       counter-increment: list;     
-      content: counter(list,decimal) "";
+      content: counter(list) "";
       font-size: 100px;
       color: #a1d39c;
       text-align: center;
       display: block;
+    }
+
+  } 
+
+  .slider-content-wrap {
+    background: #f4faf3;
+    padding: 45px;   
 
       &:before {
          content: "";
@@ -30,9 +35,7 @@ $icon-font-path: '../fonts/';
          height: 6px;
       }
 
-    }     
-
-  }
+    } 
 
 }
 
