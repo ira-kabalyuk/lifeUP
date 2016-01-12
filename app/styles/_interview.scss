@@ -29,6 +29,11 @@ $icon-font-path: '../fonts/';
 
   .article {
 
+    .article-announcement-block {
+      display: flex;
+      flex-wrap:nowrap;
+    }
+
     .content-block-column {
       float: left;
       margin-right: 20px;
@@ -247,12 +252,13 @@ $icon-font-path: '../fonts/';
     background: #eff2f4;
     overflow: hidden;
     width: 340px;
-    padding: 20px;
+    padding: 20px 6px;
     float: left;
      margin: 20px 20px 20px 0;
 
     .column {
       margin-bottom: 0;
+
     }
 
   } 
