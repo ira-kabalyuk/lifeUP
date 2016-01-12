@@ -497,14 +497,12 @@ h1 {
   }
 
    &:hover {
-    background: #fff9f3;
-    position: relative;
-    z-index: 30;
+    background: #fff9f3;    
   }
 
   &:hover .statistic-bottom-block{
     display: flex;
-  }
+  } 
 
   &:hover .autor-block-name{
     background: #fdc689;
@@ -514,6 +512,57 @@ h1 {
   &:hover .autor-block-description {
     color: #86827f;
   }
+
+   &:hover .autor-img-block-1 .template-img{
+    background: url(../images/template-photo-hover-1.svg) -1px -4px no-repeat;
+     background-size: cover;
+    width: 143px;
+    height: 155px;
+    display: block;
+    position: absolute;
+    z-index: 20; 
+    }
+
+    &:hover .autor-img-block-2 .template-img{
+    background: url(../images/template-photo-hover-2.svg) -1px -4px no-repeat;
+     background-size: cover;
+    width: 143px;
+    height: 155px;
+    display: block;
+    position: absolute;
+    z-index: 20; 
+    }
+
+    &:hover .autor-img-block-3 .template-img{
+    background: url(../images/template-photo-hover-3.svg) -1px -4px no-repeat;
+     background-size: cover;
+    width: 143px;
+    height: 155px;
+    display: block;
+    position: absolute;
+    z-index: 20; 
+    }
+
+    &:hover .autor-img-block-4 .template-img{
+    background: url(../images/template-photo-hover-4.svg) -1px -4px no-repeat;
+     background-size: cover;
+    width: 143px;
+    height: 155px;
+    display: block;
+    position: absolute;
+    z-index: 20; 
+    }
+
+     &:hover .autor-img-block-5 .template-img{
+    background: url(../images/template-photo-hover-5.svg) -1px -4px no-repeat;
+     background-size: cover;
+    width: 143px;
+    height: 155px;
+    display: block;
+    position: absolute;
+    z-index: 20; 
+    }
+
 
 }
 
@@ -532,7 +581,7 @@ h1 {
 .autor-img-block-1 {
 
   .template-img {
-  background: url(../images/template-photo-1.svg) 100% -4px no-repeat;
+  background: url(../images/template-photo-1.svg) -1px -4px no-repeat;
   background-size: cover;
   width: 143px;
   height: 155px;
@@ -547,7 +596,7 @@ h1 {
 .autor-img-block-2 {
 
   .template-img {
-  background: url(../images/template-photo-2.svg) 100% -4px no-repeat;
+  background: url(../images/template-photo-2.svg) -1px -4px no-repeat;
   background-size: cover;
   width: 143px;
   height: 155px;
@@ -562,7 +611,7 @@ h1 {
 .autor-img-block-3 {
 
   .template-img {
-  background: url(../images/template-photo-3.svg) 100% -4px no-repeat;
+  background: url(../images/template-photo-3.svg) -1px -4px no-repeat;
    background-size: cover;
   width: 143px;
   height: 155px;
@@ -576,7 +625,7 @@ h1 {
 .autor-img-block-4 {  
 
   .template-img {
-  background: url(../images/template-photo-4.svg) 100% -4px no-repeat;
+  background: url(../images/template-photo-4.svg) -1px -4px no-repeat;
    background-size: cover;
   width: 143px;
   height: 155px;
@@ -590,7 +639,7 @@ h1 {
 .autor-img-block-5 { 
 
   .template-img {
-  background: url(../images/template-photo-5.svg) 100% -4px no-repeat;
+  background: url(../images/template-photo-5.svg) -1px -4px no-repeat;
    background-size: cover;
   width: 143px;
   height: 155px;
