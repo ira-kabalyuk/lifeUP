@@ -105,6 +105,11 @@ body {
 
     }
 
+    &:hover .heading{
+      background: #eb7b8b;
+      padding: 9px 11px 6px 11px;
+    }
+
     &:hover .text-block-hover {
       display: block;
     } 
@@ -813,7 +818,11 @@ h1 {
   }
 
   .item-wrap {
-    width: 300px;
+    width: 295px;
+  }
+
+  .img-wrap {
+    width: 295px;
   }
 
    .img_description {
