@@ -10,9 +10,54 @@ $icon-font-path: '../fonts/';
     max-width: 750px;
 
    .content-wrap {
-     width: 657px;
+      max-width: 550px;
+      justify-content: center;
       margin: 0 auto;
-    }    
+    }
+
+    .content-block-center {
+      width: 300px;
+
+      .img-wrap {
+        width: 300px;
+      }
+      
+    }
+
+    .content-block-center, .content-block-column {
+    
+      .heading {
+        font-size: 12px;
+      }
+
+      .head {
+
+        a {
+          font-size: 22px;
+        }
+        
+      }
+
+    }
+
+    .autor-block {
+    margin: 0 auto;
+    }
+
+    
+
+    .owl-carousel-1 {
+
+      .item-wrap {
+        width: 300px;
+        margin: 0 auto;
+      }
+
+      .img-wrap {
+        margin: 0 auto;
+      }
+
+    }
 
   }  
 

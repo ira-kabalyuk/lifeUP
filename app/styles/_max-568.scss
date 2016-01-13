@@ -9,41 +9,13 @@ $icon-font-path: '../fonts/';
   .pagewrap {
     max-width: 550px;
 
-    .content-wrap {
-    	max-width: 100%;
-    	justify-content: center;
-    	margin: 0 auto;
-    }
-
-    .content-block-center {
-    	width: 300px;
-
-    	.img-wrap {
-    		width: 300px;
-    	}
-    	
-    }
+   
 
     .content-block-column {
 
     }
 
-     .content-block-center, .content-block-column {
-		
-		.heading {
-			font-size: 12px;
-		}
-
-		.head {
-
-			a {
-				font-size: 22px;
-			}
-			
-		}
-
-    }
-
+     
     .autor-block {
 			margin: 0 auto;
     }

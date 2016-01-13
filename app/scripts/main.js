@@ -5,20 +5,15 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     responsive:{
-
-    		0:{
+    	0:{
             items:1
         },
 
-        540:{
+        568:{
             items:1
-        },
+        },        
 
-         667:{
-            items:2
-        },
-
-        767:{
+        768:{
             items:2
         },         
 
@@ -44,15 +39,11 @@ $('.owl-carousel-1').owlCarousel({
             items:1
         },
 
-        540:{
+        568:{
             items:1
-        },
-        
-        667:{
-            items:2
-        },
+        },       
 
-        767:{
+        768:{
             items:2
         },         
 
