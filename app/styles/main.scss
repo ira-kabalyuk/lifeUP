@@ -44,6 +44,31 @@ body {
 
   .pagewrap {
     margin:0 auto;
+
+      .content-column-special {
+
+      .heading {
+        font-size: 16px;
+      }
+
+      .head {
+
+        a{
+          line-height: normal;
+         font-size: 40px;
+         font-weight: 600;
+
+         &:hover {
+          color: #fff;
+          text-decoration: none;
+         }
+
+        }
+         
+      }
+
+    }
+
   }
 
   .content-wrap {
@@ -73,7 +98,7 @@ body {
       font-weight: 600;
       }
 
-    }   
+    }
 
     &:hover .text-block-hover {
       display: block;
@@ -129,6 +154,16 @@ body {
 
 }
 
+.head-annotation {
+      font-family: 'MetaPro', sans-serif;
+      display: block;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 100;
+      margin-bottom: 20px;
+    }  
+
   .content-block-row {
     width: 633px;
     display: flex;
@@ -139,6 +174,7 @@ body {
 
   }
 
+  
   .column {  
     margin-bottom:30px;      
   }
