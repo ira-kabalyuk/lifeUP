@@ -1,0 +1,43 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "_fonts.scss";
+
+.card-page {
+
+  .owl-item {
+     counter-reset: list;
+
+     &:before {
+      font-family: 'MetaPro', sans-serif;
+      counter-increment: list;     
+      content: counter(list) "";
+      font-size: 100px;
+      color: #a1d39c;
+      text-align: center;
+      display: block;
+    }
+
+  } 
+
+  .slider-content-wrap {
+    background: #f4faf3;
+    padding: 45px;   
+
+      &:before {
+         content: "";
+         background: #a1d39c;
+         display: block;
+         width: 72px;
+         height: 6px;
+      }
+
+    } 
+
+}
+
+  
+  

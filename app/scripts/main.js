@@ -20,11 +20,7 @@ $('.owl-carousel').owlCarousel({
 
         767:{
             items:2
-        },
-
-         967:{
-            items:3
-        },
+        },         
 
         1024:{
             items:3
@@ -58,11 +54,7 @@ $('.owl-carousel-1').owlCarousel({
 
         767:{
             items:2
-        },
-
-         967:{
-            items:3
-        },
+        },         
 
         1024:{
             items:3

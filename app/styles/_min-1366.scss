@@ -29,7 +29,12 @@ $icon-font-path: '../fonts/';
 	}
 
 	.pagewrap {
-		width: 1305px;	
+		width: 1320px;
+
+		 .content-wrap {
+   		width: 100%;
+
+    }  	
 
 		.responsive-block-1 {
 			order:1;

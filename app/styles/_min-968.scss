@@ -7,7 +7,13 @@ $icon-font-path: '../fonts/';
 @media only screen and (min-width:968px) {
 
   .pagewrap {
-    width: 961px;
+    width: 940px;
+
+    .content-wrap {
+      width: 657px;
+      margin: 0 auto;
+
+    }  
 
     .content-block-column {
       width: 300px;
@@ -29,11 +35,11 @@ $icon-font-path: '../fonts/';
 
 
    .responsive-block-1 {
-      order:1;
+      order:2;
     }
 
     .responsive-block-2 {
-      order:2;
+      order:1;
     }
  
     .responsive-block-3 {

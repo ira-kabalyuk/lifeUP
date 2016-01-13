@@ -7,11 +7,21 @@ $icon-font-path: '../fonts/';
 @media only screen and (max-width:568px) {
 
   .pagewrap {
-    max-width: 350px;
+    max-width: 550px;
 
     .content-wrap {
-    justify-content: center;
-    } 
+    	max-width: 100%;
+    	justify-content: center;
+    	margin: 0 auto;
+    }
+
+    .content-block-center {
+    	width: 100%;
+    }
+
+    .content-block-column {
+
+    }
 
      .content-block-center, .content-block-column {
 		
