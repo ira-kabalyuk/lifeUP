@@ -12,9 +12,21 @@ $icon-font-path: '../fonts/';
     .content-wrap {
    		width: 990px;
    		margin: 0 auto;
-    }  
+    }
 
-  }
+    .responsive-block-13 {      
+      width: 300px;
+      display: block;
+      margin: 0 14px;
+
+      .img-wrap {
+				margin: 0;
+				margin-bottom: 30px;
+      }  
+
+  	}
+
+  }	
 
 	  .modal-dialog-flex {	  
 	  justify-content: space-between;

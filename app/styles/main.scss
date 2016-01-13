@@ -80,7 +80,11 @@ body {
 
   .content-block-center {
     width: 633px; 
-    margin: 0 14px;  
+    margin: 0 14px;
+
+    .img-wrap {
+      width: 633px;
+    }  
 
     img {
       width: 633px;
@@ -223,7 +227,7 @@ h1 {
   .img-wrap {
     text-align: center;
     position: relative;
-    width: 100%;
+    width: 300px;
     margin-bottom:30px;
 
     img {
