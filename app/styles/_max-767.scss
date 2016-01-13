@@ -6,6 +6,11 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width:767px) {
 
+  .header {
+    max-width: 550px;
+    margin: 0 auto;
+  }  
+
   .pagewrap {
     max-width: 750px;
 
@@ -44,7 +49,7 @@ $icon-font-path: '../fonts/';
     margin: 0 auto;
     }
 
-    
+
 
     .owl-carousel-1 {
 

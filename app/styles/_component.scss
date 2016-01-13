@@ -53,7 +53,13 @@ button {
 
 		&:focus {
 			border: 1px solid #ed6c7e;	
-		}		
+		}
+
+		 &:hover {
+      background: #ed6c7e;
+      color: #fff;
+    }
+    		
 	}
 
 	.close-block {
