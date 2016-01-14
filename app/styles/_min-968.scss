@@ -88,6 +88,8 @@ $icon-font-path: '../fonts/';
 
     .responsive-block-13 {
       order:13;
+
+      width: 633px;
     }
 
     .responsive-block-14 {
@@ -99,6 +101,11 @@ $icon-font-path: '../fonts/';
 
   .footer-flex-block {
     flex-direction: row;
+
+    .footer-logo-block {
+      margin: 0;
+    }
+
   }
 
   .mobile-flex-wrap-top {

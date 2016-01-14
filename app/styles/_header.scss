@@ -126,29 +126,7 @@ $icon-font-path: '../fonts/';
 
   }
 
-  .logo-template {
-    background: url(../images/logo-life-invert.svg) -11px -8px no-repeat;
-    background-size: cover;
-    width: 240px;
-    height: 50px; 
-    position: absolute;
-    top: 0;
-    z-index: 30;
-     
-  }
-
-  .logo {
-    display: inline-block;
-    position: relative;
-    z-index: 10;
-   
-
-    .logo-photo {
-       width: 228px;
-      height: 45px;
-    }
-
-  }
+  
 
   .navbar-nav-left {
     width: 40%;
@@ -179,13 +157,44 @@ $icon-font-path: '../fonts/';
       padding-bottom: 0;
     }
 
+  }
+
+  .search-wrap {
+    position: absolute;
+    right: 0;
+    width: 518px;
+    z-index: 10;
+    bottom: -13px;
+    display: none;
+  }
+
+  .form-search-button {    
+    background: url(../images/icon-search-red.png) no-repeat;
+    display: block;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    right: 10px;
+  }
+  
+
+  .search {
+    font-family: 'MetaPro', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    width: 100%;
+    border: 1px solid #ed6c7e;
+    padding: 8px 55px 8px 15px;
+
   }   
 
   .login-wrap {
     padding: 0;
     position: absolute;
     right: 0;
-    bottom: -20px;
+    bottom: -9px;
     display: flex;
     justify-content: space-between;
     height: 37px;

@@ -23,6 +23,36 @@ button {
 	}
 }
 
+  .logo-block {
+    text-align: center;
+    margin: 13px auto;
+    position: relative;
+  }
+
+.logo-template {
+    background: url(../images/logo-life-invert.svg) -11px -8px no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 50px; 
+    position: absolute;
+    top: 0;
+    z-index: 30;
+     
+  }
+
+  .logo {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+   
+
+    .logo-photo {
+       width: 228px;
+      height: 45px;
+    }
+
+  }
+
 .form-input {
 		border: 1px solid #cecfd0;
 		padding: 9px 10px;
@@ -73,10 +103,26 @@ button {
 	    height: 39px;
 	    cursor: pointer;    
 	    display: block;
+
+	    &:hover {
+	    background: url(../images/icon-close-hover.png) no-repeat;
+	    width: 39px;
+	    height: 39px;	       
+	    display: block;
+	    }
+
+	    &:focus {
+	    	background: url(../images/icon-close-focus.png) no-repeat;
+		    width: 39px;
+		    height: 39px;	       
+		    display: block;
+	    }
+
+	   }
 	    
 	 }
 
-}
+
 
 .more-wrap {
 	margin: 0 auto 30px;
@@ -111,4 +157,6 @@ button {
 	}
 
 }
+
+
 

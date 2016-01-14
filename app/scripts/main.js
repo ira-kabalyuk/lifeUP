@@ -2,7 +2,7 @@ console.log('\'Allo \'Allo!');
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:28,
     nav:true,
     responsive:{
     	0:{
@@ -32,7 +32,7 @@ $('.owl-carousel').owlCarousel({
 
 $('.owl-carousel-1').owlCarousel({
     loop:true,
-    margin:28,
+    margin:30,
     nav:true,
     responsive:{
         0:{

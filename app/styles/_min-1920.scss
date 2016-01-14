@@ -7,7 +7,12 @@ $icon-font-path: '../fonts/';
 @media only screen and (min-width:1920px) {
 
 	.pagewrap {
-		width: 1645px;		
+		width: 1645px;
+
+		 .content-wrap {
+   		width: 100%;
+		margin: 0 -14px;
+    	}  			
 
 		.responsive-block-1 {
 			order:1;
