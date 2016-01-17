@@ -50,6 +50,7 @@ $icon-font-path: '../fonts/';
     .content-block-column {
       float: left;
       margin-right: 20px;
+      margin-left: -55px;
 
       .img-wrap {
       margin-bottom: 0;
@@ -104,18 +105,19 @@ $icon-font-path: '../fonts/';
 
   }
 
-
+  .article-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+  }  
 
   
-
-  .article {
-    margin-top: 20px;
-  }
 
   .article-description {
     font-family: 'MetaPro', sans-serif;
     font-weight: 700;    
     line-height: 1.4em;
+    margin-bottom: 10px;
+    
   }
 
   .article-text {
@@ -130,9 +132,20 @@ $icon-font-path: '../fonts/';
     font-weight: 700;    
     line-height: 1.5em;
     font-size: 24px;
+
+    &:before {
+      content: "—";      
+      padding-right: 5px;
+    }
+
   }
 
   /*-----------------------slider-----------------------*/
+
+  .article-slider-wrap {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
 
   .article-slider {
     margin-top: 50px;
@@ -265,7 +278,7 @@ $icon-font-path: '../fonts/';
   }
 
   .article-img-wrap {
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 20px -55px;
     float: left;
     max-width: 410px;
 
@@ -279,13 +292,17 @@ $icon-font-path: '../fonts/';
     background: #eff2f4;
     overflow: hidden;
     width: 340px;
-    padding: 20px 6px;
+    padding: 20px;
     float: left;
-     margin: 20px 20px 20px 0;
+     margin: 20px 20px 20px -55px;
 
     .column {
       margin-bottom: 0;
 
+    }
+
+    .content-block-column {
+      margin: 0 auto;
     }
 
   } 
@@ -306,6 +323,7 @@ $icon-font-path: '../fonts/';
 
     .form-button {
       margin-right: 15px;
+      padding: 10px 25px;
     }
 
     .login-popup-text {
@@ -313,7 +331,7 @@ $icon-font-path: '../fonts/';
       margin: auto 0;
     }
 
-  }
+  }  
 
   .main-page-block {
 
@@ -322,6 +340,20 @@ $icon-font-path: '../fonts/';
     }
 
   }
+
+  .main-page-block-wrap {
+    background: #f1f2f4;
+    padding: 46px 0 10px 0;    
+
+    .info-block-head {
+      font-size: 30px;
+      text-transform: none;
+      margin-bottom: 30px;
+    }
+
+  }
+
+  
 
   /*---------------------------------------sidebar----------------------------------------------*/
 
@@ -335,6 +367,8 @@ $icon-font-path: '../fonts/';
     }
 
     .article-announcement-text { 
+      max-width: 180px;
+      width: auto;
 
       &:hover {
           text-decoration: none;

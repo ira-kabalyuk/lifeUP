@@ -163,13 +163,22 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
+		.page-mobile-wrap {
+			width: 700px;
+		}
+
 		.article-flex-wrap {
 			flex-direction: column;
 		}
 
+		.article {
+			margin-top: 20px;
+		}
+
 		.statistic-top-block {
       border-top: 1px solid #ebebeb;
-      padding: 30px 0;
+      padding: 10px 0;
+
     }
 
     .net-block {
@@ -179,7 +188,11 @@ $icon-font-path: '../fonts/';
 		.page-head-block {
 
 			.head {
-				font-size: 45px;
+				font-size: 66px;
+			}
+
+			.text-block {
+				bottom: 30px;
 			}
 
 		}
@@ -217,11 +230,7 @@ $icon-font-path: '../fonts/';
 
 		.sidebar-autor-block {
 			display: flex;
-			justify-content: center;
-
-			.article-announcement-photo {
-        display: none;
-      }
+			justify-content: space-between;			
 
 		}
 

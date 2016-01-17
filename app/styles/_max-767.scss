@@ -233,13 +233,17 @@ $icon-font-path: '../fonts/';
 
   .interview-page {
 
+    .page-mobile-wrap {
+      max-width: 95%;
+    }
+
     .article-flex-wrap {
       flex-direction: column;
     }
 
     .statistic-top-block {
       border-top: 1px solid #ebebeb;
-      padding: 30px 0;
+      padding: 10px 0;
     }
 
     .net-block {
@@ -255,6 +259,8 @@ $icon-font-path: '../fonts/';
     }
 
     .article {
+      
+
 
       .content-block-column {
 
@@ -272,6 +278,10 @@ $icon-font-path: '../fonts/';
 
       }      
 
+    }
+
+    .info-block {
+     display: none;
     }
 
   .article-column {
@@ -313,21 +323,21 @@ $icon-font-path: '../fonts/';
 
     .sidebar-article-block {
         display: none;
+    }   
+
+    .article-description {
+      font-size: 18px;
     }
 
-  } 
+    .article-text {
+      font-size: 16px;
+    }
 
-  .article-description {
-    font-size: 18px;
+    .autor-text {
+      font-size: 18px;
+    } 
+
   }
-
-  .article-text {
-    font-size: 16px;
-  }
-
-  .autor-text {
-    font-size: 18px;
-  } 
 
   /*------------------------------------------------------article--------------------------------------------------------------*/
 

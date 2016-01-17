@@ -26,21 +26,55 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
+		.statistic-top-block {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+		
+		.net-block,
+		.comment-bottom-block,
+		.look-block {
+			margin: 0 auto;
+		}
+
+		.data-block {
+			display: none;
+		}
+
+	}
+
+
 		.article {
-			
-		}
-	}
 
-	.page-head-block {
+			.content-block-column {
+				float: none;
+				margin: 10px auto;
+			}
 
-		.head {
-			font-size: 30px;
 		}
 
+		.quote-color {
+			padding: 10px;
+		}
+
+		.article-img-wrap {
+			float: none;
+			margin: 10px auto;
+			width: 100%;
+		}	
+
+		.page-head-block {
+
+			.head {
+				font-size: 30px;
+			}
+
+			.text-block {
+				bottom: 0;
+			}
+
+		}	
+
 	}
-
-
-
-	
 
 }
