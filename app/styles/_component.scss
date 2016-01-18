@@ -137,7 +137,8 @@ button {
 	}
 
 	.icon-more {
-		background: url(../images/icon-more.png) no-repeat;
+		background: url(../images/icon-more.svg) no-repeat;
+		background-size: cover;
 		display: inline-block;
 		width: 57px;
 		height: 47px;
