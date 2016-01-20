@@ -13,7 +13,7 @@ $icon-font-path: '../fonts/';
     border-color: #fff;
     border-radius: 0;
     position: relative;
-    margin-top: -46px;
+    margin-top: -51px;
   }
 
   .navbar-button-mob {
@@ -113,7 +113,7 @@ $icon-font-path: '../fonts/';
   .navbar-default-top {
     text-align: center;   
     padding: 5px 0;
-    margin-top:-41px;
+    margin-top:-67px;
 
     .navbar-link { 
 
@@ -141,7 +141,7 @@ $icon-font-path: '../fonts/';
 
     }  
 
-  }
+  } 
 
   
 
@@ -155,6 +155,14 @@ $icon-font-path: '../fonts/';
     width: 40%;
     float: right;
     text-align: left;
+  }
+
+  .navbar-top-nav-left {
+    width: 45%;
+  }
+
+  .navbar-top-nav-right {
+    width: 45%;
   }
 
     
@@ -211,26 +219,43 @@ $icon-font-path: '../fonts/';
     padding: 0;
     position: absolute;
     right: 0;
-    bottom: -9px;
+    width: 65px;    
     display: flex;
     justify-content: space-between;
     height: 37px;
   }
 
   .login-button {
-    background: url(../images/icon-login.png) no-repeat 50% 50%;
-    width: 39px;
-    height: 37px;
+    background: url(../images/icon-login.svg) no-repeat;
+    background-size: cover;
+    width: 23px;
+    height: 25px;
     display: inline-block;
+    position: relative;
          
 
     &:hover {
-      background: url(../images/icon-login-header-hover.png) no-repeat;
-      width: 39px;
-      height: 39px;
+      background: url(../images/icon-login-header-hover.svg) no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 25px;
       display: inline-block;
-      line-height: 42px;    
-    }
+
+  &:after {
+        content: "";
+        background: url(../images/icon-border-hover.svg) no-repeat;
+        background-size: cover;
+        width: 39px;
+        height: 39px;
+        display: inline-block;
+        position: absolute;
+        top:50%;
+        margin-top: -20px;
+        left: 50%; 
+        margin-left: -19px;
+      }
+
+    }    
 
   }
 
@@ -289,18 +314,34 @@ $icon-font-path: '../fonts/';
   }
 
   .search-button {
-    background: url(../images/icon-search.png) no-repeat 50% 50%;
-    width: 39px;
-    height: 36px;
-    display: inline-block;   
+    background: url(../images/icon-search.svg) no-repeat;
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+    position: relative;   
 
      &:hover {
-      background: url(../images/icon-search-header-hover.png) no-repeat;
-      width: 39px;
-      height: 39px;
+      background: url(../images/icon-search-header-hover.svg) no-repeat;
+      width: 20px;
+      height: 21px;
       display: inline-block;
+
+      &:after {
+        content: "";
+        background: url(../images/icon-border-hover.svg) no-repeat;
+        background-size: cover;
+        width: 39px;
+        height: 39px;
+        display: inline-block;
+        position: absolute;
+        top:50%;
+        margin-top: -20px;
+        left: 50%; 
+        margin-left: -19px;
+      }
     
     }
+
   }
 
     .drop-navbar {

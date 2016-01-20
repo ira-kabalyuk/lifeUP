@@ -84,3 +84,7 @@ function onCarouselChangedCallback(event) {
 }
 
 
+$('.search-button').click(function(){
+    $('.search-wrap').show();
+})
+

@@ -262,7 +262,23 @@ h1 {
   left: 0;
   bottom: 0;
   right: 0;
-  box-shadow: inset 9px -70px 100px -10px rgba(0,0,0,0.5); 
+
+  &:after {
+    content: "";
+    //background: pink;
+    height: 250px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    background-image: none;
+    background: -moz-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%, rgba(53,48,54,0.01) 115%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,rgba(53,48,54,0.8)), color-stop(100%,rgba(53,48,54,0.01)));
+    background: -webkit-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%,rgba(253,48,54,0.01) 100%);
+    background: -o-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%,rgba(53,48,54,0.01) 100%);
+    background: -ms-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%,rgba(53,48,54,0.01) 100%);
+    background: linear-gradient(to top,  rgba(53,48,54,0.8) 18%,rgba(53,48,54,0.01) 100%);
+  } 
 
 }
 
@@ -580,50 +596,50 @@ h1 {
   }
 
    &:hover .autor-img-block-1 .template-img{
-    background: url(../images/template-photo-hover-1.svg) -15px -8px no-repeat;
+    background: url(../images/template-photo-hover-1.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
     }
 
     &:hover .autor-img-block-2 .template-img{
-    background: url(../images/template-photo-hover-2.svg) -15px -8px no-repeat;
+    background: url(../images/template-photo-hover-2.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
     }
 
     &:hover .autor-img-block-3 .template-img{
-    background: url(../images/template-photo-hover-3.svg) -15px -15px no-repeat;
+    background: url(../images/template-photo-hover-3.svg) -6px -15px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
     }
 
     &:hover .autor-img-block-4 .template-img{
-    background: url(../images/template-photo-hover-4.svg) -15px -8px no-repeat;
+    background: url(../images/template-photo-hover-4.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
     }
 
      &:hover .autor-img-block-5 .template-img{
-    background: url(../images/template-photo-hover-5.svg) -15px -8px no-repeat;
+    background: url(../images/template-photo-hover-5.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
@@ -647,10 +663,10 @@ h1 {
 .autor-img-block-1 {
 
   .template-img {
-  background: url(../images/template-photo-1.svg) -15px -8px no-repeat;
+  background: url(../images/template-photo-1.svg) -6px -8px no-repeat;
      background-size: cover;
     width: 149px;
-    height: 176px;
+    height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
@@ -662,10 +678,10 @@ h1 {
 .autor-img-block-2 {
 
   .template-img {
-  background: url(../images/template-photo-2.svg) -15px -8px no-repeat;
+  background: url(../images/template-photo-2.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+     width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
@@ -677,10 +693,10 @@ h1 {
 .autor-img-block-3 {
 
   .template-img {
-  background: url(../images/template-photo-3.svg) -15px -15px no-repeat;
+  background: url(../images/template-photo-3.svg) -6px -15px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
@@ -691,10 +707,10 @@ h1 {
 .autor-img-block-4 {  
 
   .template-img {
-  background: url(../images/template-photo-4.svg) -15px -8px no-repeat;
+  background: url(../images/template-photo-4.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+    width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
@@ -705,10 +721,10 @@ h1 {
 .autor-img-block-5 { 
 
   .template-img {
-  background: url(../images/template-photo-5.svg) -15px -8px no-repeat;
+  background: url(../images/template-photo-5.svg) -6px -8px no-repeat;
      background-size: cover;
-    width: 151px;
-    height: 176px;
+     width: 149px;
+     height: 162px;
     display: block;
     position: absolute;
     z-index: 20; 
@@ -751,6 +767,24 @@ h1 {
 
   .img-wrap {
     margin-bottom:10px;
+
+   &:after {
+    content: "";
+    //background: pink;
+    height: 127px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    background-image: none;
+    background: -moz-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%, rgba(53,48,54,0.01) 115%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,rgba(53,48,54,0.8)), color-stop(100%,rgba(53,48,54,0.01)));
+    background: -webkit-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%,rgba(253,48,54,0.01) 100%);
+    background: -o-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%,rgba(53,48,54,0.01) 100%);
+    background: -ms-linear-gradient(bottom,  rgba(53,48,54,0.8) 18%,rgba(53,48,54,0.01) 100%);
+    background: linear-gradient(to top,  rgba(53,48,54,0.8) 18%,rgba(53,48,54,0.01) 100%);
+  } 
+
   }
 
   .heading {
