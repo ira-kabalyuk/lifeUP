@@ -241,7 +241,7 @@ $icon-font-path: '../fonts/';
       height: 25px;
       display: inline-block;
 
-  &:after {
+       &:after {
         content: "";
         background: url(../images/icon-border-hover.svg) no-repeat;
         background-size: cover;
