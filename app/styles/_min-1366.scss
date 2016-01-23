@@ -139,9 +139,15 @@ width: 45%;
 
 		}
 
+		.article-wrap {
+    	max-width: 780px;    
+  	} 
+
 		.article-flex-wrap	{
 			flex-direction: row;
-		}
+    	max-width: 1220px;    
+  		}
+		
 
 		.article-description {
 			font-size: 24px;
@@ -151,6 +157,7 @@ width: 45%;
 			display: block;
 			width: 300px;
 			order: 2;
+			margin-left: 30px;
 		}
 
 		.article-column {

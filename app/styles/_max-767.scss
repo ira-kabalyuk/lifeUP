@@ -238,11 +238,16 @@ $icon-font-path: '../fonts/';
   .interview-page {
 
     .page-mobile-wrap {
-      max-width: 95%;
+      max-width: 100%;
     }
 
     .article-flex-wrap {
       flex-direction: column;
+      width: 100%
+    }
+
+    .article-wrap {
+      width: 90%;
     }
 
     .statistic-top-block {

@@ -164,12 +164,17 @@ $icon-font-path: '../fonts/';
 	.interview-page {
 
 		.page-mobile-wrap {
-			width: 700px;
+			width: 100%;
 		}
 
 		.article-flex-wrap {
 			flex-direction: column;
+			width: 100%
 		}
+
+		.article-wrap {
+    	max-width: 655px;    
+  	}  
 
 		.article {
 			margin-top: 20px;

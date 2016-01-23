@@ -45,9 +45,7 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
-		.page-mobile-wrap {
-      width: 980px;
-    }
+		
 
 		.sidebar-autor-block {
       display: flex;
@@ -63,6 +61,10 @@ $icon-font-path: '../fonts/';
 		.article-flex-wrap	{
 			flex-direction: column;
 		}
+
+		.article-wrap {
+    	max-width: 900px;    
+  	}  
 
 		.sidebar {
 	    display: flex;

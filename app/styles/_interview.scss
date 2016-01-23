@@ -35,8 +35,7 @@ $icon-font-path: '../fonts/';
 
   .article-flex-wrap {
     display: flex;
-    justify-content: space-between;
-    max-width: 1220px;
+    justify-content: space-between;   
     margin: 0 auto;
   }
 
@@ -65,7 +64,7 @@ $icon-font-path: '../fonts/';
 
       }
 
-      .article-announcement-text {
+      .article-flex-wrap-announcement-text {
         font-size: 16px;
       }
 
