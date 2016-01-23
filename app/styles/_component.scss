@@ -122,7 +122,7 @@ button {
 		    top: 28%;
 		    margin-top: -20px;
 		    left: 31%;
-		    margin-left: -19px;
+		    margin-left: -20px;
 	    }
 
 	    &:hover {
@@ -132,6 +132,22 @@ button {
 	    height: 45px;
 	    cursor: pointer;    
 	    display: block;
+
+	    	&:after {
+	    	content: "";
+		    background: url(../images/icon-border-hover.svg) no-repeat;
+		    background-size: cover;
+		    width: 39px;
+		    height: 39px;
+		    display: inline-block;
+		    position: absolute;
+		    top: 28%;
+		    margin-top: -20px;
+		    left: 31%;
+		    margin-left: -20px;
+		    z-index: 10;
+	    	}
+
 	    }	   
 
 	   }
