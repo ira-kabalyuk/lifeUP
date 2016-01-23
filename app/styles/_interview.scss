@@ -104,8 +104,7 @@ $icon-font-path: '../fonts/';
 
   }
 
-  .article-wrap {
-    max-width: 780px;
+  .article-wrap {    
     margin: 0 auto;
   }  
 
@@ -142,7 +141,7 @@ $icon-font-path: '../fonts/';
   /*-----------------------slider-----------------------*/
 
   .article-slider-wrap {
-    max-width: 1220px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -356,12 +355,14 @@ $icon-font-path: '../fonts/';
 
   /*---------------------------------------sidebar----------------------------------------------*/
 
-  .sidebar {    
+  .sidebar { 
+
 
     .autor-name {
       color: #363636;
       display: block;
-      margin-bottom: 10px;   
+      margin-bottom: 10px;
+      font-size: 14px;   
 
     }
 
@@ -377,7 +378,7 @@ $icon-font-path: '../fonts/';
 
     .autor-desctiption {
        font-family: 'Open Sans', sans-serif;
-      font-size: 14px;
+      font-size: 12px;
       color: #aaaaaa;
 
         &:hover {

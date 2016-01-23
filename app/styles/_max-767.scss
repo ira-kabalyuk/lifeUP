@@ -250,6 +250,11 @@ $icon-font-path: '../fonts/';
       width: 90%;
     }
 
+    .sidebar {
+      max-width: 90%;
+      margin: 0 auto;    
+    }  
+
     .statistic-top-block {
       border-top: 1px solid #ebebeb;
       padding: 10px 0;
