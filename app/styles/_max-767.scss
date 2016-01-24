@@ -306,11 +306,18 @@ $icon-font-path: '../fonts/';
       order:1;
       width: 100%;
       flex-direction: row;
+
+       .autor-name {
+      margin: auto;
+      margin-bottom: auto;
+      }
+      
     }
 
     .sidebar-autor-block {
       display: flex;
       justify-content: center;
+      margin-bottom: 20px;
 
       .article-announcement-photo {
         display: none;
@@ -320,6 +327,12 @@ $icon-font-path: '../fonts/';
 
     .article-announcement-block {
       display: flex;
+      margin-bottom: 0;
+    }
+
+    .article-announcement-text {
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .autor-desctiption {
@@ -327,7 +340,8 @@ $icon-font-path: '../fonts/';
     }
 
     .autor-name {
-      padding-top: 10px;
+      margin: auto;
+      margin-bottom: auto;
     }
 
     .sidebar-blurb-block {

@@ -158,6 +158,11 @@ width: 45%;
 			width: 300px;
 			order: 2;
 			margin-left: 30px;
+
+			.autor-name {
+			margin-bottom: 10px;
+			}
+			
 		}
 
 		.article-column {
@@ -181,7 +186,11 @@ width: 45%;
 		}
 
 		.article-announcement-block {
-			
+			margin-bottom: 30px;
+		}
+
+		.article-announcement-text {
+			display: inline-block;
 		}
 
 		.autor-desctiption {
@@ -189,7 +198,17 @@ width: 45%;
 		}
 
 		.autor-name {
-			padding-top: 0;
+			margin-bottom: 10px;
+		}
+
+		.sidebar-autor-block {
+			margin-bottom: 20px;
+
+			.article-announcement-photo {
+				width: 84px;
+				height: 84px;
+			}
+
 		}
 
 		.sidebar-blurb-block {

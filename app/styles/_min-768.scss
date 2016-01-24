@@ -230,6 +230,7 @@ $icon-font-path: '../fonts/';
 
         .article-announcement-text {
         	font-size: 16px;
+
         }
 
       }
@@ -240,24 +241,43 @@ $icon-font-path: '../fonts/';
 			order:1;
 			width: 100%;
 			flex-direction: row;
+
+			.autor-name {
+			margin: auto;
+			margin-bottom: auto;
+			}
+
 		}
 
 		.sidebar-autor-block {
 			display: flex;
-			justify-content: space-between;			
+			justify-content: space-between;
+			margin-bottom: 20px;
+
+			.article-announcement-photo {
+				width: 64px;
+				height: 64px;
+			}			
 
 		}
 
 		.article-announcement-block {
 			display: flex;
+			margin-bottom: 0;
 		}
+
+		.article-announcement-text {
+      display: flex;
+        	
+    }
 
 		.autor-desctiption {
 			display: none;
 		}
 
 		.autor-name {
-			padding-top: 10px;
+			margin: auto;
+			margin-bottom: 0;
 		}
 
 		.sidebar-blurb-block {
