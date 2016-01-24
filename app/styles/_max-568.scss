@@ -7,9 +7,7 @@ $icon-font-path: '../fonts/';
 @media only screen and (max-width:568px) {
 
   .pagewrap {
-    max-width: 550px;
-
-   
+       
 
     .content-block-column {
 
@@ -18,9 +16,14 @@ $icon-font-path: '../fonts/';
      
     .autor-block {
 			margin: 0 auto;
-    }
+    }    
 
-  }	 
+  }
+
+  .form-button  {
+    margin-top: 0;
+  } 
+	 
 
 /*----------------------------------------------interview-------------------------------------*/
 
@@ -67,11 +70,7 @@ $icon-font-path: '../fonts/';
 
 			.head {
 				font-size: 30px;
-			}
-
-			.text-block {
-				bottom: 0;
-			}
+			}			
 
 		}	
 

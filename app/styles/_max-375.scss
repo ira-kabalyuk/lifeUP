@@ -34,12 +34,22 @@ $icon-font-path: '../fonts/';
 	 
 
 /*----------------------------------------------interview-------------------------------------*/
-	.page-head-block {
 
-		.head {
-			font-size: 20px;
+	.interview-page {
+
+
+		.page-head-block {
+
+			.text-block {
+					bottom: 10px;
+				}
+
+			.head {
+				font-size: 20px;
+			}
+
 		}
 
-	}
+	}	
 
 }

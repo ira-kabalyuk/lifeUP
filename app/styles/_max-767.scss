@@ -12,7 +12,7 @@ $icon-font-path: '../fonts/';
   }  
 
   .pagewrap {
-    max-width: 305px;
+    max-width: 550px;
 
    .content-wrap {
       max-width: 305px;
@@ -22,9 +22,11 @@ $icon-font-path: '../fonts/';
 
     .content-block-center {
       width: 300px;
+      
 
       .img-wrap {
         width: 300px;
+        height: 250px;
       }
       
     }
@@ -187,6 +189,26 @@ $icon-font-path: '../fonts/';
     padding: 0;
   }
 
+  .footer { 
+  
+   .mobile-flex-wrap-top {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;  
+    width: 100%;
+
+      .net-block {
+    justify-content:center;
+    margin-top: 10px;
+
+    }
+
+  }    
+
+   
+
+  }
+
 
   .footer-flex-block {
     flex-direction: column;
@@ -197,6 +219,7 @@ $icon-font-path: '../fonts/';
    justify-content: center; 
     flex-direction: column;  
    width: 100%;
+
   } 
 
   .mobile-flex-wrap-bottom {
@@ -214,10 +237,7 @@ $icon-font-path: '../fonts/';
   margin-top: 30px;
   }
 
-  .net-block {
-    justify-content:center;
-    margin-top: 30px;
-  }
+  
 
   .copyright {
     margin-left: 0; 
@@ -229,8 +249,7 @@ $icon-font-path: '../fonts/';
     .footer-logo,
     .footer-about-us-link {
     text-align: center;
-  }    
-
+  }   
 
 
 /*----------------------------------------------interview-------------------------------------*/
@@ -265,6 +284,10 @@ $icon-font-path: '../fonts/';
     }
 
     .page-head-block {
+
+      .text-block {
+        bottom: 20px;
+      }
 
       .head {
         font-size: 30px;
@@ -311,7 +334,7 @@ $icon-font-path: '../fonts/';
       margin: auto;
       margin-bottom: auto;
       }
-      
+
     }
 
     .sidebar-autor-block {
@@ -323,6 +346,10 @@ $icon-font-path: '../fonts/';
         display: none;
       }
 
+    }
+
+    .img-description {
+      margin-left: 10px;
     }
 
     .article-announcement-block {

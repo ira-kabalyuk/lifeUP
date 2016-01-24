@@ -77,7 +77,14 @@ $icon-font-path: '../fonts/';
 
   }
 
-  
+  .article-column {
+
+    .login-wrap {
+      text-align: center;
+      margin: 30px auto;
+    }
+
+  }
 
   .statistic-top-block {
     position: static;
@@ -314,11 +321,7 @@ $icon-font-path: '../fonts/';
     text-transform: uppercase;
   } 
 
-  .login-wrap {
-    display: flex;    
-    margin: auto;
-    justify-content:center;
-    padding:30px 0;
+  .login-wrap {   
 
     .form-button {
       margin-right: 15px;

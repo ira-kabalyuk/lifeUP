@@ -107,6 +107,29 @@ width: 45%;
    margin-top: 0;
 }
 
+.footer{
+
+		.mobile-flex-wrap-top {
+		display: flex;
+   	justify-content: space-between;
+   	width: 45%;
+   	flex-direction: row;
+
+	   	.net-block {
+			margin-top: 0;
+			}
+
+		}		
+
+		.mobile-flex-wrap-bottom {
+			display: flex;
+	   justify-content: space-between;
+	   flex-direction: row;
+	   width: 53%;
+	   margin-top: 0;
+		}
+
+	}
 
 
 
@@ -162,7 +185,7 @@ width: 45%;
 			.autor-name {
 			margin-bottom: 10px;
 			}
-			
+
 		}
 
 		.article-column {
@@ -179,7 +202,9 @@ width: 45%;
 			margin-top: 20px;
   	}  
 
-		
+		.img-description {
+			margin-left: 0;
+		}
 
 		.sidebar-autor-block {
 			display: block;			

@@ -75,18 +75,7 @@ $icon-font-path: '../fonts/';
 		display: none;
 	}
 
-	.mobile-flex-wrap-top {
-	display: flex;
-   justify-content: space-between;
-   width: 37%;
-	}
-
-	.mobile-flex-wrap-bottom {
-	display: flex;
-   justify-content: space-between;
-   width: 60%;
-	}
-
+	
 	.footer-copyright-wrap {
 		display: flex;
 		justify-content: space-between;
@@ -96,6 +85,18 @@ $icon-font-path: '../fonts/';
 	.copyright {   
     margin-left: 50px;
     margin-top: 0;
+	}
+
+	.footer{
+
+		.mobile-flex-wrap-top {	
+   	width: 37%;
+   	}		
+
+		.mobile-flex-wrap-bottom {			
+	   width: 60%;
+		}
+
 	}
 
 	/*-----------------------------------------interview--------------------------------------------------------------------*/
