@@ -13,7 +13,7 @@ $icon-font-path: '../fonts/';
 
   }
 
-  .owl-stage {
+  /*.owl-stage {
     counter-reset: list;      
 
     .owl-item {     
@@ -30,11 +30,51 @@ $icon-font-path: '../fonts/';
 
     }  
 
+  }*/
+
+  
+
+  .carousel-inner {
+     counter-reset: list;
+     background: #f4faf3;
+     position: relative;
+
+     .item {
+
+       &:before {
+        font-family: 'MetaPro', sans-serif;
+        counter-increment: list;     
+        content: counter(list) "";
+        font-size: 100px;
+        color: #a1d39c;
+        text-align: center;
+        display: block;
+      }
+
+    }
+
+  }
+
+  .left {
+    background-image: none;
+    position: absolute;
+    left: 38%; 
+    top: -32px;  
+
+  }
+
+ .right {
+    background-image: none;
+    position: absolute;
+    right: 38%; 
+    top: -32px;  
+
   } 
 
   .slider-content-wrap {    
     padding: 0 45px 45px 45px;
-    position: relative;   
+    position: relative; 
+    height: 750px;  
 
       &:before {
          content: "";
