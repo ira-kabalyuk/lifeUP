@@ -6,98 +6,71 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
-.card-page {
+.card-page {  
 
-  .owl-stage-outer {
-    background: #f4faf3;
-
-  }
-
-  /*.owl-stage {
-    counter-reset: list;      
-
-    .owl-item {     
-
-       &:before {
-        font-family: 'MetaPro', sans-serif;
-        counter-increment: list;     
-        content: counter(list) "";
-        font-size: 100px;
-        color: #a1d39c;
-        text-align: center;
-        display: block;
-      }
-
-    }  
-
-  }*/
-
-  
-
-  .carousel-inner {
-     counter-reset: list;
-     background: #f4faf3;
+  .carousel-inner {       
      position: relative;
+  }   
 
-     .item {
 
-       &:before {
-        font-family: 'MetaPro', sans-serif;
-        counter-increment: list;     
-        content: counter(list) "";
-        font-size: 100px;
-        color: #a1d39c;
-        text-align: center;
-        display: block;
-      }
 
+   .slide-number {
+    font-family: 'MetaPro', sans-serif;    
+    font-size: 100px;
+    color: #a1d39c;
+    text-align: center;
+    display: block;
+
+    &:before {
+     content: "";
+     background: #a1d39c;
+     display: block;
+     width: 72px;
+     height: 6px; 
+     display: inline-block;
+     text-align: center;
+     vertical-align: middle;       
     }
 
-  }
-
-  .left {
-    background-image: none;
-    position: absolute;
-    left: 38%; 
-    top: -32px;  
-
-  }
-
- .right {
-    background-image: none;
-    position: absolute;
-    right: 38%; 
-    top: -32px;  
+      &:after {
+     content: "";
+     background: #a1d39c;
+     display: block;
+     width: 72px;
+     height: 6px; 
+     display: inline-block;
+     text-align: center;
+     vertical-align: middle;        
+    }
 
   } 
 
-  .slider-content-wrap {    
+  
+
+  .carousel-control-left {
+    background-image: none;
+    position: absolute;
+    left: 50%; 
+    margin-left: -60px;
+    top: 15px;  
+
+  }
+
+ .carousel-control-right {
+    background-image: none;
+    position: absolute;
+    right: 50%; 
+    margin-right: -60px; 
+    top: 15px;  
+
+  } 
+
+  .slider-content-wrap {
+    background: #f4faf3;
     padding: 0 45px 45px 45px;
     position: relative; 
-    height: 750px;  
-
-      &:before {
-         content: "";
-         background: #a1d39c;
-         display: block;
-         width: 72px;
-         height: 6px;
-         position: absolute;
-         top: -54px;
-         left: 38%;
-      }
-
-      &:after {
-         content: "";
-         background: #a1d39c;
-         display: block;
-         width: 72px;
-         height: 6px;
-         position: absolute;
-         top: -54px;
-         right: 38%;
-      }
-
+    //height: 858px;
+    margin-top: 60px;
     }
 
     .article-slider {

@@ -31,6 +31,37 @@ $icon-font-path: '../fonts/';
 
   }
 
+.card-page {
+
+    .slide-number {
+      font-size: 70px;
+
+        &:before {
+       content: "";
+       background: #a1d39c;
+       display: block;
+       width: 0;
+       height: 0; 
+       display: inline-block;
+       text-align: center;
+       vertical-align: middle;       
+      }
+
+        &:after {
+       content: "";
+       background: #a1d39c;
+       display: block;
+       width: 0;
+       height: 0; 
+       display: inline-block;
+       text-align: center;
+       vertical-align: middle;        
+      }
+      
+    }
+
+  }  
+
 	 
 
 /*----------------------------------------------interview-------------------------------------*/

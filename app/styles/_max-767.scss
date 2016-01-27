@@ -393,6 +393,39 @@ $icon-font-path: '../fonts/';
 
   }
 
+  /*-------------------------------------------------------card------------------------------------------------------------------*/
+
+  .card-page {
+
+    .slide-number {
+      font-size: 70px;
+
+        &:before {
+       content: "";
+       background: #a1d39c;
+       display: block;
+       width: 50px;
+       height: 6px; 
+       display: inline-block;
+       text-align: center;
+       vertical-align: middle;       
+      }
+
+        &:after {
+       content: "";
+       background: #a1d39c;
+       display: block;
+       width: 50px;
+       height: 6px; 
+       display: inline-block;
+       text-align: center;
+       vertical-align: middle;        
+      }
+      
+    }
+
+  }
+
   /*------------------------------------------------------article--------------------------------------------------------------*/
 
   .article-page {
