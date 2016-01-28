@@ -7,35 +7,57 @@ $icon-font-path: '../fonts/';
 @import "_fonts.scss";
 
 .autor-page {
+  // border-top: 1px solid #ebebeb;
+  //border-bottom: 1px solid #ebebeb;
 
-  .owl-item {
-     counter-reset: list;
+  .autor-top-block {
+    display: flex;
+    justify-content: flex-end;
+    margin: 68px auto; 
+    position: relative;     
+  }
 
-     &:before {
-      font-family: 'MetaPro', sans-serif;
-      counter-increment: list;     
-      content: counter(list) "";
-      font-size: 100px;
-      color: #a1d39c;
-      text-align: center;
-      display: block;
-    }
+  .autor-img-block {
+    width: 478px;
+    height: 484px;
+    margin: 0;
+    position: absolute;
+    top: -68px;
+    left: -58px;
+  }
 
-  } 
+  .autor-img-block-3 .template-img {
+    background-size: 478px 484px;
+    background-position: 0 0;
+     width: 478px;
+    height: 484px;
+  }
 
-  .slider-content-wrap {
-    background: #f4faf3;
-    padding: 45px;   
+  .autor-description-wrap {
+    width: calc(100% - 541px);
+    color: #363636;
+  }
 
-      &:before {
-         content: "";
-         background: #a1d39c;
-         display: block;
-         width: 72px;
-         height: 6px;
-      }
+  .autor-title-name {
+    font-family: 'MetaPro', sans-serif; 
+    font-size: 38px;
+    font-weight: 700; 
+    margin-bottom: 3px;   
+  }
 
-    } 
+  .autor-desctiption {
+    font-family: 'MetaPro', sans-serif; 
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 19px;
+  }
+
+  .autor-desctiption-text {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+  }
 
 }
 
