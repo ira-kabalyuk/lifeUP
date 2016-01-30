@@ -106,4 +106,81 @@ $icon-font-path: '../fonts/';
 
 	}
 
+	/*-------------------------------------------------------card1-----------------------------------------------------------*/
+
+  .card1-page {
+
+  	.card-article-wrap {
+    	margin-top: 0;
+		}
+
+  	.card-left-block-text {
+  		font-size: 28px;
+  	}
+
+  	.card-right-block-text {
+			font-size: 12px;
+  	}
+
+  	.card-right-block{
+
+      &:before {
+        content: "";
+        background: url(../images/icon-pointer-white.png);
+        display: block;
+        width: 84px;
+        height: 53px;
+        position: absolute;
+        left: 25px;
+        top: -107px;
+      }
+
+    }
+
+		.image-number {	        
+	    font-size: 73px;	    
+	  } 
+
+    .image-number-border-1 {
+	    background: url(../images/icon-border-11.png) no-repeat;
+	    width: 118px;
+	    height: 110px;   
+	    margin-top: -59px;   
+	    margin-left: -55px;    
+	  }
+
+  .image-number-border-2 {
+	    background: url(../images/icon-border-22.png) no-repeat;
+	    width: 112px;
+	    height: 120px;   
+	    margin-top: -56px;    
+	    margin-left: -60px;
+	  }
+
+  .image-number-border-3 {
+	    background: url(../images/icon-border-33.png) no-repeat;
+	    width: 112px;
+	    height: 108px;   
+	    margin-top: -54px;    
+	    margin-left: -54px;
+	  }
+
+  .image-number-border-4 {
+	    background: url(../images/icon-border-44.png) no-repeat;
+	    width: 111px;
+	    height: 120px;   
+	    margin-top: -55px;    
+	    margin-left: -60px;
+	  }
+
+   .image-number-border-5 {
+	    background: url(../images/icon-border-55.png) no-repeat;
+	    width: 107px;
+	    height: 107px;   
+	    margin-top: -53px;    
+	    margin-left: -54px;
+	  }     
+
+  }
+
 }

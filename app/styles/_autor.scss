@@ -6,7 +6,11 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
-.autor-page {  
+.main {
+  overflow: hidden;
+}
+
+.autor-page {   
 
    .border-block {   
     margin-bottom: 30px;
