@@ -122,20 +122,7 @@ $icon-font-path: '../fonts/';
 			font-size: 12px;
   	}
 
-  	.card-right-block{
-
-      &:before {
-        content: "";
-        background: url(../images/icon-pointer-white.png);
-        display: block;
-        width: 84px;
-        height: 53px;
-        position: absolute;
-        left: 25px;
-        top: -107px;
-      }
-
-    }
+  	
 
 		.image-number {	        
 	    font-size: 73px;	    
