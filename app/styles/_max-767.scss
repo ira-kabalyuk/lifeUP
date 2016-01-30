@@ -446,6 +446,51 @@ $icon-font-path: '../fonts/';
       font-size: 14px;
     }  
 
-  }    
+  } 
+
+/*---------------------------------------------------------autor--------------------------------------------------------------*/
+
+.autor-page {
+
+    .border-block {
+      border-top: 1px solid #ebebeb;
+      border-bottom: none;    
+   }
+
+    .sidebar {
+      display: none;
+    }
+
+    .autor-top-block {
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+    }
+
+    .autor-img-block {
+      position: static;
+      margin: 0 auto;
+      width: 355px;
+      height: 357px;
+    }
+
+    .autor-description-wrap {
+      width: 100%;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    .autor-description {
+      display: block;
+    }
+
+    .autor-img-block-3 .template-img {
+      background-size: 355px 357px;
+      background-position: 0 0;
+      width: 355px;
+      height: 357px;
+    }    
+
+  }               
 
 }

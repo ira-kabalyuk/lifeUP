@@ -265,9 +265,40 @@ width: 45%;
 
 	.autor-page {
 
+		.border-block {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;    
+   }
+
 	 .article-flex-wrap {
 	    max-width: 1515px;	   
 	  }
+
+	  .autor-description-wrap {
+			text-align: left;
+	  }
+
+	  .autor-top-block {
+    display: flex;
+    flex-direction: row;
+    margin: 68px auto;
+    justify-content: flex-end;    
+		}
+
+		.autor-img-block {    
+    position: absolute;
+    top: -68px;
+    left: -58px;
+  	}
+
+  	.autor-description-wrap {
+    	width: calc(100% - 541px);
+    
+  	}
+
+		.sidebar {
+			display: none;
+		}
 
 	}  	  
 

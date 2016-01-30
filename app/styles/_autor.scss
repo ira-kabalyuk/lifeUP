@@ -6,24 +6,16 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
-.autor-page {
-  // border-top: 1px solid #ebebeb;
-  //border-bottom: 1px solid #ebebeb;
+.autor-page {  
 
-  .autor-top-block {
-    display: flex;
-    justify-content: flex-end;
-    margin: 68px auto; 
-    position: relative;     
-  }
+   .border-block {   
+    margin-bottom: 30px;
+   }
 
   .autor-img-block {
     width: 478px;
     height: 484px;
-    margin: 0;
-    position: absolute;
-    top: -68px;
-    left: -58px;
+    margin: 0;   
   }
 
   .autor-img-block-3 .template-img {
@@ -33,8 +25,7 @@ $icon-font-path: '../fonts/';
     height: 484px;
   }
 
-  .autor-description-wrap {
-    width: calc(100% - 541px);
+  .autor-description-wrap {    
     color: #363636;
   }
 
@@ -45,14 +36,14 @@ $icon-font-path: '../fonts/';
     margin-bottom: 3px;   
   }
 
-  .autor-desctiption {
+  .autor-description {
     font-family: 'MetaPro', sans-serif; 
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 19px;
   }
 
-  .autor-desctiption-text {
+  .autor-description-text {
     font-family: 'Open Sans', sans-serif; 
     font-size: 18px;
     font-weight: 400;

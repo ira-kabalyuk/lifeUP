@@ -319,6 +319,41 @@ $icon-font-path: '../fonts/';
         font-size: 46px;
      }
 
-  }    
+  }
+
+/*---------------------------------------------------------autor--------------------------------------------------------------*/
+
+.autor-page {
+
+	.border-block {
+    border-top: 1px solid #ebebeb;
+    border-bottom: none;    
+   }
+
+		.sidebar {
+			display: none;
+		}
+
+		.autor-top-block {
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+		}
+
+		.autor-img-block {
+			position: static;
+			margin: 0 auto;
+		}
+
+		.autor-description-wrap {
+			width: 100%;
+			text-align: center;
+		}
+
+		.autor-description {
+			display: block;
+		}
+
+	}	      
 
 }

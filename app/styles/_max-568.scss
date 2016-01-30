@@ -76,4 +76,34 @@ $icon-font-path: '../fonts/';
 
 	}
 
+	/*--------------------------------------------------------------autor-----------------------------------------------*/
+
+	.autor-page {
+
+		 .autor-img-block {      
+      width: 215px;
+      height: 217px;
+    }
+
+    .autor-img-block-3 .template-img {
+      background-size: 215px 217px;
+      background-position: 0 0;
+      width: 215px;
+      height: 217px;
+    }
+
+    .autor-title-name {
+    	font-size: 28px;
+    }
+
+    .autor-description {
+    	font-size: 18px;
+    } 
+
+    .autor-description-text {
+    	font-size: 16px;
+    }  
+
+	}
+
 }
