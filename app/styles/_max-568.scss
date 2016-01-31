@@ -122,22 +122,36 @@ $icon-font-path: '../fonts/';
 			font-size: 12px;
   	}
 
-  	
+  	.card-img-wrap{
+
+      &:before {
+        content: "";
+        background: url(../images/icon-pointer-white.png) no-repeat;
+        background-size: 64px 53px;
+        display: block;
+        width: 64px;
+        height: 53px;
+        position: absolute;
+        left: 25px;
+        bottom: -2px;       
+      }
+
+    }
 
 		.image-number {	        
 	    font-size: 73px;	    
 	  } 
 
     .image-number-border-1 {
-	    background: url(../images/icon-border-11.png) no-repeat;
+    	background-size: 118px 110px;	   
 	    width: 118px;
 	    height: 110px;   
 	    margin-top: -59px;   
 	    margin-left: -55px;    
 	  }
 
-  .image-number-border-2 {
-	    background: url(../images/icon-border-22.png) no-repeat;
+  .image-number-border-2 {	
+  		background-size: 112px 120px;   
 	    width: 112px;
 	    height: 120px;   
 	    margin-top: -56px;    
@@ -145,7 +159,7 @@ $icon-font-path: '../fonts/';
 	  }
 
   .image-number-border-3 {
-	    background: url(../images/icon-border-33.png) no-repeat;
+  		background-size: 112px 108px;	   
 	    width: 112px;
 	    height: 108px;   
 	    margin-top: -54px;    
@@ -153,15 +167,15 @@ $icon-font-path: '../fonts/';
 	  }
 
   .image-number-border-4 {
-	    background: url(../images/icon-border-44.png) no-repeat;
+  		background-size: 111px 120px;	    
 	    width: 111px;
 	    height: 120px;   
 	    margin-top: -55px;    
 	    margin-left: -60px;
 	  }
 
-   .image-number-border-5 {
-	    background: url(../images/icon-border-55.png) no-repeat;
+   .image-number-border-5 {	
+   		background-size: 107px 107px;    
 	    width: 107px;
 	    height: 107px;   
 	    margin-top: -53px;    
