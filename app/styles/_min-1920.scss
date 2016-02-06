@@ -133,11 +133,21 @@ $icon-font-path: '../fonts/';
 
 /*-----------------------------------------------------longrid-----------------------------------------------------*/
 
-	.longrid-page {
+	.longrid-page {	
+
+		.quote-autor-wrap {
+			margin: 20px auto;
+		}
 		
-		.article-image-block-flex {  
-    justify-content: flex-start;    
-  	} 
+		.quote-autor-block {
+      width: 100%;
+    }
+
+  	.autor-block-left {    
+    position: absolute;
+    top: 0;
+    left: -215px;
+  	}
 
 	}	
 
