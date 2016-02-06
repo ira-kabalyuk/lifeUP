@@ -428,7 +428,29 @@ $icon-font-path: '../fonts/';
     margin-left: -95px;
   	}
 
-  }               
-      
+  } 
+
+  /*-----------------------------------------------------longrid-----------------------------------------------------*/
+
+	.longrid-page {
+		
+		.article-image-block-flex {  
+    justify-content: center; 
+
+  	} 
+
+  	.quote-autor-wrap {
+  		justify-content: space-between;
+  	}
+
+  	.autor-block-left {
+      position: static;
+    }
+
+    .quote-autor-block {
+      width: 65%;
+    }
+
+	}     
 
 }

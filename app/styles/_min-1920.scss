@@ -129,6 +129,16 @@ $icon-font-path: '../fonts/';
 		.sidebar {
 			display: block;
 		}
+	}
+
+/*-----------------------------------------------------longrid-----------------------------------------------------*/
+
+	.longrid-page {
+		
+		.article-image-block-flex {  
+    justify-content: flex-start;    
+  	} 
+
 	}	
 
 }

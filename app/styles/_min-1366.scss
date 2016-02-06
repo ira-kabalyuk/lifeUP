@@ -321,6 +321,26 @@ width: 45%;
 
     }
 
-  }	  
+  }
+
+  /*-----------------------------------------------------longrid-----------------------------------------------------*/
+
+	.longrid-page {
+		
+		.article-image-block-flex {  
+    justify-content: flex-start;    
+  	}
+
+  	.quote-autor-block {
+      width: 100%;
+    }
+
+  	.autor-block-left {    
+    position: absolute;
+    top: 0;
+    left: -215px;
+  	}  
+
+	}		  
 
 }

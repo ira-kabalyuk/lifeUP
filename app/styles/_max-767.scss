@@ -583,4 +583,45 @@ $icon-font-path: '../fonts/';
 
   }
 
+  /*-----------------------------------------------------longrid-----------------------------------------------------*/
+
+  .longrid-page {
+    
+    .article-image-block-flex {  
+    justify-content: center; 
+    flex-direction: column;
+
+    }
+
+    .left-img-block {
+      margin: 0 auto 20px;
+      max-width: 100%;
+      width: 100%;
+      &:last-child {
+        margin-bottomp: 0;
+      }
+
+    }
+
+    .quote-autor-wrap {
+      flex-direction: column;
+      justify-content:center;
+    }
+
+    .autor-block-left {
+      margin: 0 auto 20px;
+    }
+
+    .quote-autor-block {
+
+      &:before {
+        transform: rotate(90deg);
+        top: -77px;
+        left: 38px;
+      }
+
+    } 
+
+  }     
+
 }
