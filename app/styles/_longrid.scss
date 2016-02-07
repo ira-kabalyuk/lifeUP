@@ -184,6 +184,7 @@ $icon-font-path: '../fonts/';
 
   .screen-button {
     background: url(../images/icon-gray-button.png);
+    background-size: 64px 61px;
     display: block;
     width: 64px;
     height: 61px;
@@ -195,11 +196,13 @@ $icon-font-path: '../fonts/';
     margin-top: -30px;
   }
 
+  /*----------------------------------------------------------комментарии------------------------------------------------*/
+
   .comment-wrap {
-    margin: 30px auto;
+    margin: 30px auto 0;
     border-top: 1px solid #000;
     position: relative;
-    padding: 30px;
+    padding: 30px 0;
   }
 
   .comment-head {
@@ -215,9 +218,159 @@ $icon-font-path: '../fonts/';
     margin-top: -47px;
   }
 
-  .login-wrap {
+  .login-wrap-bottom {
     text-align: center;
+    margin-top: 30px;
   }
+  
+
+  .comment-block {
+    display: flex;
+    border-bottom: 1px solid #ebebeb;
+    padding: 30px 0;
+  }
+
+  .photo-comment-block {
+    width: 80px;
+    height: 76px;
+    overflow: hidden;
+    margin-right: 20px;
+
+    img {
+      width: 100%;      
+    }
+
+    .unknow {
+    width: 68px;
+    height: 70px;
+    }
+
+  }
+
+  .photo-comment-block-1 {
+   
+   .template-img {
+    background: url(../images/template-photo-1.svg) -6px -8px no-repeat;
+    background-size: 89px 90px;
+    width: 89px;
+    height: 90px;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    }
+
+  }
+
+  .photo-comment-block-2 {
+
+    .template-img {
+    background: url(../images/template-photo-2.svg) -6px -8px no-repeat;
+    background-size: 89px 87px;
+    width: 89px;
+    height: 87px;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    }
+
+  }
+
+  .photo-comment-block-3 {
+
+    .template-img {
+    background: url(../images/template-photo-3.svg) -6px -8px no-repeat;
+    background-size: 89px 87px;
+    width: 89px;
+    height: 87px;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    }
+
+  }
+
+  .photo-comment-block-4 {
+
+    .template-img {
+    background: url(../images/template-photo-4.svg) -6px -8px no-repeat;
+    background-size: 89px 87px;
+    width: 89px;
+    height: 87px;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    }
+
+  }
+
+  .comment-text-block {
+     width: calc(100% - 100px);
+  }
+
+  .comment-name-wrap {
+    display: flex;
+    justify-content: space-between;  
+    width: 85%; 
+  }
+
+  .comment-name-block {
+    height: 22px;
+  }
+
+  .facebook-icon {
+    background: url(../images/icon-fb-comment.png);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+  }
+
+  .name-text {
+    color: #4e6ab1;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  .date-text,
+  .time-text {
+    display: inline-block;
+    font-size: 12px;
+    color: #b1b1b1;
+  }
+
+  .answer {   
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 10px;
+
+    &:before {
+    content: "";
+     background: url(../images/icon-answer.png) no-repeat;
+     display: inline-block;
+     width: 20px;
+     height: 15px;
+     margin-right: 5px;
+    }
+
+  } 
+
+  .comment-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .comment-block-answer {
+    width: 92%;
+    float: right;
+  }
+
+
+
+
+  /*---------------------------------------------комментарии конец--------------------------------------------------*/
 
 }
 

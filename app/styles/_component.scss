@@ -6,6 +6,10 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
+.clear {
+	clear:both;
+}
+
 button {
 	background: transparent;
 	border: none;

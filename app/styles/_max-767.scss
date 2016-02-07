@@ -621,8 +621,45 @@ $icon-font-path: '../fonts/';
         left: 38px;
       }
 
+    }
+
+    .screen-wrap {
+      overflow-x: auto;
+    } 
+    
+
+  /*------------------------------------------comments-------------------------------------*/
+
+    .photo-comment-block {
+      display: none;    
+    }
+
+    .comment-text-block {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .comment-name-wrap {
+      flex-direction:column;
     } 
 
-  }     
+    .comment-name-block {
+      order: 2;
+    } 
+
+    .data-block {
+      order: 0;
+    }
+
+    .comment-name-wrap {
+      padding-bottom: 10px;
+    }
+
+   .answer {
+    display: block;
+    margin-left: 0;    
+   }
+
+  } 
 
 }
