@@ -182,7 +182,8 @@ $icon-font-path: '../fonts/';
 
   	.sidebar {
     	max-width: 655px;
-    	margin: 0 auto;    
+    	margin: 0 auto;
+    	flex-direction:column;    
   	}   
 
 		.article {
@@ -244,7 +245,7 @@ $icon-font-path: '../fonts/';
 		.sidebar {
 			order:1;
 			width: 100%;
-			flex-direction: row;
+			
 
 			.autor-name {
 			margin: auto;
@@ -263,6 +264,12 @@ $icon-font-path: '../fonts/';
 				height: 64px;
 			}			
 
+		}
+
+		.mobile-block-wrap {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 30px;
 		}
 
 		.img-description {
@@ -289,11 +296,19 @@ $icon-font-path: '../fonts/';
 		}
 
 		.sidebar-blurb-block {
-			display: none;
+			order: 2;
 		}
 
 		.sidebar-article-block {
-			display: none;
+			
+			.sidebar-article-wrap {
+
+				&:last-child {
+					border-bottom: none;
+				}
+
+			}
+
 		}
 
 	}

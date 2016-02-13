@@ -181,11 +181,17 @@ width: 45%;
 			width: 300px;
 			order: 2;
 			margin-left: 30px;
+			flex-direction:row;
 
 			.autor-name {
 			margin-bottom: 10px;
 			}
 
+		}
+
+		.mobile-block-wrap {
+			display: flex;
+			flex-direction:column;
 		}
 
 		.article-column {
@@ -238,6 +244,7 @@ width: 45%;
 
 		.sidebar-blurb-block {
 			display: block;
+			order: 0;
 		}
 
 		.sidebar-article-block {
@@ -329,7 +336,16 @@ width: 45%;
 		
 		.article-image-block-flex {  
     justify-content: flex-start;    
-  	}  	
+  	}
+
+  	.comment-wrap {
+  		width: 925px;
+  	}
+
+  	.statistic-bottom-block {
+			border-bottom: 0;
+			margin: 20px 0;
+  	}	
 
 	}		  
 

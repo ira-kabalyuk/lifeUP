@@ -67,16 +67,12 @@ $icon-font-path: '../fonts/';
   	}
 
   	.sidebar {
-    	max-width: 900px;    
-  	}    
-
-		.sidebar {
-	    display: flex;
-	    flex-direction: row;
+    	max-width: 900px;  
+    	display: flex;	    
 	    width: 100%;
 	    justify-content: center;
 	    
-		}
+  	} 	
 
 		.page-head-block {
 
