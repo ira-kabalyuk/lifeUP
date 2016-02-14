@@ -88,6 +88,36 @@ $('.search-button').click(function(){
     $('.search-wrap').show();
 })
 
+$('.owl-carousel-3').owlCarousel({
+    loop:true,
+    margin:28,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+
+        568:{
+            items:1
+        },        
+
+        768:{
+            items:1
+        },         
+
+        1024:{
+            items:1
+        },
+        1366:{
+            items:3
+        },
+
+        1920:{
+            items:3
+        }
+    }
+})
+
 
 
 

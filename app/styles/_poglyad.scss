@@ -6,9 +6,34 @@ $icon-font-path: '../fonts/';
 
 @import "_fonts.scss";
 
-.poglyuad-page {
+.poglyad-page {
 
-  
+  .content-block-max {
+    padding: 0;
+  }
+
+  .autor-block {
+    width: 100%;
+
+  &:hover .autor-img-block .template-img {
+    width: 422px;
+    height: 445px;
+
+  }
+
+    .autor-img-block {
+    width: 422px;
+    height: 415px;
+
+      .template-img {
+        width: 422px;
+        height: 445px;
+      }
+
+    }
+
+  }  
+
 }
 
   
