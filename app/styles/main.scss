@@ -606,11 +606,7 @@ h1 {
     
     }
 
-  }
-
-   &:hover {
-    background: #fff9f3;    
-  }
+  }   
 
   &:hover .statistic-bottom-block{
     display: flex;
@@ -624,6 +620,9 @@ h1 {
   &:hover .autor-block-description {
     color: #86827f;
   }
+
+  /*
+	розовое наведение
 
    &:hover .autor-img-block-1 .template-img{
     background: url(../images/template-photo-hover-1.svg) -6px -8px no-repeat;
@@ -673,7 +672,7 @@ h1 {
     display: block;
     position: absolute;
     z-index: 20; 
-    }
+    }*/
 
 
 }
@@ -723,7 +722,7 @@ h1 {
 .autor-img-block-3 {
 
   .template-img {
-  background: url(../images/template-photo-3.svg) -6px -15px no-repeat;
+  background: url(../images/template-photo-3.svg) -6px -8px no-repeat;
      background-size: cover;
     width: 149px;
      height: 162px;

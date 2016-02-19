@@ -10,28 +10,29 @@ $icon-font-path: '../fonts/';
 
   .content-block-max {
     padding: 0;
-  }
+  
 
   .autor-block {
-    width: 100%;
-
-  &:hover .autor-img-block .template-img {
-    width: 422px;
-    height: 445px;
-
-  }
+    width: 100%; 
 
     .autor-img-block {
-    width: 422px;
-    height: 415px;
+    width: 371px;
+    height: 402px;
 
       .template-img {
-        width: 422px;
-        height: 445px;
+        background-position: -29px -15px;
+        width: 371px;
+        height: 419px;
       }
 
     }
 
+  }  
+
+ } 
+
+ .autor-block-name {
+    margin-top: 0;
   }  
 
 }

@@ -139,12 +139,23 @@ $icon-font-path: '../fonts/';
       width: 100%;
     }
 
-  	.autor-block-left {    
-    position: absolute;
-    top: 0;
-    left: -215px;
+	  	.autor-block-left {    
+	    position: absolute;
+	    top: 0;
+	    left: -215px;
+	  	}
+
+	}
+
+/*------------------------------------------poglyuad-------------------------------------------------------------------*/
+
+  .poglyad-page {
+
+  	.owl-nav {
+		display: block;
   	}
 
-	}	
+  }			  
+
 
 }

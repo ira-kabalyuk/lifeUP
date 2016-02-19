@@ -12,10 +12,12 @@ $icon-font-path: '../fonts/';
   }  
 
   .pagewrap {
-    max-width: 550px;
+    //max-width: 550px;
+    max-width: 100%;
 
    .content-wrap {
-      max-width: 305px;
+      //max-width: 305px;
+      max-width: 100%;
       justify-content: center;
       margin: 0 auto;
     }
@@ -675,5 +677,21 @@ $icon-font-path: '../fonts/';
    }
 
   } 
+
+
+  /*----------------------------------poglyad-------------------------------------------------*/
+
+  .poglyad-page {
+
+    .pagewrap {
+      max-width: 100%;
+    }
+
+    .content-wrap-slider {
+      max-width: 90%;
+    }
+
+  }
+
 
 }

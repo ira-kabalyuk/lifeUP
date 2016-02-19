@@ -83,4 +83,34 @@ $icon-font-path: '../fonts/';
 
 	}	
 
+  /*------------------------------------------poglyuad-------------------------------------------------------------------*/
+
+  .poglyad-page {
+
+    .content-wrap {
+      max-width: 305px;
+    }
+
+    .content-block-max {
+
+      .autor-block  {
+
+        .autor-img-block {
+          width: 305px;
+           height: 300px;
+
+          .template-img {
+            background-position: 0 -15px;
+          width: 305px;
+          height: 300px;
+          }
+
+        }      
+
+      }
+
+    }  
+
+  }
+
 }
