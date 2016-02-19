@@ -4,21 +4,87 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@media only screen and (max-width:568px) {
+@media only screen and (max-width:568px) { 
+
+ .header {
+    max-width: 300px;
+    margin: 0 auto 37px;
+  } 
+
+  .content-block-max {
+     max-width: 300px;
+  }       
 
   .pagewrap {
-       
+    max-width: 550px;
+   
 
-    .content-block-column {
+   .content-wrap {
+      max-width: 305px;     
+      justify-content: center;      
+    }
+
+    .content-block-center {
+      width: 300px;
+      
+
+      .img-wrap {
+        width: 300px;
+        height: 250px;
+      }
+      
+    }
+
+    .content-block-center, .content-block-column {
+    
+      .heading {
+        font-size: 12px;
+      }
+
+      .head {
+
+        a {
+          font-size: 22px;
+        }
+        
+      }
 
     }
 
-     
     .autor-block {
-			margin: 0 auto;
-    }    
+    margin: 0 auto;
+    }
+
+
+
+    .owl-carousel-1 {
+
+      .item-wrap {
+        width: 300px;
+        margin: 0 auto;
+      }
+
+      .img-wrap {
+        margin: 0 auto;
+      }
+
+    }
+
+    .responsive-block-13 {      
+      width: 300px;
+      display: block;
+      margin: 0 14px;
+
+      .img-wrap {
+		margin: 0;
+		margin-bottom: 30px;
+      }  
+
+  	}
 
   }
+
+  
 
   .form-button  {
     margin-top: 0;
