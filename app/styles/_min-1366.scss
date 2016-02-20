@@ -168,7 +168,7 @@ width: 45%;
 
 		.article-flex-wrap	{
 			flex-direction: row;
-    	max-width: 1220px;    
+    		max-width: 1075px;    
   		}
 		
 
@@ -357,6 +357,26 @@ width: 45%;
 		display: none;
   	}
 
-  }			  
+  }	
+
+
+  /*---------------------------------------------special-----------------------------------------*/
+
+  .interview-page.special-page {  
+
+	  .article-column {
+	    margin: 0 auto 0 0;
+	  }
+
+  }
+
+  .article-right-column {
+    order: 2;
+
+    .img-wrap {
+      margin-top: 50%;
+    }
+
+  }		  
 
 }
