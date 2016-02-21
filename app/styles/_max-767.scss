@@ -690,7 +690,12 @@ $icon-font-path: '../fonts/';
   .poglyad-page {
 
     .pagewrap {
-      max-width: 100%;
+      max-width: 100%;     
+
+      .autor-block {
+        margin: 0 auto 0 0;
+      }
+
     }
 
     .content-wrap-slider {

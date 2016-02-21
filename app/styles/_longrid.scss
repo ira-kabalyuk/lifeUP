@@ -94,13 +94,13 @@ $icon-font-path: '../fonts/';
   }
 
   .quote-autor-block{
-    background: #ed6c7e;   
+    background: #fdf0f2;   
     padding: 35px;
     position: relative;
 
     &:before {
       content: "";
-      background: url(../images/icon-autor-quote.png);
+      background: url(../images/icon-autor-quote.png) no-repeat;
       display: block;
       width: 58px;
       height: 103px;

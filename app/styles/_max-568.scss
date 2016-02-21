@@ -260,12 +260,40 @@ $icon-font-path: '../fonts/';
 
   }
 
+
+  /*----------------------------------------------poglyad----------------------------------------*/
+
+  .poglyad-page {
+
+  	.pagewrap {
+
+	  		.content-wrap {
+					max-width: 100%;
+	  		}
+
+		  	.autor-block {
+	        margin: 0 auto;
+	      }
+
+	  	}
+
+  	.content-block-max {
+  		max-width: 100%;
+  		padding: 0 15px;
+  	}
+
+  }
+
   /*---------------------------------------------------------special-----------------------------------------------------------*/
 
-	  .special-page {
+	  .special-page {	  	
 	    
     .page-head-block-description {
 			font-size: 18px;
+    }
+
+    .top-heading {
+    	font-size: 12px;
     }
 
 	}       

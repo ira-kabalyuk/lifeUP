@@ -94,13 +94,13 @@ $icon-font-path: '../fonts/';
     .content-block-max {
 
       .autor-block  {
+        padding: 0;
 
         .autor-img-block {
-          width: 305px;
+          width: 275px;
            height: 300px;
 
-          .template-img {
-            background-position: 0 -15px;
+          .template-img {           
           width: 305px;
           height: 300px;
           }
