@@ -22,18 +22,19 @@ $icon-font-path: '../fonts/';
 	}
 }
 
-.footer-logo-block {
-	
+.footer-logo-block {	
 
 	.logo-template {
-		background: url(../images/logo-life-invert-gray.svg) -11px -8px no-repeat;
-		background-size: cover;
-    width: 326px;
+    background: url(../images/logo-life-invert-gray.svg) -11px -8px no-repeat;
+    background-size: 336px 60px;
+    width: 231px;
     height: 60px; 
     position: absolute;
     top: 0;
     z-index: 30;
-	}
+     
+  }
+
 }
 
 .footer-flex-block {
