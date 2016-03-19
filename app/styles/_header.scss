@@ -65,7 +65,11 @@ $icon-font-path: '../fonts/';
     }
 
 
-    .navbar-link_color-1 a:hover {   
+    .navbar-link_color-1 a:hover {  
+      color: #eb7b8b;
+    }
+
+    .navbar-link_color-1.navbar-link-active a {  
       color: #eb7b8b;
     }
 
@@ -73,7 +77,15 @@ $icon-font-path: '../fonts/';
       color: #94c08e;
     }
 
+     .navbar-link_color-2.navbar-link-active a {  
+      color: #94c08e;
+    }
+
     .navbar-link_color-3 a:hover {   
+      color: #ecba83;
+    }
+
+    .navbar-link_color-3.navbar-link-active a {  
       color: #ecba83;
     }
 
@@ -81,8 +93,16 @@ $icon-font-path: '../fonts/';
       color: #8781bd;
     }
 
+    .navbar-link_color-4.navbar-link-active a {  
+      color: #8781bd;
+    }
+
     .navbar-link_color-5 a:hover {   
       color: #6ec8c9;
+    }
+
+     .navbar-link_color-5.navbar-link-active a {  
+       color: #6ec8c9;
     }
 
   }

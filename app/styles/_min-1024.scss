@@ -45,7 +45,13 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
-		
+		.responsive-block-1 {
+			display: none;
+		}
+
+		.responsive-block-13 {
+			display: none;
+		}
 
 		.sidebar-autor-block {
       display: flex;
