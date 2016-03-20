@@ -95,6 +95,18 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
+		.responsive-block-13 {      
+     
+      .img-wrap {      
+
+         &:last-child {
+          margin-left: 0;
+        }
+
+      }
+
+    }
+
 		.statistic-top-block {
 			display: flex;
 			justify-content: space-between;
