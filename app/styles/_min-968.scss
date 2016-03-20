@@ -132,11 +132,26 @@ $icon-font-path: '../fonts/';
 
   /*-------------------------------------------------interview----------------------------------------------------*/
 
-  .interview-page {   
+  .interview-page { 
+
+    .responsive-block-13 {      
+      width: 633px;
+      display: flex;
+      margin: 0 auto;      
+    }
+    
     
     .responsive-block-3 {
     order: 1;
     }  
+
+    .responsive-block-1 {
+    display: none;
+    } 
+
+    .responsive-block-2 {
+    display: none;
+    }   
 
   }
 

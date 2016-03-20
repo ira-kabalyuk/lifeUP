@@ -20,13 +20,24 @@ $icon-font-path: '../fonts/';
       margin: 0 auto;
   	}
 
+
+
 		.responsive-block-13 {      
       width: 633px;
       display: flex;
       margin: 0 auto;
 
-      .img-wrap {
-				margin: 0 14px;
+       .img-wrap {
+       
+
+        &:first-child {
+          margin-right: 14px;
+        }
+
+         &:last-child {
+          margin-left: 14px;
+        }
+
       }
 
     }
@@ -170,6 +181,23 @@ $icon-font-path: '../fonts/';
 /*----------------------------------------------interview-------------------------------------*/
 
 	.interview-page {
+
+		.responsive-block-13 {     
+
+       .img-wrap {
+       
+
+        &:first-child {
+          margin-right: 14px;
+        }
+
+         &:last-child {
+          margin-left: 14px;
+        }
+
+      }
+
+    }
 
 		.page-mobile-wrap {
 			width: 100%;

@@ -69,7 +69,16 @@ $icon-font-path: '../fonts/';
       margin: 0 auto;
 
       .img-wrap {
-        margin: 0 14px;
+       
+
+        &:first-child {
+          margin-right: 14px;
+        }
+
+         &:last-child {
+          margin-left: 14px;
+        }
+
       }
 
     }
@@ -267,6 +276,14 @@ $icon-font-path: '../fonts/';
 /*----------------------------------------------interview-------------------------------------*/
 
   .interview-page {
+
+    .responsive-block-1 {
+    display: none;
+    } 
+
+    .responsive-block-2 {
+    display: none;
+    }   
 
     .page-mobile-wrap {
       max-width: 100%;

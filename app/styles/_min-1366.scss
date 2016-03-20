@@ -4,29 +4,7 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@media only screen and (min-width:1366px) {
-	
-	.header{
-		margin-bottom: 0;
-		width: auto;
-
-		.navbar-nav {
-			display: block;
-		}
-
-		.navbar-button-mob {
-			display: none;
-		}	
-
-		.navbar-default-top {			    
-		    border-bottom: 1px solid #ebebeb;
-		}
-
-		.drop-navbar {
-			display: block;
-		}
-
-	}
+@media only screen and (min-width:1366px) {	
 
 	.pagewrap {
 		width: 1320px;

@@ -6,8 +6,46 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (max-width:375px) {
 
+	.responsive-block-13 {      
+      width: 633px;
+      display: flex;
+      margin: 0 auto;
+
+      .img-wrap {
+       
+
+        &:first-child {
+          margin-right: 0;
+        }
+
+        &:last-child {
+          margin-left: 0;
+        }
+
+      }
+
+    }
+
   .pagewrap {
-    max-width: 350px;  
+    max-width: 350px; 
+
+    .responsive-block-13 {      
+      
+
+      .img-wrap {
+       
+
+        &:first-child {
+          margin-right: 0;
+        }
+
+        &:last-child {
+          margin-left: 0;
+        }
+
+      }
+
+    } 
 
   }
 

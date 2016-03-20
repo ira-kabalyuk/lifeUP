@@ -25,13 +25,23 @@ $icon-font-path: '../fonts/';
       margin: 0 14px;
 
       .img-wrap {
-		margin: 0;
-		margin-bottom: 30px;
+			margin: 0;
+			margin-bottom: 30px;
+
+				 &:first-child {
+	          margin-right: 0;
+	        }
+
+	        &:last-child {
+	          margin-left: 0;
+	        }
+
+	      }      
+
       }  
 
-  	}
-
-  }	
+		}
+  	
 
   .modal-dialog-flex {	  
   justify-content: space-between;
@@ -45,13 +55,20 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
-		.responsive-block-1 {
-			display: none;
-		}
+		 .responsive-block-1 {
+      display: none;
+    }
 
-		.responsive-block-13 {
-			display: none;
-		}
+    .responsive-block-13 {
+      display: none;
+    }
+
+    
+
+    .responsive-block-2 {
+    display: block;
+    }     
+		
 
 		.sidebar-autor-block {
       display: flex;
