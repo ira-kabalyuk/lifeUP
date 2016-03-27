@@ -119,12 +119,12 @@
               <li class="navbar-link navbar-link_color-4"><a class="navbar-link-inside" href="#">Подорожi</a></li>
               <li class="navbar-link navbar-link_color-5"><a class="navbar-link-inside" href="#">Здоров'я</a></li>
             </ul>
-            <div class="search-wrap">
+            <!--<div class="search-wrap">
               <form action="" class="search-form">
                 <input type="text" class="search"> 
                 <button class="form-search-button"></button>
               </form>                 
-            </div>
+            </div> -->
            <div class="login-wrap">              
               <div class="login-wrap-active">
                 <div class="login-photo">
@@ -143,7 +143,7 @@
                 </div>
               </div>
              <button class="login-button" data-toggle="modal" data-target=".login-popup"></button>
-             <button class="search-button"></button>
+             <button class="search-button" data-toggle="modal" data-target=".search-popup"></button>
            </div>
           </div>
         </nav>
@@ -1028,6 +1028,45 @@
     </div>
   </div>
   <!--ligin-popup end-->
+
+  <!--search popup -->
+  <div class="modal fade search-popup" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="login-popup-content">
+        <div class="login-popup-form-wrap">          
+          <h2 class="login-popup-head">Пошук по сайту</h2>         
+          <form class="login-popup-form">           
+            <input class="form-input" placeholder="Що ви шукаєте"></input>
+            <button class="form-button">Знайти</button>
+          </form>               
+        </div>
+      </div>
+      <div class="close-block" data-dismiss="modal" aria-hidden="true">
+        <i class="icon-close"></i>
+      </div>
+    </div>
+  </div>
+  <!--search popup end-->
+
+  <!--password popup -->
+  <div class="modal fade password-popup" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="login-popup-content">
+        <div class="login-popup-form-wrap">          
+          <h2 class="login-popup-head">Відновлення пароля</h2>
+          <p class="login-popup-text">Ваш пароль буде надісланий на адресу електроної пошти, яку ви вказали при реєстрації</p>         
+          <form class="login-popup-form">            
+            <input class="form-input" placeholder="Е-mail"></input>
+            <button class="form-button">Надіслати</button>
+          </form>               
+        </div>
+      </div>
+      <div class="close-block" data-dismiss="modal" aria-hidden="true">
+        <i class="icon-close"></i>
+      </div>
+    </div>
+  </div>
+  <!--password popup end-->
   
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->

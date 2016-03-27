@@ -1054,6 +1054,7 @@ h1 {
 
 .login-popup-form-wrap {
   color: #363636;
+  padding-top: 70px;
 }
 
 .login-popup-head {
@@ -1116,6 +1117,29 @@ h1 {
 }
 
 /*login popup end*/
+
+/*search popup */
+
+.search-popup {
+
+  .login-popup-content {
+    max-width: 475px;
+  }
+
+  .form-input {
+   display: inline-block; 
+   padding: 13px 10px;
+  }
+
+  .form-button {
+    display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+  }
+
+}
+
+/*search popup end*/
 
 
   
