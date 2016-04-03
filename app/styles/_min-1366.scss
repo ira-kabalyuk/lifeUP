@@ -6,6 +6,44 @@ $icon-font-path: '../fonts/';
 
 @media only screen and (min-width:1366px) {	
 
+	.header{
+		margin-bottom: 0;
+		width: auto;
+
+		.navbar-nav {
+			display: block;
+		}
+
+		.navbar-top-nav-left {
+			width: 41%;
+		}
+
+		.navbar-top-nav-right {
+			width: 41%;
+		}
+
+		.navbar-nav-right {
+			width: 38%;
+		}
+
+		.navbar-nav-right {
+			width: 38%;
+		}
+
+		.navbar-button-mob {
+			display: none;
+		}	
+
+		.navbar-default-top {			    
+		    border-bottom: 1px solid #ebebeb;
+		}
+
+		.drop-navbar {
+			display: block;
+		}
+
+	}
+
 	.pagewrap {
 		width: 1320px;
 
@@ -113,6 +151,21 @@ width: 45%;
 		}
 
 	}
+
+
+	/*more*/
+
+	.more-wrap {
+
+    .responsive-block-13 {
+    display: none;
+    }
+
+    .responsive-block-2 {
+    	display: block;
+    }
+
+  }
 
 
 
