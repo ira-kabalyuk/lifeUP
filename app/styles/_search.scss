@@ -8,6 +8,157 @@ $icon-font-path: '../fonts/';
 
 .search-page { 
 
+	.login-form {
+		display: flex;
+
+	.form-input {
+			display: inline-block;
+			padding: 13px 10px;
+			flex-grow: 1;
+		}
+
+		.form-button {
+			display: inline-block;
+			margin-left: 10px;
+			padding: 13px 20px;
+			font-size: 16px;
+		}
+
+	}	
+
+	.search-content-block {
+		margin: 35px auto;
+		padding-left: 0;
+	}
+
+	.search-content-item {		
+		border-top: 1px solid #d9d9d9;
+		padding: 35px 0;
+		display: flex;	
+
+
+		&:last-child {
+			border-bottom: 1px solid #d9d9d9;
+		}
+
+	}
+
+	.search-content-flex {
+		display: flex;
+		flex-direction: column;
+		margin-left: 28px;
+	}	
+
+	.article-description {
+		margin-bottom: 20px;
+
+		a {
+			color: #363636;
+
+			&:hover,
+			&:focus {
+				text-decoration: none;
+			}
+
+		}
+
+	}
+
+	.search-info-flex {
+		display: flex;
+		justify-content: space-between;		
+	}
+
+	.search-heading {
+		color: #363636;
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	.search-number {
+		font-family: 'Open Sans', sans-serif;
+		display: inline-block;
+		line-height: 2em;		
+		font-size: 16px;
+	}
+
+	.data {
+		font-family: 'Open Sans', sans-serif;		
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	.paging-block {
+		margin-bottom: 35px;
+	}
+
+	.paging-wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.owl-prev, 
+	.owl-next {
+		cursor: pointer;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.pages-list {
+		display: flex;
+		padding-left: 0;
+		margin-bottom: 0;
+		margin-top: -10px;
+	}
+
+	.pages-item {
+		width: 40px;
+		height: 37px;
+		text-align: center;
+
+		a {
+			font-family: 'Open Sans', sans-serif;		
+			color: #363636;
+			font-size: 16px;
+			line-height: 37px;
+			vertical-align: middle;
+			width: 40px;
+			height: 37px;
+
+
+			&:hover,
+			&:focus {
+				text-decoration: none;
+			}
+
+		}
+
+	}
+
+	.pages-item.active {
+		 background: url(../images/icon-red.png) no-repeat 50% 50%; 
+		 background-size: cover;
+		
+		
+		width: 40px;
+		height: 37px;
+
+		a {
+			color: #fff;
+
+			&:hover,
+			&:focus {
+				color: #fff;
+			}
+
+		}
+
+	}
+
+	.pages-item.last {
+		margin-left: 30px;
+	}
   
 }
 
