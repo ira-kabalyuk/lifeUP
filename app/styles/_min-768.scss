@@ -512,17 +512,26 @@ $icon-font-path: '../fonts/';
 
 /*---------------------------------------------------------special-----------------------------------------------------------*/
 
-  .special-page {
-    
-    .article-right-column {
-     order: 3;
+    .special-page {
+      
+      .article-right-column {
+       order: 3;
 
-    .img-wrap {
-      margin: 10px auto;
+      .img-wrap {
+        margin: 10px auto;
+      }
+
     }
 
-  }
+  } 
 
-}       
+  /*------------------------------------------search-------------------------------------------------------------------*/
+  .search-page {
+
+    .article-column {
+      padding: 0 20px;
+    }
+
+  }         
 
 }
