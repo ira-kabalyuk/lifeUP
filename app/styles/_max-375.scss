@@ -172,7 +172,40 @@ $icon-font-path: '../fonts/';
       font-size: 14px;
     }
 
-  }   
+  } 
+
+  /*------------------------------------------search-------------------------------------------------------------------*/
+  .search-page {
+
+    .login-form {
+      flex-direction: column;
+
+      .form-input {
+        margin-bottom: 20px;
+      }
+
+      .form-button {
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+
+    .pages-item.last {
+    margin-left: 20px;
+    }
+
+    .pages-item {
+      width: 35px;
+      height: 32px;
+
+      a {
+         width: 35px;
+        height: 32px;
+      }
+
+    }         
+  
+  }
 
 
 }
