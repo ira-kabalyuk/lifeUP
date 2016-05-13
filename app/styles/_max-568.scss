@@ -321,6 +321,32 @@ $icon-font-path: '../fonts/';
     	font-size: 12px;
     }
 
-	}       
+	} 
+
+  /*--------------------------------------------------------error------------------------------------------------*/      
+
+  .error-page {
+
+    .logo {
+
+      .logo-template {    
+        background-size: 336px 60px;
+        width: 231px;
+        height: 60px;    
+      }
+
+      .logo-photo {
+        width: 228px;
+        height: 45px;
+      }
+
+    }
+
+    .error-text {
+      font-size: 30px;
+    }
+
+
+  }      
 
 }

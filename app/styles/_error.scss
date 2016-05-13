@@ -1,0 +1,47 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "_fonts.scss";
+
+.error-page {
+
+  .error-page-wrap {
+    margin: 100px 0;
+    max-width: 700px;
+  }
+
+  .logo {
+
+    .logo-template {
+    background-size: 557px 100px;
+    width: 545px;
+    height: 100px;
+  }
+
+    .logo-photo {
+      width: 380px;
+      height: 89px;
+    }
+
+  }  
+
+  .logo-block {
+    text-align: left;
+  }
+
+  .error-text {
+    font-family: 'MetaPro', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+
+    .error-link {
+      color: #ed6c7e;
+      text-decoration: underline;
+    }
+
+}
