@@ -330,14 +330,15 @@ $icon-font-path: '../fonts/';
     .logo {
 
       .logo-template {    
-        background-size: 336px 60px;
-        width: 231px;
-        height: 60px;    
+        background-size: 244px 128px;
+        background-position: 0 -2px;
+        width: 240px;
+        height: 128px;    
       }
 
       .logo-photo {
-        width: 228px;
-        height: 45px;
+        width: 238px;
+        height: 123px;
       }
 
     }
@@ -346,6 +347,10 @@ $icon-font-path: '../fonts/';
       font-size: 30px;
     }
 
+    .logo-block {
+    text-align: left;
+    margin: 0 auto 30px;
+    }
 
   }      
 
