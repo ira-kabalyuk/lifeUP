@@ -5,6 +5,8 @@ $icon-font-path: '../fonts/';
 	.header{
 		margin-bottom: 0;
 		width: auto;
+		margin-left: 14px;
+		margin-right: 14px;
 
 		.navbar-nav {
 			display: block;
@@ -48,66 +50,7 @@ $icon-font-path: '../fonts/';
 
     }  	
 
-		.responsive-block-1 {
-			order:1;
-		}
 
-		.responsive-block-2 {
-			order:2;
-		}
-
-		.responsive-block-3 {
-			order:3;
-		}
-
-		.responsive-block-4 {
-			order:10;
-		}
-
-		.responsive-block-5 {
-			order:4;
-		}
-
-		.responsive-block-6 {
-			order:5;
-		}
-
-		.responsive-block-7 {
-			order:6;
-		}
-
-		.responsive-block-8 {
-			order:7;
-		}
-
-		.responsive-block-9 {
-			order:9;
-		}
-
-		.responsive-block-10 {
-			order:8;
-		}
-
-		.responsive-block-11 {
-			order:14;
-		}
-
-		.responsive-block-12 {
-			order:12;
-		}
-
-		.responsive-block-13 {
-			order:11;
-		}
-
-		.responsive-block-14 {
-			order:10;
-		}
-
-		.responsive-block-15 {
-			display: block;
-			order:11;
-		}
 
 	}	
 
@@ -139,32 +82,14 @@ width: 45%;
 		}		
 
 		.mobile-flex-wrap-bottom {
-			display: flex;
-	   justify-content: space-between;
-	   flex-direction: row;
-	   width: 53%;
-	   margin-top: 0;
+				display: flex;
+		   justify-content: space-between;
+		   flex-direction: row;
+		   width: 53%;
+		   margin-top: 0;
 		}
 
 	}
-
-
-	/*more*/
-
-	.more-wrap {
-
-    .responsive-block-13 {
-    display: none;
-    }
-
-    .responsive-block-2 {
-    	display: block;
-    }
-
-  }
-
-
-
 
 /*----------------------------------------------interview-------------------------------------*/
 

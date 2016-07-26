@@ -13,70 +13,23 @@ $icon-font-path: '../fonts/';
     .content-wrap {
    		width: 990px;
    		margin: 0 auto;
-    }
+    }    
 
-    .responsive-block-13 {      
-      width: 300px;
-      display: block;
-      margin: 0 14px;
-
-      .img-wrap {
-			margin: 0;
-			margin-bottom: 30px;
-
-				 &:first-child {
-	          margin-right: 0;
-	        }
-
-	        &:last-child {
-	          margin-left: 0;
-	        }
-
-	      }      
-
-      }  
-
-		}
+	}
   	
 
-  .modal-dialog-flex {	  
-  justify-content: space-between;
+    .modal-dialog-flex {	  
+    justify-content: space-between;
 	 
-}
-
-.more-wrap {
-
-    .responsive-block-13 {
-    display: none;
-    }
-
-    .responsive-block-2 {
-    	display: none;
-    }
-
   }
+
 
 
 
 
 /*----------------------------------------------interview-------------------------------------*/
 
-	.interview-page {
-
-		 .responsive-block-1 {
-      display: none;
-    }
-
-    .responsive-block-13 {
-      display: none;
-    }
-
-    
-
-    .responsive-block-2 {
-    display: block;
-    }     
-		
+	.interview-page {		
 
 		.sidebar-autor-block {
       display: flex;

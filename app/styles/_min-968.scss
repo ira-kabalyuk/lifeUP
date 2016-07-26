@@ -16,7 +16,7 @@ $icon-font-path: '../fonts/';
     }  
 
     .content-block-column {
-      width: 300px;
+      
 
       .heading {
         font-size: 12px;
@@ -31,70 +31,7 @@ $icon-font-path: '../fonts/';
         
       }
 
-    }
-
-
-   .responsive-block-1 {
-      order:2;
-    }
-
-    .responsive-block-2 {
-      order:1;
-    }
- 
-    .responsive-block-3 {
-      order:3;
-    }
-    .responsive-block-4 {
-      order:4;
-    }
-
-
-    .responsive-block-5 {
-      order:5;
-    }
-
-    .responsive-block-6 {
-      order:6;
-    }
-
-    .responsive-block-7 {
-      order:7;
-    }
-
-    .responsive-block-8 {
-      order:8;
-    }
-
-    .responsive-block-9 {
-      order:4;
-    }
-
-    .responsive-block-10 {
-      order:10;
-    }
-
-    .responsive-block-11 {
-      order:11;
-    }
-
-    .responsive-block-12 {
-      order:12;
-    }
-
-    .responsive-block-13 {
-      order:13;
-
-      width: 633px;
-    }
-
-    .responsive-block-14 {
-      order:9;
-    }
-
-    .responsive-block-15 {
-      display: none;
-    }    
+    }   
 
   }
 
@@ -135,19 +72,6 @@ $icon-font-path: '../fonts/';
       display: flex;
       margin: 0 auto;      
     }
-    
-    
-    .responsive-block-3 {
-    order: 1;
-    }  
-
-    .responsive-block-1 {
-    display: none;
-    } 
-
-    .responsive-block-2 {
-    display: none;
-    }   
 
   }
 

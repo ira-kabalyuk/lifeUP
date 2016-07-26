@@ -57,27 +57,7 @@ $icon-font-path: '../fonts/';
         margin: 0 auto;
       }
 
-    }
-
-    .responsive-block-13 {      
-      width: 633px;
-      display: flex;
-      margin: 0 auto;
-
-      .img-wrap {
-       
-
-        &:first-child {
-          margin-right: 14px;
-        }
-
-         &:last-child {
-          margin-left: 14px;
-        }
-
-      }
-
-    }
+    }    
 
   }  
 
@@ -140,71 +120,7 @@ $icon-font-path: '../fonts/';
     border-bottom: 1px solid #d6d6d6;
     }
 
-  }
-
- .responsive-block-1 {
-      order:2;
-    }
-
-    .responsive-block-2 {
-      order:1;
-    }
- 
-    .responsive-block-3 {
-      order:3;
-    }
-    .responsive-block-4 {
-      order:4;
-    }
-
-
-    .responsive-block-5 {
-      order:5;
-    }
-
-    .responsive-block-6 {
-      order:6;
-    }
-
-    .responsive-block-7 {
-      order:7;
-    }
-
-    .responsive-block-8 {
-      order:8;
-    }
-
-    .responsive-block-9 {
-      order:4;
-    }
-
-    .responsive-block-10 {
-      order:10;
-    }
-
-    .responsive-block-11 {
-      order:11;
-    }
-
-    .responsive-block-12 {
-      order:12;
-    }
-
-    .responsive-block-13 {
-      order:13;
-    }
-
-    .responsive-block-14 {
-      order:9;
-    }
-
-    .responsive-block-15 {
-      display: none;
-    }
-
-  .content-block-max  {
-    padding: 0;
-  }
+  }  
 
   .footer { 
   
@@ -215,14 +131,12 @@ $icon-font-path: '../fonts/';
     width: 100%;
 
       .net-block {
-    justify-content:center;
-    margin-top: 10px;
+      justify-content:center;
+      margin-top: 10px;
 
-    }
+      }
 
-  }    
-
-   
+    }  
 
   }
 
