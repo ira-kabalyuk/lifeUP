@@ -1,0 +1,402 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+//@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "_fonts.scss";
+
+.header {
+
+  .navbar-default {
+    background: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    position: relative;
+    margin-top: -48px;
+  }
+
+  .navbar-button-mob {
+    float: left;
+    background: #fff;     
+    width: 20px;
+    height: 17px;
+    margin-left: 3px;
+    padding: 0;
+    vertical-align: middle;
+    
+      &:focus {
+        border:none;
+        box-shadow: none;
+        border-color: transparent;
+      }
+
+      .icon-bar {
+      background: #7c7c81;
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin: 5px 0;
+
+      &:first-child {
+        margin-top:0;
+      }
+
+    }
+
+  }
+
+    
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    padding-left: 0;
+    padding-right: 0;    
+
+
+  li {
+    text-transform: uppercase;      
+    display: inline-block;
+    float: none;     
+
+    }
+
+
+    .navbar-link_color-1 a:hover {  
+      color: #eb7b8b;
+    }
+
+    .navbar-link_color-1.navbar-link-active a {  
+      color: #eb7b8b;
+    }
+
+    .navbar-link_color-2 a:hover {   
+      color: #94c08e;
+    }
+
+     .navbar-link_color-2.navbar-link-active a {  
+      color: #94c08e;
+    }
+
+    .navbar-link_color-3 a:hover {   
+      color: #ecba83;
+    }
+
+    .navbar-link_color-3.navbar-link-active a {  
+      color: #ecba83;
+    }
+
+    .navbar-link_color-4 a:hover {   
+      color: #8781bd;
+    }
+
+    .navbar-link_color-4.navbar-link-active a {  
+      color: #8781bd;
+    }
+
+    .navbar-link_color-5 a:hover {   
+      color: #6ec8c9;
+    }
+
+     .navbar-link_color-5.navbar-link-active a {  
+       color: #6ec8c9;
+    }
+
+  }
+
+  .logo-block, .top-logo-block {
+    text-align: center;
+    margin: 13px auto;
+    position: relative;
+    width: 240px;    
+  }
+
+
+  .top-logo-block {
+
+  .logo {    
+      width: 240px;
+      height: 50px;
+
+       img {
+        width: 140px;
+      }
+
+    }
+    
+  }  
+
+  .navbar-default-top {
+    text-align: center;   
+    padding: 5px 0;
+    margin-top:-67px;
+
+    .navbar-link { 
+
+      .navbar-link-inside {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px; 
+        font-weight: 400;
+        color: #828282;
+        &:hover {
+          background: none;
+           color: #eb7b8b;
+        }
+
+        &:hover {
+          background: none;
+           color: #eb7b8b;
+        }
+
+        &:focus {
+          background: none;
+           color: #eb7b8b;
+        }
+
+      }
+
+    }  
+
+  } 
+
+  
+
+  .navbar-nav-left {
+    width: 40%;
+    float: left;
+    text-align: right;
+  }
+
+  .navbar-nav-right {
+    width: 40%;
+    float: right;
+    text-align: left;
+  }
+
+  .navbar-top-nav-left {
+    width: 45%;
+  }
+
+  .navbar-top-nav-right {
+    width: 45%;
+  }
+
+    
+  .navbar {
+   min-height: auto;
+  }
+
+  .navbar-link {
+    float: none;
+
+    .navbar-link-inside {
+      font-family: 'MetaPro', sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      color: #000;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+  }
+
+  .search-wrap {
+    position: absolute;
+    right: 0;
+    width: 518px;
+    z-index: 10;
+    bottom: -13px;
+    display: none;
+  }
+
+  .form-search-button {    
+    background: url(../images/icon-search-red.png) no-repeat;
+    display: block;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    right: 10px;
+  }
+  
+
+  .search {
+    font-family: 'MetaPro', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    width: 100%;
+    border: 1px solid #ed6c7e;
+    padding: 8px 55px 8px 15px;
+
+  }   
+
+  .login-wrap {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 65px;    
+    display: flex;
+    justify-content: space-between;
+    height: 37px;
+  }
+
+  .login-button {
+    background: url(../images/icon-login.svg) no-repeat;
+    background-size: cover;
+    width: 23px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+         
+
+    &:hover {
+      background: url(../images/icon-login-header-hover.svg) no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 25px;
+      display: inline-block;
+
+       &:after {
+        content: "";
+        background: url(../images/icon-border-hover.svg) no-repeat;
+        background-size: cover;
+        width: 39px;
+        height: 39px;
+        display: inline-block;
+        position: absolute;
+        top:50%;
+        margin-top: -20px;
+        left: 50%; 
+        margin-left: -19px;
+      }
+
+    }    
+
+  }
+
+  .login-wrap-active {
+    margin-right: 10px;
+    display: none;
+  }   
+
+
+  .login-photo-net {
+    position: relative;
+    width: 39px;
+    height: 39px;
+    display: inline-block; 
+
+    .icon-net {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      right: -7px;
+      top: 19px;
+        
+      img {
+      width: 100%;     
+      }
+
+    }
+
+  }
+
+  .login-photo {
+    display: inline-block;
+    width: 39px;
+    height: 39px;   
+    cursor: pointer;   
+    overflow: hidden;
+    border-radius: 18px 17px 23px 19px;
+    position: relative;
+    margin-left: 5px;
+
+    &:hover:after {
+      content: "";
+      position: absolute;
+      background: #000;
+      opacity: 0.2;
+       width: 39px;
+      height: 39px;
+      top: 0;
+      left: 0; 
+    }
+
+    img {
+      width: 100%;     
+    }    
+
+  }
+
+  .search-button {
+    background: url(../images/icon-search.svg) no-repeat;
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+    position: relative;   
+
+     &:hover {
+      background: url(../images/icon-search-header-hover.svg) no-repeat;
+      width: 20px;
+      height: 21px;
+      display: inline-block;
+
+      &:after {
+        content: "";
+        background: url(../images/icon-border-hover.svg) no-repeat;
+        background-size: cover;
+        width: 39px;
+        height: 39px;
+        display: inline-block;
+        position: absolute;
+        top:50%;
+        margin-top: -20px;
+        left: 50%; 
+        margin-left: -19px;
+      }
+    
+    }
+
+  }
+
+    .drop-navbar {
+    margin-top: 27px;
+    border-top: 1px solid #ebebeb;
+  }
+
+  .content-menu {
+    text-align: center;
+    margin-left: 0;
+    padding: 17px 0;
+    -webkit-padding-start: 0;
+    margin-bottom: 0;
+  }
+
+  .content-menu {
+
+    .navbar-link {
+      display: inline-block;
+      padding: 0 15px;
+
+      .content-menu-link-inside {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        color: #828282;
+       text-transform: uppercase;
+       text-decoration: none;
+
+       &:hover {
+        color: #eb7b8b;
+        }
+
+      }
+
+    }
+
+  } 
+
+}

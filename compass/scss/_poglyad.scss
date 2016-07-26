@@ -1,0 +1,53 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "_fonts.scss";
+
+.poglyad-page {
+
+  .content-block-max {
+    padding: 0;
+  
+
+  .autor-block {
+    width: 100%; 
+
+    .autor-img-block {    
+    width: 342px;
+    height: 360px;
+
+      .template-img {
+        background-position: -29px -15px;        
+        width: 371px;
+        height: 388px;
+      }
+
+    }
+
+  }  
+
+  .autor-block-name {
+    font-size: 16px;
+  }
+
+  .autor-block-head {
+    font-size: 26px;
+  }
+
+  .autor-block-description {
+    font-size: 16px;
+  }
+
+ } 
+
+ .autor-block-name {
+    margin-top: 15px;
+  }  
+
+}
+
+  
+  
