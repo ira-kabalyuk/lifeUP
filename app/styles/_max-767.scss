@@ -3,12 +3,12 @@ $icon-font-path: '../fonts/';
 @media only screen and (max-width:767px) {
 
   .header {
-    max-width: 633px;
+    max-width: 640px;
     margin: 0 auto;
   } 
 
   .content-block-max {
-     max-width: 633px;
+     max-width: 660px;
   } 
 
   .pagewrap {
@@ -25,6 +25,7 @@ $icon-font-path: '../fonts/';
     
 
     .content-block-center, .content-block-column {
+      margin: 0 auto;
     
       .heading {
         font-size: 12px;
