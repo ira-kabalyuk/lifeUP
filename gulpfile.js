@@ -6,6 +6,7 @@ var del = require('del');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
+var sourcemaps = require('gulp-sourcemaps');
 
 var src = {
     html: 'app/**/*.html',
@@ -23,8 +24,10 @@ gulp.task('html', function () {
 
 gulp.task('styles', function () {
     return gulp.src(src.sass)
+        .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'nested'}).on('error', sass.logError))
         .pipe(autoprefixer())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest(src.dist +'/styles'))
         .pipe(browserSync.stream());
 });
