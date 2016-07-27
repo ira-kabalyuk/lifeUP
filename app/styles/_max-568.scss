@@ -87,9 +87,7 @@ $icon-font-path: '../fonts/';
 
       }
 
-    }      
-
-  }
+    }  
 
   
 
@@ -118,6 +116,12 @@ $icon-font-path: '../fonts/';
 		}
 
 	}
+
+  .article-img-wrap {
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
 
 
 		.article {
@@ -329,5 +333,6 @@ $icon-font-path: '../fonts/';
     margin: 0 auto 30px;
     }
 
+  }
 
 }
