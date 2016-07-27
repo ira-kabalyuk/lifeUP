@@ -47,6 +47,10 @@ $('.owl-carousel-1').owlCarousel({
             items:1
         },
 
+        650:{
+            items:1
+        },  
+
         667:{
             items:2
         },       
@@ -107,7 +111,11 @@ $('.owl-carousel-3').owlCarousel({
 
         568:{
             items:1
-        },        
+        },
+
+        650:{
+            items:1
+        },          
 
         768:{
             items:1
