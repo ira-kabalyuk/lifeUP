@@ -5,6 +5,7 @@ var imagemin = require('gulp-imagemin');
 var del = require('del');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+var autoprefixer = require('gulp-autoprefixer');
 
 var src = {
     html: 'app/**/*.html',
@@ -23,6 +24,7 @@ gulp.task('html', function () {
 gulp.task('styles', function () {
     return gulp.src(src.sass)
         .pipe(sass({outputStyle: 'nested'}).on('error', sass.logError))
+        .pipe(autoprefixer())
         .pipe(gulp.dest(src.dist +'/styles'))
         .pipe(browserSync.stream());
 });
