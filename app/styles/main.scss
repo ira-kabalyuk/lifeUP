@@ -114,6 +114,7 @@ body {
       width: 630px;
       overflow: hidden;
       height: 530px;
+      margin-bottom: 30px;
     } 
 
     img {
@@ -188,16 +189,16 @@ body {
     width: 630px;
     margin: 0 15px;
     box-sizing: border-box;
-    //column-count: 2;
-    //column-width: 300px;
-    //column-gap: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    column-count: 2;
+    column-width: 300px;
+  column-gap: 30px;
+    
 
     .img-wrap {
       width: 300px;
       height: 250px;
+      margin-bottom: 30px;
+      
     }
 
     .img-wrap-lang {
@@ -1170,6 +1171,7 @@ h1 {
   @import "_min-1366.scss";
   @import "_min-1920.scss";
   @import "_max-767.scss";
+  @import "_max-650.scss";
   @import "_max-568.scss";
   @import "_max-375.scss";
 

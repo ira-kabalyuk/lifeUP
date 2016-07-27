@@ -3,15 +3,15 @@ $icon-font-path: '../fonts/';
 @media only screen and (min-width:1024px) {
 
 	.header {
-		width: 965px;
+		width: 100%;
 		margin: 0 auto 37px;
 	}
 
   .pagewrap {
-    width: 1000px;
+    width: 660px;
 
     .content-wrap {
-   		width: 990px;
+   		width: 660px;
    		margin: 0 auto;
     }    
 

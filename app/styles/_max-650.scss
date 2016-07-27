@@ -1,0 +1,31 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (max-width:650px) {
+
+  .pagewrap {
+    max-width: 550px;
+   
+
+   .content-wrap {
+      max-width: 300px;     
+      justify-content: center;      
+    }
+
+    .content-block-center {
+      width: 300px;
+      
+
+      .img-wrap {
+        width: 300px;
+        height: 250px;
+      }
+      
+    }
+
+    .content-block-max {
+      padding: 0;
+    }
+	
+	}
+
+ } 

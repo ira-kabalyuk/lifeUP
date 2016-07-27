@@ -22,14 +22,14 @@ $('.owl-carousel').owlCarousel({
         },         
 
         1024:{
-            items:3
+            items:2
         },
         1366:{
             items:4
         },
 
         1920:{
-            items:5
+            items:4
         }
     }
 })
@@ -47,6 +47,10 @@ $('.owl-carousel-1').owlCarousel({
             items:1
         },
 
+        650:{
+            items:1
+        },  
+
         667:{
             items:2
         },       
@@ -56,7 +60,7 @@ $('.owl-carousel-1').owlCarousel({
         },         
 
         1024:{
-            items:3
+            items:2
         },
 
         1366:{
@@ -64,7 +68,7 @@ $('.owl-carousel-1').owlCarousel({
         },
 
         1920:{
-            items:5
+            items:4
         }
     }
 })
@@ -107,7 +111,11 @@ $('.owl-carousel-3').owlCarousel({
 
         568:{
             items:1
-        },        
+        },
+
+        650:{
+            items:1
+        },          
 
         768:{
             items:1
