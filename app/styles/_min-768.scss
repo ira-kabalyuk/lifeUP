@@ -91,31 +91,31 @@ $icon-font-path: '../fonts/';
 
 	.interview-page {
 
-		.responsive-block-1 {
-			display: none;
-		}
+			.article-img-wrap {
+		    margin: 20px 20px 20px -55px;
+		    float: left;
+		    max-width: 410px;
 
-		.responsive-block-2 {
-			display: none;
-		}
+	    img {
+	      width: 100%;
+	    }
 
+	  }
 
-		.responsive-block-13 {     
+   .img-wrap {
+   
 
-       .img-wrap {
-       
-
-        &:first-child {
-          margin-right: 14px;
-        }
-
-         &:last-child {
-          margin-left: 14px;
-        }
-
-      }
-
+    &:first-child {
+      margin-right: 14px;
     }
+
+     &:last-child {
+      margin-left: 14px;
+    }
+
+  }
+
+
 
 		.page-mobile-wrap {
 			width: 100%;
@@ -224,15 +224,10 @@ $icon-font-path: '../fonts/';
 
 		.img-description {
 			margin-left: 10px;
-		}
-
-		.article-announcement-block {
-			display: flex;
-			margin-bottom: 0;
-		}
+		}		
 
 		.article-announcement-text {
-      display: flex;
+      		display: flex;
         	
     }
 

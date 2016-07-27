@@ -188,14 +188,12 @@ $icon-font-path: '../fonts/';
 
   .interview-page {
 
-    .responsive-block-1 {
-    display: none;
-    } 
-
-    .responsive-block-2 {
-    display: none;
-    }   
-
+    .article-img-wrap {
+      float: none;
+      margin: 10px auto;
+      width: 100%;
+    }
+    
     .page-mobile-wrap {
       max-width: 100%;
     }
@@ -247,6 +245,7 @@ $icon-font-path: '../fonts/';
       margin-top: 20px;
 
       .content-block-column {
+
 
         a {
         font-size: 22px;
