@@ -36,10 +36,16 @@ $icon-font-path: '../fonts/';
 
   .article {
 
-    .article-announcement-block {
-      display: flex;
-      flex-wrap:nowrap;
+    .img-wrap {
+      margin-right: 20px;
+      width: 300px;
+      height: 250px;
+      float: left;
     }
+
+    .statistic-bottom-block {
+      padding: 15px 15px 0 15px;
+    }   
 
     .content-block-column {
       float: left;
@@ -47,9 +53,10 @@ $icon-font-path: '../fonts/';
       margin-left: -55px;
 
       .img-wrap {
-      margin-bottom: 0;
-      width: 300px;
-      height: 250px;
+        margin-bottom: 0;
+        width: 300px;
+        height: 250px;
+        
 
         .head {          
           text-align: center;
@@ -443,6 +450,16 @@ $icon-font-path: '../fonts/';
   }
 
   /*-------------------------------------------end sidebar------------------------------------------------*/
+
+  .net-wrap {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 25px 0;
+    margin-top: 20px;
+  }
 
 }
 

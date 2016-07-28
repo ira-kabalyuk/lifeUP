@@ -87,9 +87,7 @@ $icon-font-path: '../fonts/';
 
       }
 
-    }      
-
-  }
+    }  
 
   
 
@@ -100,23 +98,7 @@ $icon-font-path: '../fonts/';
 
 /*----------------------------------------------interview-------------------------------------*/
 
-	.interview-page {
-
-		.responsive-block-13 {      
-     
-      .img-wrap {      
-
-         &:last-child {
-          margin-left: 0;
-        }
-
-        &:first-child {
-          margin-right: 0;
-        }
-
-      }
-
-    }
+	.interview-page {		
 
 		.statistic-top-block {
 			display: flex;
@@ -135,6 +117,12 @@ $icon-font-path: '../fonts/';
 
 	}
 
+  .article-img-wrap {
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+
 
 		.article {
 
@@ -148,12 +136,7 @@ $icon-font-path: '../fonts/';
 		.quote-color {
 			padding: 10px;
 		}
-
-		.article-img-wrap {
-			float: none;
-			margin: 10px auto;
-			width: 100%;
-		}	
+	
 
 		.page-head-block {
 
@@ -350,5 +333,6 @@ $icon-font-path: '../fonts/';
     margin: 0 auto 30px;
     }
 
+  }
 
 }
