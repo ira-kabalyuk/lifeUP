@@ -291,16 +291,21 @@ $icon-font-path: '../fonts/';
         display: none;
       }
 
+      .article-announcement-block {
+        margin-bottom: 0;
+        align-items: center;
+      }
+
+      .article-announcement-text {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
     }
 
     .img-description {
       margin-left: 10px;
-    }
-
-    .article-announcement-block {
-      display: flex;
-      margin-bottom: 0;
-    }
+    }    
 
     .article-announcement-text {
       display: flex;
@@ -343,6 +348,10 @@ $icon-font-path: '../fonts/';
       font-size: 18px;
     } 
 
+    .net-wrap {
+      padding: 15px 0;
+    }
+
   }
 
   /*-------------------------------------------------------card------------------------------------------------------------------*/
@@ -381,6 +390,10 @@ $icon-font-path: '../fonts/';
   /*------------------------------------------------------article--------------------------------------------------------------*/
 
   .article-page {
+
+    .article-flex-wrap {
+      padding: 0 15px;
+    }
 
     .page-heading {
         font-size: 30px;
