@@ -20,12 +20,11 @@ $icon-font-path: '../fonts/';
 	.footer-copyright-wrap {
 		display: flex;
 		justify-content: space-between;
-		flex-direction: row;
+		flex-direction: column;
 	}
 
 	.copyright {   
-    margin-left: 50px;
-    margin-top: 0;
+    margin: 30px auto 0;
 	}
 
 	/*.footer{
