@@ -69,7 +69,7 @@ body {
       .content-column-special {
 
         .img-wrap {
-          width: 300px;
+          width: 250px;
           height: 530px;
         }
 
@@ -106,18 +106,19 @@ body {
     margin: 0 -14px;
   }
 
-  .content-block-center {
-    width: 630px; 
-    margin: 0 15px;
+  
+  
 
-    .img-wrap {
-      width: 630px;
+    .img-wrap-big {
+      //width: 630px;
+      width: 520px;
       overflow: hidden;
-      height: 530px;
-      margin-bottom: 30px;
-    } 
+      height: 520px;      
+      position: relative;
+      margin: 0 10px 20px 10px;
+     
 
-    img {
+      img {
       width: 100%;
     }
 
@@ -135,6 +136,8 @@ body {
       }
 
     }
+
+       
 
     &:hover .heading{
       background: #eb7b8b;
@@ -186,19 +189,20 @@ body {
   }
 
   .content-block-column {    
-    width: 630px;
-    margin: 0 15px;
+    width: 810px;
+    //margin: 0 10px;
     box-sizing: border-box;
-    column-count: 3;     
-    column-width: 300px;
-    column-gap: 30px;   
+    /*column-count: 3;     
+    column-width: 250px;
+    column-gap: 20px; */
+    display: flex;
+     
     
 
     .img-wrap {
-      width: 300px;
+      width: 250px;
       height: 250px;
-      margin-bottom: 30px;
-      
+      margin: 0 10px 20px 10px;      
     }
 
     .img-wrap-lang {
@@ -278,9 +282,11 @@ body {
 
   
   .column {  
-    margin-bottom:30px;
+    margin-bottom:20px;
     height: 250px; 
-    width: 300px;     
+    width: 250px;
+    margin: 0 10px 20px 10px;
+    float: left;     
   }
 
 
@@ -327,8 +333,8 @@ h1 {
   .img-wrap {
     text-align: center;
     position: relative;
-    width: 300px;
-    margin-bottom:30px;
+    width: 250px;
+    margin-bottom:20px;
     overflow: hidden;
 
     img {
