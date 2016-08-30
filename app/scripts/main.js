@@ -22,14 +22,14 @@ $('.owl-carousel').owlCarousel({
         },         
 
         1024:{
-            items:2
+            items:3
         },
         1366:{
-            items:4
+            items:3
         },
 
         1920:{
-            items:4
+            items:6
         }
     }
 })
@@ -60,15 +60,15 @@ $('.owl-carousel-1').owlCarousel({
         },         
 
         1024:{
-            items:2
+            items:3
         },
 
         1366:{
-            items:4
+            items:3
         },
 
         1920:{
-            items:4
+            items:6
         }
     }
 })
