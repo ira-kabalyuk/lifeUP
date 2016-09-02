@@ -13,11 +13,23 @@ $icon-font-path: '../fonts/';
     .content-wrap {
    		width: 100%;
    		margin: 0 auto;
+
+   		.min-block-column {
+      width: auto;
+      display: block;
+
+      .img-wrap-lang {
+      width: 300px;
+      height: 530px;
+      }
+
+    }  
+
     }    
 
 	}
 
-	
+
   	
 
     .modal-dialog-flex {	  
