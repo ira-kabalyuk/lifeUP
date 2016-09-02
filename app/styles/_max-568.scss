@@ -3,12 +3,12 @@ $icon-font-path: '../fonts/';
 @media only screen and (max-width:568px) { 
 
  .header {
-    max-width: 300px;
+    max-width: 320px;
     margin: 0 auto 37px;
   } 
 
   .content-block-max {
-     max-width: 300px;
+     max-width: 320px;
   }       
 
   .pagewrap {
@@ -16,12 +16,12 @@ $icon-font-path: '../fonts/';
    
 
    .content-wrap {
-      max-width: 300px;     
+      max-width: 320px;     
       justify-content: center;      
     }
 
     .content-block-center {
-      width: 300px;
+      //width: 320px;
       
 
       .img-wrap {

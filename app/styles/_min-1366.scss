@@ -46,12 +46,14 @@ $icon-font-path: '../fonts/';
 		width: 1320px;
 
 		 .content-wrap {
-   		width: 100%;
-			margin-top: 20px;
-    }  	
+   		width: 960px;
+			margin-top: 20px;			
+    }
 
+	}
 
-
+	.content-block-column {
+		flex-wrap: wrap;
 	}	
 
 .mobile-flex-wrap-top {

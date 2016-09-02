@@ -8,12 +8,12 @@ $icon-font-path: '../fonts/';
   } 
 
   .content-block-max {
-     max-width: 660px;
+     max-width: 640px;
   } 
 
   .pagewrap {
     //max-width: 550px;
-    max-width: 100%;
+    max-width: 640px;
 
    .content-wrap {
       //max-width: 305px;
@@ -22,10 +22,29 @@ $icon-font-path: '../fonts/';
       margin: 0 auto;
     }
 
-    
+    /*перестановка колонок вертикально*/  
+
+  .content-block-column {
+    flex-wrap: wrap;
+
+      .min-block-column {
+      width: 640px;
+      display: flex;
+
+      .img-wrap-lang {
+      width: 630px;
+      height: 255px;
+      }
+
+    }
+
+  }
+
+/*конец перестановки*/  
 
     .content-block-center, .content-block-column {
       margin: 0 auto;
+      flex-wrap: wrap;
     
       .heading {
         font-size: 12px;

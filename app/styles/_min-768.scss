@@ -9,14 +9,35 @@ $icon-font-path: '../fonts/';
 	}
 
 	.pagewrap {
-	width: 750px;	
+	width: 640px;	
 
 		.content-wrap {
-     width: 660px;
+     width: 100%;
       margin: 0 auto;
   	}		
 
-	}	
+	}
+
+	/*перестановка колонок вертикально*/	
+
+	.content-block-column {
+		flex-wrap: wrap;
+
+			.min-block-column {
+			width: 640px;
+			display: flex;
+
+			.img-wrap-lang {
+			width: 630px;
+			height: 255px;
+			}
+
+		}
+
+	}
+
+/*конец перестановки*/	
+
 
 	.header {
 	margin-bottom: 37px;

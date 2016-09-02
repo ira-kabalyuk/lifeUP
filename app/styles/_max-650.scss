@@ -7,9 +7,31 @@ $icon-font-path: '../fonts/';
    
 
    .content-wrap {
-      max-width: 300px;     
+      max-width: 320px;     
       justify-content: center;      
     }
+
+    .content-block-column {
+      width: 100%;
+
+      .min-block-column {
+        width: auto;
+        display: block;
+
+        .img-wrap-lang {
+        width: 300px;
+        height: 530px;
+        }
+
+      }
+
+      .img-wrap-big {
+        width: 300px;
+        height: 255px;
+        margin: 0 10px 20px 10px;
+      }
+
+    }  
 
     .content-block-center {
       width: 300px;

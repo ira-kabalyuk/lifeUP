@@ -4,13 +4,17 @@ $icon-font-path: '../fonts/';
 
 	.pagewrap {
 		//width: 1620px;
-		width: 1900px;
+		width: 1920px;
 
 		 .content-wrap {
    		width: 100%;
 		//margin: 0 -10px;
     	}
 
+	}
+
+	.content-block-column {
+		flex-wrap: nowrap;
 	}
 
 	.owl-nav {

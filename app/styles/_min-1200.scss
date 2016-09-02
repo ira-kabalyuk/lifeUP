@@ -5,6 +5,10 @@ $icon-font-path: '../fonts/';
 	.pagewrap {
 		width: 1100px;
 		margin: 0 auto;
+
+		.content-wrap {
+		width: 960px;
+		}
 	}
 
 	.header{
